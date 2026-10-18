@@ -73,3 +73,14 @@ Para incluir novos temas, primeiro crie uma nova categoria em `categorias` com u
 - **Sem dependências externas**: tipografia local, CSS e JavaScript nativos, sem bibliotecas nem fontes obrigatórias.
 
 Referências: [web.dev — Responsive web design](https://web.dev/articles/responsive-web-design-basics), [web.dev — Accessible responsive design](https://web.dev/articles/accessible-responsive-design), [WCAG 2.2 — Target Size (Minimum)](https://www.w3.org/TR/WCAG22/#target-size-minimum), [Apple Developer — Design advanced games](https://developer.apple.com/videos/play/wwdc2024/10085/).
+
+
+## Partidas com jogadores (atualização)
+
+No pré-lobby, insira de **2 a 6 nomes** (máximo de 24 caracteres por nome), escolha o tema e clique em **Começar partida**. O primeiro jogador cadastrado começa como **leitor**, que vê a resposta e revela cada dica; os demais são candidatos a acertar. O leitor não pode receber pontos naquela rodada.
+
+Depois de uma ou mais dicas, quem acertar recebe **11 − quantidade de dicas reveladas**: 1 dica = 10 pontos; 2 = 9; ...; 10 = 1. Se ninguém acertar, encerre a rodada sem pontuação. Apenas **um acerto por rodada** pode ser registrado. O sistema habilita **Próxima rodada** após registrar um acerto ou ninguém acertar, alternando o leitor pela ordem original de cadastro, inclusive nas rodadas sem pontuação. O placar acumula pontos. O **primeiro jogador a atingir ou ultrapassar 100 pontos** vence e vê uma comemoração animada, com resultado final e opção de revanche.
+
+O botão **Lobby** permite encerrar a partida atual e modificar jogadores. O modo **Explorar cartas sem pontuação** preserva as funcionalidades originais (trocar categoria, revelar dicas, reiniciar carta). Em partida, o tema é fixado no início para evitar mudar a carta antes de pontuar. O JSON de cartas continua independente e não precisa de alterações.
+
+*Observação*: esta é uma partida local no mesmo aparelho, com pontuação controlada por quem está lendo. O estado da partida não é salvo ao fechar ou recarregar a página. Para partidas longas até 100 pontos, recomenda-se manter a página aberta. Com apenas oito cartas no acervo inicial, perfis podem voltar a aparecer após o ciclo de sorteio.
