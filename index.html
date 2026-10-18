@@ -59,11 +59,12 @@
         <div class="rules-asterisk" aria-hidden="true">✳</div>
         <span class="eyebrow">02 / AS REGRAS</span>
         <h3 id="lobbyRulesTitle">Menos dicas.<br><em>Mais pontos.</em></h3>
-        <p>O leitor da rodada vê a resposta e revela as pistas uma a uma. Quem acertar primeiro recebe os pontos correspondentes. O leitor não pontua nessa rodada.</p>
-        <div class="rules-math" aria-label="Primeira dica vale 10 pontos, décima dica vale 1 ponto">
-          <div><span>01 dica</span><strong>10 <small>pts</small></strong></div>
-          <div><span>05 dicas</span><strong>06 <small>pts</small></strong></div>
-          <div><span>10 dicas</span><strong>01 <small>pt</small></strong></div>
+        <p>O leitor vê a resposta e revela as pistas. Quanto antes alguém acertar, mais ganha quem adivinhou e menos ganha o leitor. Se ninguém acertar, o leitor recebe 10 pontos.</p>
+        <div class="rules-math" aria-label="Pontuação: uma dica dá 10 pontos a quem acerta e 1 ao leitor; cinco dicas dão 6 e 5; dez dicas dão 1 e 10; sem acerto, o leitor ganha 10 pontos.">
+          <div><span>01 dica</span><strong>10 <small>acerta</small> / 1 <small>leitor</small></strong></div>
+          <div><span>05 dicas</span><strong>6 <small>acerta</small> / 5 <small>leitor</small></strong></div>
+          <div><span>10 dicas</span><strong>1 <small>acerta</small> / 10 <small>leitor</small></strong></div>
+          <div><span>Sem acerto</span><strong>10 <small>leitor</small></strong></div>
         </div>
         <div class="rules-target"><span class="target-icon" aria-hidden="true">◎</span><div><span>OBJETIVO DA PARTIDA</span><strong>100 pontos</strong><small>O primeiro a chegar vence.</small></div></div>
       </aside>
@@ -71,7 +72,7 @@
 
     <section id="matchDashboard" class="match-dashboard" aria-label="Placar da partida" hidden>
       <div class="round-banner">
-        <div><span class="eyebrow">RODADA <strong id="roundNumber">01</strong></span><h2>É a vez de <span id="readerName">—</span><span class="period">.</span></h2><p>O leitor apresenta as dicas. Os outros jogadores disputam os pontos.</p></div>
+        <div><span class="eyebrow">RODADA <strong id="roundNumber">01</strong></span><h2>É a vez de <span id="readerName">—</span><span class="period">.</span></h2><p>O leitor também pontua: quanto mais dicas forem necessárias, mais pontos recebe.</p></div>
         <div class="target-counter"><strong>100</strong><span>PONTOS PARA VENCER</span></div>
       </div>
       <div class="scoreboard-top"><span class="eyebrow muted">PLACAR AO VIVO</span><span>Os pontos se acumulam a cada rodada</span></div>
@@ -170,7 +171,7 @@
   <dialog id="helpDialog" class="help-dialog" aria-labelledby="dialogTitle">
     <div class="dialog-header"><span class="eyebrow muted">MANUAL RÁPIDO</span><button type="button" id="closeHelp" class="icon-button" aria-label="Fechar instruções">×</button></div>
     <h2 id="dialogTitle">Como jogar<span class="period">.</span></h2>
-    <p>No lobby, adicione de <strong>2 a 6 jogadores</strong> e escolha o tema. O primeiro participante será o leitor. A cada nova rodada, a função passa para o próximo da lista.</p><p>O leitor vê a resposta e revela as dicas uma por vez. Quem acertar recebe <strong>11 menos o número de dicas reveladas</strong>: 10 pontos na primeira dica, 9 na segunda e assim até 1 ponto na décima. O leitor não pode receber pontos.</p><p>Depois de um acerto, selecione o jogador correspondente ou marque <strong>Ninguém acertou</strong> para encerrar a rodada sem pontos. O primeiro participante com pelo menos <strong>100 pontos</strong> vence. Também é possível explorar o acervo individualmente, sem pontuação.</p>
+    <p>No lobby, adicione de <strong>2 a 6 jogadores</strong> e escolha o tema. O primeiro participante será o leitor. A cada nova rodada, a função passa para o próximo da lista.</p><p>O leitor vê a resposta e revela as dicas uma por vez. Se alguém acertar após N dicas, quem acertou recebe <strong>11 − N pontos</strong> e o leitor recebe <strong>N pontos</strong>. Assim, na primeira dica são 10 para quem acertou e 1 para o leitor; na décima, 1 e 10, respectivamente.</p><p>Depois de um acerto, selecione o jogador correspondente. Se <strong>ninguém acertar</strong>, marque essa opção: o leitor recebe <strong>10 pontos</strong> e os demais não pontuam. O primeiro a alcançar 100 pontos vence. Se dois jogadores cruzarem 100 na mesma rodada, vence quem tiver maior pontuação; em empate, quem acertou. Também é possível explorar o acervo individualmente, sem pontuação.</p>
     <button class="primary-button dialog-okay" id="dialogOkay" type="button">Entendi <span aria-hidden="true">↗</span></button>
   </dialog>
   <dialog id="winnerDialog" class="winner-dialog" aria-labelledby="winnerTitle" aria-modal="true">
