@@ -77,13 +77,13 @@ Referências: [web.dev — Responsive web design](https://web.dev/articles/respo
 
 ## Partidas com jogadores (atualização)
 
-No pré-lobby, insira de **2 a 6 nomes** (máximo de 24 caracteres por nome), escolha o tema e clique em **Começar partida**. O primeiro jogador cadastrado começa como **leitor**, que vê a resposta e revela cada dica; os demais são candidatos a acertar. O leitor não pode receber pontos naquela rodada.
+No pré-lobby, insira de **2 a 6 nomes** (máximo de 24 caracteres por nome), escolha o tema e clique em **Começar partida**. O primeiro jogador cadastrado começa como **leitor**, que vê a resposta e revela cada dica; os demais são candidatos a acertar. O leitor não pode ser escolhido como acertador, mas **também recebe pontos**.
 
-Depois de uma ou mais dicas, quem acertar recebe **11 − quantidade de dicas reveladas**: 1 dica = 10 pontos; 2 = 9; ...; 10 = 1. Se ninguém acertar, encerre a rodada sem pontuação. Apenas **um acerto por rodada** pode ser registrado. O sistema habilita **Próxima rodada** após registrar um acerto ou ninguém acertar, alternando o leitor pela ordem original de cadastro, inclusive nas rodadas sem pontuação. O placar acumula pontos. O **primeiro jogador a atingir ou ultrapassar 100 pontos** vence e vê uma comemoração animada, com resultado final e opção de revanche.
+Depois de uma ou mais dicas, se alguém acertar após **N dicas**: quem acertou recebe **11 − N pontos** e o leitor recebe **N pontos**. Exemplos: 1 dica = **10 para o acertador e 1 para o leitor**; 2 dicas = **9 e 2**; 5 dicas = **6 e 5**; 10 dicas = **1 e 10**. Quando **ninguém acerta**, o leitor recebe **10 pontos** e os demais recebem zero. Apenas **um acerto por rodada** pode ser registrado. O sistema habilita **Próxima rodada** após registrar um acerto ou ninguém acertar, alternando o leitor pela ordem original de cadastro, inclusive nas rodadas sem pontuação. O placar acumula pontos. Ao atingir ou ultrapassar **100 pontos**, seja como leitor ou acertador, o participante vence e vê uma comemoração animada, com resultado final e opção de revanche. Se dois jogadores cruzarem 100 na mesma rodada, ganha aquele com maior pontuação total; no empate, quem acertou a resposta.
 
 O botão **Lobby** permite encerrar a partida atual e modificar jogadores. O modo **Explorar cartas sem pontuação** preserva as funcionalidades originais (trocar categoria, revelar dicas, reiniciar carta). Em partida, o tema é fixado no início para evitar mudar a carta antes de pontuar. O JSON de cartas continua independente e não precisa de alterações.
 
-*Observação*: esta é uma partida local no mesmo aparelho, com pontuação controlada por quem está lendo. O estado da partida não é salvo ao fechar ou recarregar a página. Para partidas longas até 100 pontos, recomenda-se manter a página aberta. Com apenas oito cartas no acervo inicial, perfis podem voltar a aparecer após o ciclo de sorteio.
+*Observação*: esta é uma partida local no mesmo aparelho, com pontuação controlada por quem está lendo. O estado da partida não é salvo ao fechar ou recarregar a página. Para partidas longas até 100 pontos, recomenda-se manter a página aberta. O acervo atualmente tem 192 cartas, que podem voltar a aparecer após um ciclo completo de sorteio.
 
 ## Acervo atual (outubro de 2026)
 
