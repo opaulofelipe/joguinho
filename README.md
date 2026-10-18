@@ -90,3 +90,14 @@ O botão **Lobby** permite encerrar a partida atual e modificar jogadores. O mod
 Cada categoria possui 24 perfis: **Personagens históricos**, **Atores**, **Atrizes**, **Diretores**, **Países**, **Escritores**, **Escritoras** e **Biologia**. A antiga categoria **Órgãos do corpo humano** foi expandida para Biologia e usa a ID `biologia`, contendo também células, genética, evolução, ecologia, microbiologia, processos biológicos e sistemas do corpo. A carta do pâncreas foi mantida com sua categoria atualizada.
 
 O arquivo `data/perfis.json` continua sendo a única fonte de cartas e dicas. Para incluir novos itens, crie novos objetos no array `perfis` com ID exclusiva, categoria válida e exatamente dez dicas. O acervo é carregado dinamicamente sem mudança necessária no código JavaScript. As cartas existentes são mantidas ao ampliar o banco.
+
+
+## Salvamento automático das partidas
+
+- A partida multijogador é salva no **localStorage** do navegador, na chave `perfil.joguinho.partida.v1`. Isso permite **continuar após recarregar a página ou publicar alterações no site**, desde que continue sendo acessado no mesmo navegador e domínio.
+- O estado guardado inclui nomes e pontuações, jogador leitor, rodada, categoria, ID da carta atual, fila de próximas cartas, quantidade de dicas já abertas, resultado da rodada (quando registrado) e se a resposta estava visível.
+- Cada nova rodada começa **com a resposta oculta**. Somente ao tocar em **Revelar resposta** o leitor visualiza a resposta. Se atualizar a página durante a rodada, também será restaurada a visibilidade atual da resposta, sem exibi-la automaticamente.
+- As alterações são salvas a cada dica, cada alternância de visibilidade da resposta, cada registro de resultado e cada avanço de rodada. A partida **não termina ao atualizar a página**. A única forma de encerrá-la antes dos 100 pontos é o botão **Reiniciar partida**, com confirmação.
+- Quando alguém chega a **100 pontos ou mais**, o registro salvo é apagado e a animação de vitória é exibida.
+- Se uma atualização do arquivo JSON remover a carta que estava aberta, o jogo mantém o placar e inicia outra carta.
+- O salvamento é **local ao navegador** e não sincroniza entre dispositivos. Limpar dados do site, navegar em modo privado ou trocar de domínio pode eliminar o progresso. Se o navegador bloquear armazenamento local, a partida continua na aba, mas uma mensagem no placar avisa que não foi possível salvá-la.
