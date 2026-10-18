@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f1ea">
+  <meta name="description" content="Perfil: explore pessoas, países e ciência, com dez dicas reveladas uma de cada vez.">
+  <title>Perfil — Um jogo de descobertas</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a href="./" class="brand" aria-label="Perfil — página inicial">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span><span></span></span>
+        <span class="brand-name">perfil<span class="brand-dot">.</span></span>
+      </a>
+      <div class="topbar-right">
+        <span class="edition">O JOGO DAS DEZ DICAS <span aria-hidden="true">/</span> EDIÇÃO 01</span>
+        <button class="icon-button" id="helpButton" type="button" aria-label="Como jogar" title="Como jogar">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.7 2.7 0 1 1 4.4 2.1c-1 .8-1.9 1.3-1.9 2.9"/><path d="M12 17.3h.01"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div>
+        <span class="overline"><span class="overline-line"></span> CONHECIMENTO EM JOGO</span>
+        <h1>Descubra uma história<br><em>de cada vez.</em></h1>
+      </div>
+      <p>Uma resposta. Dez pistas.<br>Uma descoberta a cada toque.</p>
+    </div>
+
+    <main class="workspace">
+      <aside class="sidebar" aria-labelledby="themesTitle">
+        <div class="sidebar-header">
+          <span class="eyebrow muted">01 &nbsp; / &nbsp; SELECIONE</span>
+          <h2 id="themesTitle">Escolha um tema<span class="period">.</span></h2>
+          <p>Explore todas as cartas ou filtre por assunto.</p>
+        </div>
+        <div id="categoryList" class="category-list" role="group" aria-label="Filtrar categorias"></div>
+        <div class="collection-summary">
+          <div><span class="summary-number" id="totalProfiles">—</span><span class="summary-label">perfis no acervo</span></div>
+          <div class="summary-separator" aria-hidden="true"></div>
+          <div><span class="summary-number">10</span><span class="summary-label">dicas por perfil</span></div>
+        </div>
+      </aside>
+
+      <div class="game-column" id="gameColumn">
+        <section class="profile-card" aria-labelledby="answerHeading">
+          <div class="profile-card-ornament" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="profile-card-top">
+            <span class="card-kicker"><span class="spark" aria-hidden="true">✳</span> CARTA DO ACERVO</span>
+            <span class="card-number" id="cardNumber">Nº —</span>
+          </div>
+          <div class="profile-card-content">
+            <div class="answer-label" id="answerLabel">A RESPOSTA É</div>
+            <h2 id="answerHeading" class="answer-heading">Carregando...</h2>
+            <p id="answerDescription" class="answer-description">Uma resposta e dez dicas, no seu ritmo.</p>
+          </div>
+          <div class="profile-card-bottom">
+            <span class="category-tag" id="categoryTag">ACERVO</span>
+            <button type="button" class="reveal-answer-button" id="toggleAnswer" aria-pressed="false">
+              <svg id="eyeIcon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 12s3.3-6.5 9.5-6.5 9.5 6.5 9.5 6.5-3.3 6.5-9.5 6.5S2.5 12 2.5 12Z"/><circle cx="12" cy="12" r="2.8"/></svg>
+              <span id="toggleAnswerText">Ocultar resposta</span>
+            </button>
+          </div>
+        </section>
+
+        <section class="clues-panel" aria-labelledby="cluesTitle">
+          <div class="clues-heading-row">
+            <div>
+              <span class="eyebrow muted">02 &nbsp; / &nbsp; INVESTIGUE</span>
+              <h2 id="cluesTitle">As dez dicas<span class="period">.</span></h2>
+            </div>
+            <span class="count-pill" id="clueCounter" aria-live="polite">00 / 10</span>
+          </div>
+          <div class="progress-segments" id="progressSegments" aria-label="Progresso: nenhuma dica revelada"></div>
+          <div class="current-clue" id="currentClue" aria-live="polite" aria-atomic="true">
+            <div class="clue-index"><span>PISTA</span><strong>01</strong></div>
+            <p>Pronto para começar? Toque no botão abaixo para revelar a primeira dica.</p>
+          </div>
+          <div class="action-row">
+            <button type="button" class="primary-button" id="nextClueButton" disabled>
+              <span id="nextClueText">Carregando...</span>
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6"/></svg>
+            </button>
+            <button type="button" class="secondary-button" id="resetButton" disabled aria-label="Recomeçar dicas" title="Recomeçar dicas">
+              <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11a9 9 0 1 1 3 7"/><path d="M3 4v7h7"/></svg>
+            </button>
+          </div>
+          <div class="clue-history" id="historySection" hidden>
+            <div class="history-heading"><span>DICAS ANTERIORES</span><span id="historyCount">0</span></div>
+            <ol id="historyList"></ol>
+          </div>
+          <div class="panel-footer">
+            <span id="remainingLabel">10 dicas disponíveis</span>
+            <button type="button" id="nextProfileButton" class="text-button" disabled>
+              <span>Próxima carta</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg>
+            </button>
+          </div>
+        </section>
+        <div id="errorPanel" class="error-panel" hidden role="alert">
+          <strong>Não foi possível carregar o acervo.</strong>
+          <p id="errorDetail">Verifique se o arquivo data/perfis.json está disponível.</p>
+          <div class="error-actions">
+            <button type="button" class="primary-button" id="retryButton">Tentar novamente</button>
+            <label class="file-picker">Selecionar um JSON do dispositivo<input type="file" id="fileInput" accept=".json,application/json"></label>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"><span>PERFIL <span aria-hidden="true">✳</span> FEITO PARA DESCOBRIR</span><span>UMA CARTA POR VEZ — 2026</span></footer>
+  </div>
+
+  <dialog id="helpDialog" class="help-dialog" aria-labelledby="dialogTitle">
+    <div class="dialog-header"><span class="eyebrow muted">MANUAL RÁPIDO</span><button type="button" id="closeHelp" class="icon-button" aria-label="Fechar instruções">×</button></div>
+    <h2 id="dialogTitle">Como jogar<span class="period">.</span></h2>
+    <p>Escolha uma categoria e acompanhe uma carta. A resposta aparece de início, como numa coleção de conhecimentos.</p>
+    <p>Toque em <strong>Revelar dica</strong> para abrir as pistas, uma por vez, até a décima. As dicas anteriores ficam disponíveis para consulta.</p>
+    <p>Quer um desafio? Use <strong>Ocultar resposta</strong> e tente descobrir quem ou o que é descrito antes da última pista. A opção <strong>Próxima carta</strong> inicia outra rodada.</p>
+    <button class="primary-button dialog-okay" id="dialogOkay" type="button">Entendi <span aria-hidden="true">↗</span></button>
+  </dialog>
+</body>
+</html>
