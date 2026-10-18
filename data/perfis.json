@@ -1,14 +1,38 @@
 {
   "versao": 1,
   "categorias": [
-    { "id": "personagens-historicos", "nome": "Personagens históricos" },
-    { "id": "atores", "nome": "Atores" },
-    { "id": "atrizes", "nome": "Atrizes" },
-    { "id": "diretores", "nome": "Diretores" },
-    { "id": "paises", "nome": "Países" },
-    { "id": "escritores", "nome": "Escritores" },
-    { "id": "escritoras", "nome": "Escritoras" },
-    { "id": "orgaos", "nome": "Órgãos do corpo humano" }
+    {
+      "id": "personagens-historicos",
+      "nome": "Personagens históricos"
+    },
+    {
+      "id": "atores",
+      "nome": "Atores"
+    },
+    {
+      "id": "atrizes",
+      "nome": "Atrizes"
+    },
+    {
+      "id": "diretores",
+      "nome": "Diretores"
+    },
+    {
+      "id": "paises",
+      "nome": "Países"
+    },
+    {
+      "id": "escritores",
+      "nome": "Escritores"
+    },
+    {
+      "id": "escritoras",
+      "nome": "Escritoras"
+    },
+    {
+      "id": "orgaos",
+      "nome": "Órgãos do corpo humano"
+    }
   ],
   "perfis": [
     {
@@ -145,6 +169,397 @@
         "Produzo o hormônio glucagon.",
         "Também produzo insulina, importante para regular a glicose no sangue.",
         "Meu funcionamento está diretamente ligado ao diabetes mellitus."
+      ]
+    },
+    {
+      "id": "hatshepsut",
+      "categoria": "personagens-historicos",
+      "resposta": "Hatshepsut",
+      "dicas": [
+        "Meu governo ocorreu no segundo milênio antes da era comum.",
+        "Pertenci à XVIII dinastia de uma monarquia africana.",
+        "Fiz realizar obras monumentais durante meu reinado.",
+        "Uma expedição comercial enviada a Punt foi representada em relevos.",
+        "Assumi funções de regência antes de governar em nome próprio.",
+        "Adotei títulos e imagens tradicionalmente associados aos faraós homens.",
+        "Meu templo funerário fica em Deir el-Bahari.",
+        "Governava o Egito durante o Império Novo.",
+        "Meu nome é frequentemente associado a uma das mais importantes mulheres faraós.",
+        "Sou Hatshepsut, governante da XVIII dinastia egípcia."
+      ]
+    },
+    {
+      "id": "alexandre-magno",
+      "categoria": "personagens-historicos",
+      "resposta": "Alexandre, o Grande",
+      "dicas": [
+        "Minha expansão política alterou as conexões entre regiões da Eurásia.",
+        "Nasci em 356 a.C. e morri ainda jovem.",
+        "Fui educado pelo filósofo Aristóteles.",
+        "Heredei um reino cujo exército havia sido reorganizado por meu pai.",
+        "Venci forças persas nas batalhas de Isso e Gaugamela.",
+        "Fundamentei cidades chamadas Alexandria em diferentes territórios.",
+        "Meu pai foi Filipe II da Macedônia.",
+        "Meu império se estendeu até a região do rio Indo.",
+        "Após minha morte em Babilônia, generais dividiram os territórios conquistados.",
+        "Sou Alexandre III da Macedônia, chamado de Alexandre, o Grande."
+      ]
+    },
+    {
+      "id": "ashoka",
+      "categoria": "personagens-historicos",
+      "resposta": "Ashoka",
+      "dicas": [
+        "Meu reinado pertence à história antiga do sul da Ásia.",
+        "Governava um território amplo e administrativamente complexo.",
+        "Deixei inscrições públicas em rochas e colunas.",
+        "Minhas inscrições defendiam princípios de conduta e tolerância religiosa.",
+        "Fui membro da dinastia Máuria.",
+        "Uma guerra muito violenta alterou a maneira como apresentei minha autoridade.",
+        "Essa guerra aconteceu na região de Calinga.",
+        "Apoiei o budismo sem reduzir meu governo somente a essa religião.",
+        "Fui neto de Chandragupta Máuria.",
+        "Sou o imperador Ashoka, governante da Índia no século III a.C."
+      ]
+    },
+    {
+      "id": "qin-shi-huang",
+      "categoria": "personagens-historicos",
+      "resposta": "Qin Shi Huang",
+      "dicas": [
+        "Vivi numa época de competição militar entre diferentes Estados asiáticos.",
+        "Meu governo instituiu uma administração centralizada.",
+        "A escrita e medidas foram padronizadas sob minha dinastia.",
+        "Meu mausoléu ficou famoso por milhares de figuras de soldados em terracota.",
+        "Adotei um título imperial inédito após conquistas territoriais.",
+        "Minha dinastia governou por pouco tempo depois de minha morte.",
+        "Fui o primeiro imperador de uma China unificada.",
+        "A unificação ocorreu em 221 a.C.",
+        "Meu nome dinástico é Qin, origem do nome da dinastia Qin.",
+        "Sou Qin Shi Huang."
+      ]
+    },
+    {
+      "id": "hipatia",
+      "categoria": "personagens-historicos",
+      "resposta": "Hipátia de Alexandria",
+      "dicas": [
+        "Minha atividade intelectual ocorreu na Antiguidade tardia.",
+        "Atuei em uma cidade mediterrânea de grande tradição acadêmica.",
+        "Ensinei temas ligados à matemática e à filosofia.",
+        "A interpretação posterior de minha biografia tornou-me símbolo de liberdade intelectual.",
+        "Meu pai, Teão, também se dedicava à matemática.",
+        "Fui associada à tradição filosófica neoplatônica.",
+        "Minha morte violenta envolveu uma multidão em conflitos urbanos e religiosos.",
+        "Vivi na Alexandria do Egito romano.",
+        "Fui assassinada em 415 ou 416 da era comum.",
+        "Sou Hipátia de Alexandria."
+      ]
+    },
+    {
+      "id": "gengis-khan",
+      "categoria": "personagens-historicos",
+      "resposta": "Gêngis Khan",
+      "dicas": [
+        "Minha ascensão transformou redes políticas e comerciais da Eurásia.",
+        "Nasci em meio a sociedades de pastores das estepes.",
+        "Minha juventude foi marcada por conflitos entre clãs.",
+        "Integrei guerreiros de diferentes grupos numa força militar organizada.",
+        "Recebi um título de autoridade em uma assembleia em 1206.",
+        "Meu nome de nascimento era Temüjin.",
+        "Campanhas militares sob meu comando avançaram sobre o norte da China e a Ásia Central.",
+        "Meus descendentes ampliaram ainda mais o império que fundei.",
+        "Sou considerado fundador do Império Mongol.",
+        "Fiquei conhecido como Gêngis Khan."
+      ]
+    },
+    {
+      "id": "mansa-musa",
+      "categoria": "personagens-historicos",
+      "resposta": "Mansa Musa",
+      "dicas": [
+        "Meu governo se beneficiou de redes comerciais transaarianas.",
+        "Minha fama cresceu em narrativas de viajantes e cronistas.",
+        "Liderei um império da África Ocidental medieval.",
+        "O comércio de ouro foi importante para o poder do meu Estado.",
+        "Meu reinado é associado a obras religiosas e centros de estudo.",
+        "Uma viagem de peregrinação mobilizou uma comitiva extraordinária.",
+        "Passei pelo Cairo em direção à cidade de Meca.",
+        "Governava o Império do Mali no século XIV.",
+        "Meu nome costuma aparecer em debates sobre riqueza histórica.",
+        "Sou Mansa Musa."
+      ]
+    },
+    {
+      "id": "joana-darc",
+      "categoria": "personagens-historicos",
+      "resposta": "Joana d'Arc",
+      "dicas": [
+        "Minha vida ocorreu durante um prolongado conflito dinástico europeu.",
+        "Vim de uma família camponesa.",
+        "Afirmei receber orientações de vozes religiosas.",
+        "Apoiei a pretensão de um herdeiro ao trono francês.",
+        "Minha atuação militar foi breve, mas politicamente decisiva.",
+        "Participei dos acontecimentos que levaram à libertação de Orléans em 1429.",
+        "Fui capturada e julgada por um tribunal eclesiástico.",
+        "Morri na fogueira em Rouen em 1431.",
+        "Fui canonizada pela Igreja Católica em 1920.",
+        "Sou Joana d'Arc."
+      ]
+    },
+    {
+      "id": "suleimao",
+      "categoria": "personagens-historicos",
+      "resposta": "Solimão, o Magnífico",
+      "dicas": [
+        "Meu reinado marcou a expansão de um grande império mediterrâneo.",
+        "O direito e a administração receberam atenção durante meu governo.",
+        "Conduzi campanhas militares na Europa Central.",
+        "Minha corte patrocinou expressões artísticas e arquitetônicas.",
+        "O arquiteto Sinan trabalhou durante minha época.",
+        "Minha vida política envolveu a influente Hürrem Sultan.",
+        "Tropas sob meu comando venceram a batalha de Mohács em 1526.",
+        "Fui sultão do Império Otomano no século XVI.",
+        "Recebi no Ocidente o epíteto de Magnífico e, internamente, associação à legislação.",
+        "Sou Solimão I, ou Solimão, o Magnífico."
+      ]
+    },
+    {
+      "id": "nzinga",
+      "categoria": "personagens-historicos",
+      "resposta": "Nzinga Mbande",
+      "dicas": [
+        "Liderei negociações e guerras na África centro-ocidental.",
+        "Minha trajetória ocorreu durante a expansão portuguesa no Atlântico.",
+        "As redes de comércio de pessoas escravizadas condicionavam a política regional.",
+        "Exerci diplomacia e reorganizei alianças com diferentes grupos.",
+        "Fui governante de Ndongo e Matamba.",
+        "Adotei o nome cristão Ana em contexto diplomático e político.",
+        "Resisti às pretensões coloniais portuguesas no século XVII.",
+        "Meu nome também é escrito Njinga ou Ginga.",
+        "Sou lembrada como rainha de reinos localizados na atual Angola.",
+        "Sou Nzinga Mbande."
+      ]
+    },
+    {
+      "id": "tokugawa-ieyasu",
+      "categoria": "personagens-historicos",
+      "resposta": "Tokugawa Ieyasu",
+      "dicas": [
+        "Minha carreira ocorreu após longos conflitos entre senhores territoriais.",
+        "Participei do processo de reunificação política de um arquipélago asiático.",
+        "A vitória militar que consolidei repercutiu por séculos.",
+        "Venci a batalha de Sekigahara em 1600.",
+        "Minha administração se estabeleceu em Edo.",
+        "Recebi o título de xogum em 1603.",
+        "Meu regime é associado ao início do período Edo.",
+        "Fui o fundador do xogunato Tokugawa.",
+        "O xogunato de minha família permaneceu até o século XIX.",
+        "Sou Tokugawa Ieyasu."
+      ]
+    },
+    {
+      "id": "galileu",
+      "categoria": "personagens-historicos",
+      "resposta": "Galileu Galilei",
+      "dicas": [
+        "Trabalhei com problemas de movimento e observação da natureza.",
+        "Vivi entre os séculos XVI e XVII.",
+        "Fiz experiências e análises sobre corpos em movimento.",
+        "Aprimorei o uso de um instrumento óptico para observação celeste.",
+        "Observei fases de Vênus e luas orbitando Júpiter.",
+        "Minhas posições entraram em conflito com autoridades eclesiásticas.",
+        "Defendi argumentos favoráveis ao heliocentrismo.",
+        "Fui julgado pela Inquisição romana em 1633.",
+        "Sou autor de Diálogo sobre os Dois Máximos Sistemas do Mundo.",
+        "Sou Galileu Galilei."
+      ]
+    },
+    {
+      "id": "toussaint",
+      "categoria": "personagens-historicos",
+      "resposta": "Toussaint Louverture",
+      "dicas": [
+        "Minha atuação ocorreu em um território colonial de produção açucareira.",
+        "Nasci escravizado e alcancei a liberdade antes de minha ascensão política.",
+        "Atuei em uma revolução que abalou o sistema escravista atlântico.",
+        "Conduzi forças armadas e negociei com diferentes potências europeias.",
+        "Minha trajetória ocorreu na antiga colônia francesa de Saint-Domingue.",
+        "Defendi o fim da escravidão naquela colônia.",
+        "Uma constituição local de 1801 concentrou autoridade em meu governo.",
+        "Fui preso por tropas francesas enviadas por Napoleão.",
+        "Morri em 1803, antes da independência do Haiti.",
+        "Sou Toussaint Louverture."
+      ]
+    },
+    {
+      "id": "bolivar",
+      "categoria": "personagens-historicos",
+      "resposta": "Simón Bolívar",
+      "dicas": [
+        "Participei de guerras de independência nas Américas.",
+        "Vim de uma família da elite criolla.",
+        "Defendi projetos republicanos e de integração territorial.",
+        "Meu pensamento político incluiu preocupações com a estabilidade dos novos Estados.",
+        "Minha carreira esteve ligada à Venezuela e à Nova Granada.",
+        "Participei de campanhas decisivas contra o domínio espanhol.",
+        "Fui figura central da formação da Grã-Colômbia.",
+        "Meu título político mais conhecido é Libertador.",
+        "Um país sul-americano recebeu um nome derivado do meu sobrenome.",
+        "Sou Simón Bolívar."
+      ]
+    },
+    {
+      "id": "harriet-tubman",
+      "categoria": "personagens-historicos",
+      "resposta": "Harriet Tubman",
+      "dicas": [
+        "Nasci escravizada no século XIX, nos Estados Unidos.",
+        "Minha vida esteve ligada à luta contra a escravidão.",
+        "Consegui fugir para a liberdade e retornei para ajudar outras pessoas.",
+        "Participei de redes secretas de deslocamento e proteção.",
+        "Atuei também em atividades de apoio à União durante a Guerra Civil.",
+        "Ajudei na operação do rio Combahee em 1863.",
+        "Fui conhecida pelo apelido de Moisés entre abolicionistas.",
+        "Minha atuação é associada à Underground Railroad.",
+        "Tornei-me uma das mais conhecidas abolicionistas norte-americanas.",
+        "Sou Harriet Tubman."
+      ]
+    },
+    {
+      "id": "ada-lovelace",
+      "categoria": "personagens-historicos",
+      "resposta": "Ada Lovelace",
+      "dicas": [
+        "Nasci numa família britânica de projeção literária.",
+        "Recebi uma formação incomum em matemática para mulheres de minha época.",
+        "Meu trabalho surgiu antes da existência dos computadores eletrônicos.",
+        "Estudei os projetos de um engenheiro e inventor chamado Charles Babbage.",
+        "Traduzi um artigo de Luigi Menabrea e acrescentei extensas notas.",
+        "Discuti possibilidades de máquinas manipularem símbolos, além de números.",
+        "Uma de minhas notas detalha procedimentos para calcular números de Bernoulli.",
+        "Trabalhei conceitualmente com a Máquina Analítica.",
+        "Sou frequentemente lembrada como pioneira da programação de computadores.",
+        "Sou Ada Lovelace."
+      ]
+    },
+    {
+      "id": "karl-marx",
+      "categoria": "personagens-historicos",
+      "resposta": "Karl Marx",
+      "dicas": [
+        "Analisei as transformações sociais causadas pela industrialização.",
+        "Nasci em Trier, em 1818.",
+        "Exerci o jornalismo e vivi no exílio.",
+        "Mantive longa colaboração intelectual com Friedrich Engels.",
+        "Estudei criticamente os economistas políticos clássicos.",
+        "Desenvolvi interpretações sobre classes sociais e relações de produção.",
+        "Fui coautor do Manifesto do Partido Comunista, de 1848.",
+        "Publiquei o primeiro volume de O Capital em 1867.",
+        "Minha obra deu origem a diversas correntes do pensamento marxista.",
+        "Sou Karl Marx."
+      ]
+    },
+    {
+      "id": "florence-nightingale",
+      "categoria": "personagens-historicos",
+      "resposta": "Florence Nightingale",
+      "dicas": [
+        "Utilizei registros numéricos para defender reformas institucionais.",
+        "Nasci em 1820 e atuei no século XIX.",
+        "Defendi melhorias em higiene e organização hospitalar.",
+        "Participei da assistência a feridos durante um conflito no mar Negro.",
+        "Produzi visualizações estatísticas sobre mortalidade.",
+        "Meu trabalho ganhou notoriedade durante a Guerra da Crimeia.",
+        "Ajudei a profissionalizar a formação de enfermeiras na Inglaterra.",
+        "Fui chamada de Dama da Lâmpada.",
+        "Sou referência histórica da enfermagem moderna.",
+        "Sou Florence Nightingale."
+      ]
+    },
+    {
+      "id": "gandhi",
+      "categoria": "personagens-historicos",
+      "resposta": "Mahatma Gandhi",
+      "dicas": [
+        "Minha ação política foi marcada por debates sobre império e autonomia.",
+        "Formei-me em direito e trabalhei fora de meu país de nascimento.",
+        "Atuei contra políticas discriminatórias na África do Sul.",
+        "Defendi formas organizadas de resistência não violenta.",
+        "O conceito de satyagraha tornou-se central em minha prática.",
+        "Organizei uma marcha de protesto contra o imposto sobre o sal.",
+        "A Marcha do Sal ocorreu em 1930.",
+        "Liderei campanhas ligadas à independência da Índia do domínio britânico.",
+        "Fui assassinado em 1948, após a independência.",
+        "Sou Mohandas Karamchand Gandhi, conhecido como Mahatma Gandhi."
+      ]
+    },
+    {
+      "id": "rosa-luxemburgo",
+      "categoria": "personagens-historicos",
+      "resposta": "Rosa Luxemburgo",
+      "dicas": [
+        "Atuei em movimentos socialistas europeus.",
+        "Nasci na região que hoje pertence à Polônia.",
+        "Escrevi sobre acumulação capitalista e imperialismo.",
+        "Critiquei tendências autoritárias em movimentos revolucionários.",
+        "Fui uma voz de oposição à Primeira Guerra Mundial.",
+        "Participei da fundação da Liga Espartaquista.",
+        "Minha atuação se deu sobretudo no movimento socialista alemão.",
+        "Fui uma das fundadoras do Partido Comunista da Alemanha.",
+        "Fui assassinada em Berlim em janeiro de 1919.",
+        "Sou Rosa Luxemburgo."
+      ]
+    },
+    {
+      "id": "marie-curie",
+      "categoria": "personagens-historicos",
+      "resposta": "Marie Curie",
+      "dicas": [
+        "Minha pesquisa envolveu propriedades pouco compreendidas da matéria.",
+        "Nasci em Varsóvia, então sob domínio russo.",
+        "Mudei-me para Paris para estudar ciências.",
+        "Colaborei cientificamente com Pierre Curie.",
+        "Participei da identificação de dois elementos químicos.",
+        "Recebi um Nobel de Física em 1903.",
+        "Em 1911 recebi também o Nobel de Química.",
+        "Pesquisei o rádio e o polônio.",
+        "Fui a primeira pessoa a ganhar prêmios Nobel em duas ciências diferentes.",
+        "Sou Marie Curie."
+      ]
+    },
+    {
+      "id": "nelson-mandela",
+      "categoria": "personagens-historicos",
+      "resposta": "Nelson Mandela",
+      "dicas": [
+        "Minha carreira política envolveu a luta contra a segregação institucional.",
+        "Estudei direito e atuei como advogado.",
+        "Participei do Congresso Nacional Africano.",
+        "Fui condenado à prisão perpétua no julgamento de Rivonia.",
+        "Passei muitos anos preso, inclusive na ilha Robben.",
+        "Fui libertado em 1990.",
+        "Recebi o Nobel da Paz em 1993 juntamente com F. W. de Klerk.",
+        "Participei do fim do apartheid na África do Sul.",
+        "Tornei-me presidente sul-africano nas eleições de 1994.",
+        "Sou Nelson Mandela."
+      ]
+    },
+    {
+      "id": "zumbi-palmares",
+      "categoria": "personagens-historicos",
+      "resposta": "Zumbi dos Palmares",
+      "dicas": [
+        "Minha história está vinculada à resistência à escravidão no Brasil colonial.",
+        "Vivi no século XVII.",
+        "Minha atuação ocorreu na região da Serra da Barriga.",
+        "O território onde atuei ficava na antiga capitania de Pernambuco, hoje Alagoas.",
+        "Participei da defesa de uma comunidade formada principalmente por fugitivos da escravidão.",
+        "Liderei a resistência militar do Quilombo dos Palmares em sua fase final.",
+        "O conflito envolveu expedições organizadas por autoridades coloniais.",
+        "Morri em 20 de novembro de 1695.",
+        "Minha memória é central ao Dia Nacional de Zumbi e da Consciência Negra.",
+        "Sou Zumbi dos Palmares."
       ]
     }
   ]
