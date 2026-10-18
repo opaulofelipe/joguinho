@@ -610,7 +610,7 @@
     event.preventDefault();
     if (!state.data) return;
     const fields = [...el.playerFields.querySelectorAll('input')];
-    const names = fields.map(input=>input.value.trim().replace(/\\s+/g,' '));
+    const names = fields.map(input=>input.value.trim().replace(/\s+/g,' '));
     if (names.length < 2 || names.length > 6 || names.some(name=>!name)) {
       el.lobbyFeedback.textContent = 'Preencha o nome de todos os participantes (mínimo 2 e máximo 6).';
       fields.find(input=>!input.value.trim())?.focus();
