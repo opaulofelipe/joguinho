@@ -322,3 +322,56 @@ button:focus-visible, a:focus-visible, input:focus-visible, label.file-picker:fo
 .round-points { white-space: normal; line-height: 1.4; text-align: center; }
 .rules-math strong { font-size: clamp(20px, 2.15vw, 30px); white-space: nowrap; }
 @media (max-width: 420px) { .rules-math strong { font-size: 22px; } .rules-math strong small { font-size: 10px; } }
+
+
+/* Persistência e encerramento deliberado da partida */
+.match-persistence {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  margin-top: 19px;
+  padding-top: 17px;
+  border-top: 1px solid #e5e9df;
+}
+.storage-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #607a62;
+  font-size: 11px;
+  font-weight: 650;
+  line-height: 1.5;
+}
+.storage-status::before {
+  content: "✓";
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  flex: 0 0 22px;
+  border-radius: 50%;
+  background: #e5efdd;
+  font-size: 13px;
+}
+.storage-status.is-warning { color: #a33b31; }
+.storage-status.is-warning::before {
+  content: "!";
+  background: #f9e0db;
+}
+.match-reset-button {
+  border: 1px solid #dfceca;
+  border-radius: 9px;
+  color: #a45343;
+  background: transparent;
+  min-height: 44px;
+  padding: 10px 15px;
+  font-size: 11px;
+  font-weight: 760;
+  white-space: nowrap;
+}
+.match-reset-button:hover { background: #fff1ed; }
+@media (max-width: 480px) {
+  .match-persistence { align-items: stretch; flex-direction: column; }
+  .match-reset-button { width: 100%; }
+}
