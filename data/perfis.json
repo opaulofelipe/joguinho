@@ -1779,7 +1779,7 @@
         "Minha independência foi consolidada no século XIX.",
         "Possuo fronteira terrestre com dois países.",
         "Minha economia rural esteve historicamente ligada à pecuária.",
-        "O espanhol é meu idioma oficial de uso predominante.",
+        "O espanhol é a língua predominante em meu território.",
         "Sou banhado pelo Rio da Prata e pelo oceano Atlântico.",
         "Fico entre Brasil e Argentina.",
         "Minha capital é Montevidéu.",
@@ -2105,7 +2105,7 @@
         "Minhas ilhas incluem Sumatra, Java, Bornéu parcialmente e Sulawesi.",
         "A ilha de Bali é importante destino turístico.",
         "Meu território inclui parte de Nova Guiné.",
-        "Minha antiga capital e principal metrópole é Jacarta.",
+        "Jacarta é minha maior metrópole e um dos principais centros econômicos.",
         "Sou a Indonésia."
       ]
     },
@@ -3236,16 +3236,16 @@
       "categoria": "biologia",
       "resposta": "Rins",
       "dicas": [
-        "Sou uma estrutura presente em pares no corpo humano, normalmente.",
-        "Minha função contribui para manter o equilíbrio interno do organismo.",
-        "Participo da regulação da pressão arterial.",
-        "Produzo uma substância hormonal que estimula a produção de glóbulos vermelhos.",
-        "Também atuo no metabolismo da vitamina D.",
-        "Contenho unidades funcionais chamadas néfrons.",
-        "Meus glomérulos filtram parte do plasma sanguíneo.",
-        "Reabsorvo substâncias e secretam-se outras ao longo de meus túbulos.",
-        "Produzo a urina, conduzida até a bexiga pelos ureteres.",
-        "Sou os rins."
+        "Somos normalmente dois órgãos localizados na região posterior do abdômen humano.",
+        "Nossa função contribui para manter o equilíbrio interno do organismo.",
+        "Participamos da regulação da pressão arterial.",
+        "Produzimos um hormônio que estimula a produção de glóbulos vermelhos.",
+        "Também atuamos no metabolismo da vitamina D.",
+        "Contemos unidades funcionais chamadas néfrons.",
+        "Nossos glomérulos filtram parte do plasma sanguíneo.",
+        "Ao longo dos nossos túbulos, substâncias são reabsorvidas e outras são secretadas.",
+        "Produzimos urina, conduzida até a bexiga pelos ureteres.",
+        "Somos os rins."
       ]
     },
     {
