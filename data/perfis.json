@@ -2516,6 +2516,397 @@
         "Seu título em português é O Mundo se Despedaça.",
         "Sou Chinua Achebe."
       ]
+    },
+    {
+      "id": "jane-austen",
+      "categoria": "escritoras",
+      "resposta": "Jane Austen",
+      "dicas": [
+        "Nasci na Inglaterra em 1775.",
+        "Minha obra acompanha famílias e convenções sociais de minha época.",
+        "Publiquei romances inicialmente de forma anônima.",
+        "Escrevi Razão e Sensibilidade.",
+        "Uma protagonista minha se chama Emma Woodhouse.",
+        "Publiquei Persuasão postumamente.",
+        "Meus romances apresentam diálogos irônicos sobre classe e casamento.",
+        "Um dos meus personagens masculinos mais famosos é Fitzwilliam Darcy.",
+        "Sou autora de Orgulho e Preconceito.",
+        "Sou Jane Austen."
+      ]
+    },
+    {
+      "id": "mary-shelley",
+      "categoria": "escritoras",
+      "resposta": "Mary Shelley",
+      "dicas": [
+        "Nasci em Londres em 1797.",
+        "Sou filha da filósofa Mary Wollstonecraft.",
+        "Mantive relacionamento com o poeta Percy Bysshe Shelley.",
+        "Participei de uma reunião literária perto do lago Genebra em 1816.",
+        "Uma história que escrevi trata de criação científica e responsabilidade.",
+        "Publiquei meu romance mais famoso anonimamente em 1818.",
+        "Seu protagonista é um estudante chamado Victor.",
+        "Ele dá vida a uma criatura formada por partes de corpos.",
+        "Esse romance se chama Frankenstein.",
+        "Sou Mary Shelley."
+      ]
+    },
+    {
+      "id": "emily-bronte",
+      "categoria": "escritoras",
+      "resposta": "Emily Brontë",
+      "dicas": [
+        "Nasci na Inglaterra em 1818.",
+        "Cresci em Yorkshire com irmãos que também escreveram.",
+        "Publiquei poesia sob pseudônimo masculino.",
+        "Meu pseudônimo literário foi Ellis Bell.",
+        "Escrevi apenas um romance completo.",
+        "Esse romance envolve relações de amor, vingança e herança.",
+        "Duas personagens centrais se chamam Catherine Earnshaw e Heathcliff.",
+        "O cenário inclui charnecas e propriedades rurais de Yorkshire.",
+        "A obra chama-se O Morro dos Ventos Uivantes.",
+        "Sou Emily Brontë."
+      ]
+    },
+    {
+      "id": "charlotte-bronte",
+      "categoria": "escritoras",
+      "resposta": "Charlotte Brontë",
+      "dicas": [
+        "Nasci em Yorkshire em 1816.",
+        "Escrevi ao lado de irmãs que também se tornaram romancistas.",
+        "Publiquei inicialmente sob o nome Currer Bell.",
+        "Meu romance Shirley apareceu em 1849.",
+        "Também sou autora de Villette.",
+        "Uma de minhas protagonistas trabalha como governanta.",
+        "Essa personagem tem infância difícil e busca autonomia financeira.",
+        "Ela conhece Edward Rochester em Thornfield Hall.",
+        "Meu romance mais conhecido é Jane Eyre.",
+        "Sou Charlotte Brontë."
+      ]
+    },
+    {
+      "id": "virginia-woolf",
+      "categoria": "escritoras",
+      "resposta": "Virginia Woolf",
+      "dicas": [
+        "Nasci em Londres em 1882.",
+        "Participei de círculos artísticos ligados ao Grupo de Bloomsbury.",
+        "Minha prosa investiga tempo, memória e consciência.",
+        "Ajudei a criar a editora Hogarth Press com meu marido.",
+        "Escrevi o romance Ao Farol.",
+        "Outro romance meu se passa em um único dia na vida de uma mulher.",
+        "Essa personagem se chama Clarissa Dalloway.",
+        "Publiquei o ensaio Um Teto Todo Seu.",
+        "Sou autora de Mrs. Dalloway e Orlando.",
+        "Sou Virginia Woolf."
+      ]
+    },
+    {
+      "id": "simone-beauvoir",
+      "categoria": "escritoras",
+      "resposta": "Simone de Beauvoir",
+      "dicas": [
+        "Nasci em Paris em 1908.",
+        "Fui professora de filosofia e escritora.",
+        "Participei de debates do existencialismo francês.",
+        "Mantive uma longa relação intelectual com Jean-Paul Sartre.",
+        "Escrevi o romance Os Mandarins.",
+        "Minha reflexão abordou a construção social da condição feminina.",
+        "Publiquei O Segundo Sexo em 1949.",
+        "É minha a célebre formulação sobre não nascer mulher, mas tornar-se mulher.",
+        "Também escrevi Memórias de uma Moça Bem-Comportada.",
+        "Sou Simone de Beauvoir."
+      ]
+    },
+    {
+      "id": "hannah-arendt",
+      "categoria": "escritoras",
+      "resposta": "Hannah Arendt",
+      "dicas": [
+        "Nasci em 1906 no Império Alemão.",
+        "Estudei filosofia e fui aluna de Martin Heidegger e Karl Jaspers.",
+        "Fugi do nazismo e vivi nos Estados Unidos.",
+        "Refleti sobre totalitarismo, ação política e liberdade.",
+        "Escrevi Origens do Totalitarismo.",
+        "Publiquei A Condição Humana em 1958.",
+        "Acompanhei em Jerusalém o julgamento de um funcionário nazista.",
+        "Analisei esse julgamento no livro Eichmann em Jerusalém.",
+        "Meu nome é associado ao conceito de banalidade do mal.",
+        "Sou Hannah Arendt."
+      ]
+    },
+    {
+      "id": "toni-morrison",
+      "categoria": "escritoras",
+      "resposta": "Toni Morrison",
+      "dicas": [
+        "Nasci em Ohio em 1931.",
+        "Trabalhei também como editora de livros nos Estados Unidos.",
+        "Minha ficção aborda racismo, memória e relações familiares.",
+        "Escrevi O Olho Mais Azul.",
+        "Meu romance Canção de Salomão foi publicado em 1977.",
+        "Publiquei Amada, inspirado em episódios da escravidão.",
+        "A personagem Sethe aparece em Amada.",
+        "Recebi o Pulitzer de ficção por Amada.",
+        "Ganhei o Nobel de Literatura em 1993.",
+        "Sou Toni Morrison."
+      ]
+    },
+    {
+      "id": "maya-angelou",
+      "categoria": "escritoras",
+      "resposta": "Maya Angelou",
+      "dicas": [
+        "Nasci no Missouri em 1928.",
+        "Fui poeta, atriz e ativista.",
+        "Minha vida pública esteve ligada ao movimento pelos direitos civis nos Estados Unidos.",
+        "Trabalhei com Martin Luther King Jr. e Malcolm X em diferentes momentos.",
+        "Minha obra autobiográfica aborda racismo e violência.",
+        "Publiquei Eu Sei Por Que o Pássaro Canta na Gaiola.",
+        "Recitei um poema na posse presidencial de Bill Clinton em 1993.",
+        "Esse poema se chama On the Pulse of Morning.",
+        "Minha poesia inclui Still I Rise.",
+        "Sou Maya Angelou."
+      ]
+    },
+    {
+      "id": "margaret-atwood",
+      "categoria": "escritoras",
+      "resposta": "Margaret Atwood",
+      "dicas": [
+        "Nasci em Ottawa em 1939.",
+        "Minha obra inclui poesia, ensaios e romances.",
+        "Escrevi histórias marcadas por questões ambientais e poder.",
+        "Publiquei Alias Grace.",
+        "Também escrevi Oryx e Crake.",
+        "Um romance meu apresenta um Estado que controla a reprodução de mulheres.",
+        "A protagonista desse romance é conhecida como Offred.",
+        "O regime fictício do livro se chama Gilead.",
+        "Sou autora de O Conto da Aia.",
+        "Sou Margaret Atwood."
+      ]
+    },
+    {
+      "id": "ursula-le-guin",
+      "categoria": "escritoras",
+      "resposta": "Ursula K. Le Guin",
+      "dicas": [
+        "Nasci na Califórnia em 1929.",
+        "Sou filha do antropólogo Alfred Kroeber.",
+        "Minha ficção explora organização social, gênero e linguagem.",
+        "Criei um arquipélago fantástico conhecido como Terramar.",
+        "Escrevi O Feiticeiro de Terramar.",
+        "Uma história minha acompanha um emissário no planeta Gethen.",
+        "Esse romance se chama A Mão Esquerda da Escuridão.",
+        "Publiquei Os Despossuídos.",
+        "Recebi numerosos prêmios de ficção científica e fantasia.",
+        "Sou Ursula K. Le Guin."
+      ]
+    },
+    {
+      "id": "octavia-butler",
+      "categoria": "escritoras",
+      "resposta": "Octavia E. Butler",
+      "dicas": [
+        "Nasci em Pasadena, Califórnia, em 1947.",
+        "Minha obra combina ficção científica e problemas sociais.",
+        "Escrevi sobre escravidão, hierarquia e sobrevivência.",
+        "Minha série Xenogênese também ficou conhecida como Lilith's Brood.",
+        "Publiquei A Parábola do Semeador.",
+        "Sua protagonista se chama Lauren Olamina.",
+        "Um romance meu apresenta uma mulher negra viajando involuntariamente no tempo.",
+        "Esse romance é Kindred: Laços de Sangue.",
+        "Fui uma importante escritora negra norte-americana de ficção científica.",
+        "Sou Octavia E. Butler."
+      ]
+    },
+    {
+      "id": "chimamanda-adichie",
+      "categoria": "escritoras",
+      "resposta": "Chimamanda Ngozi Adichie",
+      "dicas": [
+        "Nasci na Nigéria em 1977.",
+        "Passei parte da juventude estudando nos Estados Unidos.",
+        "Minha obra aborda migração, gênero e identidades sociais.",
+        "Escrevi Hibisco Roxo.",
+        "Publiquei Meio Sol Amarelo, ambientado durante a Guerra de Biafra.",
+        "Meu romance Americanah acompanha Ifemelu e Obinze.",
+        "Fiz uma palestra intitulada O Perigo de uma História Única.",
+        "Publiquei Sejamos Todos Feministas.",
+        "Meu nome costuma aparecer em debates contemporâneos sobre feminismo africano.",
+        "Sou Chimamanda Ngozi Adichie."
+      ]
+    },
+    {
+      "id": "buchi-emecheta",
+      "categoria": "escritoras",
+      "resposta": "Buchi Emecheta",
+      "dicas": [
+        "Nasci em Lagos em 1944.",
+        "Mudei-me da Nigéria para o Reino Unido.",
+        "Minha obra explora maternidade, migração e desigualdades de gênero.",
+        "Estudei sociologia em Londres.",
+        "Escrevi In the Ditch, sobre uma mulher nigeriana na Inglaterra.",
+        "Também publiquei Second-Class Citizen.",
+        "Um de meus romances acompanha Nnu Ego em Lagos colonial.",
+        "Esse livro se chama As Alegrias da Maternidade.",
+        "Minha ficção é referência da literatura nigeriana escrita por mulheres.",
+        "Sou Buchi Emecheta."
+      ]
+    },
+    {
+      "id": "nawal-el-saadawi",
+      "categoria": "escritoras",
+      "resposta": "Nawal El Saadawi",
+      "dicas": [
+        "Nasci no Egito em 1931.",
+        "Formei-me em medicina e atuei na saúde pública.",
+        "Escrevi contra desigualdades de gênero e práticas de violência.",
+        "Minha militância enfrentou censura e prisão.",
+        "Publiquei A Face Oculta de Eva.",
+        "Escrevi o romance Mulher no Ponto Zero.",
+        "A protagonista desse romance se chama Firdaus.",
+        "Minha obra relaciona patriarcado, Estado e instituições religiosas.",
+        "Fui uma importante intelectual feminista egípcia.",
+        "Sou Nawal El Saadawi."
+      ]
+    },
+    {
+      "id": "svetlana-alexievich",
+      "categoria": "escritoras",
+      "resposta": "Svetlana Aleksiévitch",
+      "dicas": [
+        "Nasci em 1948 na então República Socialista Soviética da Ucrânia.",
+        "Minha carreira se desenvolveu principalmente na Belarus.",
+        "Trabalhei como jornalista.",
+        "Minha escrita compõe narrativas a partir de numerosas entrevistas.",
+        "Escrevi A Guerra Não Tem Rosto de Mulher.",
+        "Publiquei Vozes de Tchernóbil.",
+        "Outro livro meu aborda a experiência soviética no Afeganistão.",
+        "Também escrevi O Fim do Homem Soviético.",
+        "Recebi o Nobel de Literatura em 2015.",
+        "Sou Svetlana Aleksiévitch."
+      ]
+    },
+    {
+      "id": "elena-ferrante",
+      "categoria": "escritoras",
+      "resposta": "Elena Ferrante",
+      "dicas": [
+        "Minha identidade civil não é publicamente confirmada.",
+        "Escrevo romances em língua italiana.",
+        "Minha obra explora amizade, classe e relações entre mulheres.",
+        "Publiquei Um Amor Incômodo.",
+        "Também escrevi Dias de Abandono.",
+        "Uma série minha acompanha duas amigas desde a infância.",
+        "Essas amigas se chamam Elena Greco e Raffaella Cerullo.",
+        "A história se passa em grande parte em Nápoles.",
+        "Sou a autora da tetralogia que começa com A Amiga Genial.",
+        "Assino meus livros como Elena Ferrante."
+      ]
+    },
+    {
+      "id": "annie-ernaux",
+      "categoria": "escritoras",
+      "resposta": "Annie Ernaux",
+      "dicas": [
+        "Nasci na Normandia em 1940.",
+        "Trabalhei como professora de literatura.",
+        "Minha escrita examina memória, classe social e experiências íntimas.",
+        "Publiquei O Lugar, sobre a trajetória de meu pai.",
+        "Também escrevi Uma Mulher, relacionado à vida de minha mãe.",
+        "Meu livro O Acontecimento aborda uma experiência de aborto clandestino.",
+        "Escrevi Os Anos, construído com memórias individuais e coletivas.",
+        "Minha obra combina elementos autobiográficos e análise social.",
+        "Recebi o Nobel de Literatura em 2022.",
+        "Sou Annie Ernaux."
+      ]
+    },
+    {
+      "id": "isabel-allende",
+      "categoria": "escritoras",
+      "resposta": "Isabel Allende",
+      "dicas": [
+        "Nasci em Lima em 1942 e cresci ligada à cultura chilena.",
+        "Trabalhei como jornalista antes de consolidar carreira literária.",
+        "Meu tio de segundo grau foi o presidente chileno Salvador Allende.",
+        "Vivi no exílio após o golpe militar no Chile em 1973.",
+        "Minha ficção mistura memória familiar e acontecimentos políticos.",
+        "Publiquei De Amor e de Sombra.",
+        "Um romance meu acompanha gerações da família Trueba.",
+        "Esse romance se chama A Casa dos Espíritos.",
+        "Também sou autora do livro autobiográfico Paula.",
+        "Sou Isabel Allende."
+      ]
+    },
+    {
+      "id": "elena-poniatowska",
+      "categoria": "escritoras",
+      "resposta": "Elena Poniatowska",
+      "dicas": [
+        "Nasci em Paris em 1932 e cresci no México.",
+        "Construí carreira como jornalista e escritora.",
+        "Minha obra dá voz a trabalhadores, mulheres e movimentos sociais.",
+        "Publiquei Até Não Te Ver, Jesus Meu.",
+        "Escrevi um livro de testemunhos sobre um massacre de estudantes.",
+        "Esse massacre ocorreu na Cidade do México em 1968.",
+        "O livro se chama A Noite de Tlatelolco.",
+        "Também sou autora de Tinísima, sobre Tina Modotti.",
+        "Recebi o Prêmio Cervantes em 2013.",
+        "Sou Elena Poniatowska."
+      ]
+    },
+    {
+      "id": "conceicao-evaristo",
+      "categoria": "escritoras",
+      "resposta": "Conceição Evaristo",
+      "dicas": [
+        "Nasci em Belo Horizonte em 1946.",
+        "Trabalhei como empregada doméstica antes de consolidar carreira acadêmica.",
+        "Minha obra reúne poesia, contos e romances.",
+        "Propus o conceito de escrevivência.",
+        "Minha escrita relaciona experiências de mulheres negras e memória social.",
+        "Publiquei o romance Ponciá Vicêncio.",
+        "Sou autora de Becos da Memória.",
+        "Também publiquei Olhos d'Água, livro de contos.",
+        "Minha produção se tornou referência na literatura afro-brasileira.",
+        "Sou Conceição Evaristo."
+      ]
+    },
+    {
+      "id": "carolina-maria-de-jesus",
+      "categoria": "escritoras",
+      "resposta": "Carolina Maria de Jesus",
+      "dicas": [
+        "Nasci em Minas Gerais em 1914.",
+        "Tive pouca escolarização formal.",
+        "Sustentei filhos trabalhando como catadora de materiais recicláveis.",
+        "Registrei experiências cotidianas de pobreza e fome em diários.",
+        "Vivi na favela do Canindé, em São Paulo.",
+        "Meus manuscritos chamaram a atenção do jornalista Audálio Dantas.",
+        "Publiquei Quarto de Despejo em 1960.",
+        "O subtítulo dessa obra é Diário de uma Favelada.",
+        "Também escrevi Casa de Alvenaria.",
+        "Sou Carolina Maria de Jesus."
+      ]
+    },
+    {
+      "id": "lygia-fagundes-telles",
+      "categoria": "escritoras",
+      "resposta": "Lygia Fagundes Telles",
+      "dicas": [
+        "Nasci em São Paulo em 1923.",
+        "Formei-me em direito e dediquei-me à literatura.",
+        "Minha obra é marcada por dramas psicológicos e conflitos sociais.",
+        "Publiquei Ciranda de Pedra.",
+        "Escrevi Antes do Baile Verde, livro de contos.",
+        "Fui autora do romance Verão no Aquário.",
+        "Um romance meu acompanha três jovens vivendo em um pensionato.",
+        "As personagens Lorena, Lia e Ana Clara aparecem nesse livro.",
+        "Esse romance se chama As Meninas.",
+        "Sou Lygia Fagundes Telles."
+      ]
     }
   ]
 }
