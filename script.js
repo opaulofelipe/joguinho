@@ -7,6 +7,9 @@
   'use strict';
 
   const MAX_TIPS = 10;
+  // Salvo por origem (domínio) e dispositivo; não depende do cache de arquivos.
+  const STORAGE_KEY = 'perfil.joguinho.partida.v1';
+  const STORAGE_VERSION = 1;
   const $ = (id) => document.getElementById(id);
   const el = {
     game: $('gameColumn'), categoryList: $('categoryList'), totalProfiles: $('totalProfiles'),
@@ -28,6 +31,7 @@
     lobbyCategory: $('lobbyCategory'), lobbyFeedback: $('lobbyFeedback'),
     startMatchButton: $('startMatchButton'), soloButton: $('soloButton'),
     backToLobbyButton: $('backToLobbyButton'),
+    matchResetButton: $('matchResetButton'), storageStatus: $('storageStatus'),
     matchDashboard: $('matchDashboard'), roundNumber: $('roundNumber'),
     readerName: $('readerName'), scoreboard: $('scoreboard'),
     awardPanel: $('awardPanel'), awardTitle: $('awardTitle'),
@@ -44,7 +48,7 @@
     selectedCategory: 'todos',
     card: null,
     count: 0,
-    answerVisible: true, // A resposta fica visível ao leitor.
+    answerVisible: false, // Uma rodada de partida sempre começa com resposta oculta.
     queue: [],
     mode: 'lobby',
     match: null,
@@ -112,12 +116,13 @@
     }
     state.card = state.queue.shift();
     state.count = 0;
-    state.answerVisible = true;
+    state.answerVisible = state.mode !== 'match';
     state.roundResolved = false;
     state.lastResult = null;
     renderCard();
     renderClues();
     el.nextProfileButton.disabled = state.mode === 'match';
+    saveMatch();
   }
 
   function renderCategories() {
@@ -168,11 +173,14 @@
     el.categoryTag.textContent = getCategoryName(state.card.categoria).toLocaleUpperCase('pt-BR');
     el.answerHeading.textContent = state.answerVisible ? state.card.resposta : 'Quem será?';
     el.answerHeading.classList.toggle('is-hidden', !state.answerVisible);
-    el.answerLabel.textContent = state.answerVisible ? 'A RESPOSTA É' : 'MODO DESAFIO';
+    el.answerLabel.textContent = state.answerVisible
+      ? 'A RESPOSTA É' : (state.mode === 'match' ? 'RESPOSTA OCULTA' : 'MODO DESAFIO');
     el.answerDescription.textContent = state.mode === 'match'
-      ? 'Apenas o leitor deve ver a resposta e apresentar as pistas.'
+      ? (state.answerVisible
+          ? 'Apenas o leitor deve consultar a resposta e apresentar as pistas.'
+          : 'Toda rodada começa com a resposta oculta. O leitor pode revelá-la pelo botão.')
       : (state.answerVisible ? 'Conheça este perfil, uma dica por vez.' : 'Resposta oculta. Descubra antes da última dica.');
-    el.toggleAnswerText.textContent = state.answerVisible ? 'Ocultar resposta' : 'Mostrar resposta';
+    el.toggleAnswerText.textContent = state.answerVisible ? 'Ocultar resposta' : 'Revelar resposta';
     el.toggleAnswer.setAttribute('aria-pressed', String(!state.answerVisible));
     el.toggleAnswer.setAttribute('aria-label', state.answerVisible ? 'Ocultar resposta da carta' : 'Mostrar resposta da carta');
     const eligibleCount = getEligible().length;
@@ -262,18 +270,142 @@
     state.queue = [];
     state.card = null;
     state.count = 0;
-    state.answerVisible = true;
+    state.answerVisible = false;
     state.match = null;
     state.mode = 'lobby';
     state.roundResolved = false;
+    state.lastResult = null;
     state.winnerId = null;
     el.game.classList.remove('is-error');
     el.errorPanel.hidden = true;
     renderLobbyCategories();
+    el.startMatchButton.disabled = false;
+    if (restoreMatch()) {
+      renderCategories();
+      renderCard();
+      renderClues();
+      showGame();
+      setStorageStatus('Partida recuperada automaticamente neste navegador.');
+      return;
+    }
     renderCategories();
     chooseNextCard();
-    el.startMatchButton.disabled = false;
     showLobby();
+  }
+
+
+  function setStorageStatus(message, isWarning = false) {
+    el.storageStatus.textContent = message;
+    el.storageStatus.classList.toggle('is-warning', isWarning);
+  }
+
+  function saveMatch() {
+    // Nunca sobrescrever uma partida ativa ao visitar o lobby ou modo livre.
+    if (state.mode !== 'match' || !state.match || !state.card || state.winnerId) return;
+    const snapshot = {
+      version: STORAGE_VERSION,
+      category: state.selectedCategory,
+      match: {
+        players: state.match.players.map(p => ({ id: p.id, name: p.name, points: p.points })),
+        readerIndex: state.match.readerIndex,
+        round: state.match.round
+      },
+      cardId: state.card.id,
+      queueIds: state.queue.map(p => p.id),
+      count: state.count,
+      answerVisible: state.answerVisible,
+      roundResolved: state.roundResolved,
+      lastResult: state.lastResult
+    };
+    try {
+      window.localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+      setStorageStatus('Partida salva automaticamente neste navegador.');
+    } catch (error) {
+      setStorageStatus('Não foi possível salvar neste navegador. Não feche a página.', true);
+    }
+  }
+
+  function clearSavedMatch() {
+    try {
+      window.localStorage.removeItem(STORAGE_KEY);
+    } catch (error) {
+      // Armazenamento indisponível: as partidas ainda podem ser jogadas nesta aba.
+    }
+  }
+
+  function restoreMatch() {
+    let saved;
+    try {
+      const raw = window.localStorage.getItem(STORAGE_KEY);
+      if (!raw) return false;
+      saved = JSON.parse(raw);
+    } catch (error) {
+      return false;
+    }
+
+    // Não substituir o estado atual caso o armazenamento seja inválido.
+    if (!saved || saved.version !== STORAGE_VERSION || !saved.match ||
+        !Array.isArray(saved.match.players) ||
+        saved.match.players.length < 2 || saved.match.players.length > 6 ||
+        !saved.match.players.every((p, i) =>
+          p && p.id === 'player-' + i && typeof p.name === 'string' &&
+          p.name.trim().length > 0 && p.name.length <= 24 &&
+          Number.isSafeInteger(p.points) && p.points >= 0 && p.points < 100) ||
+        !Number.isInteger(saved.match.readerIndex) ||
+        saved.match.readerIndex < 0 ||
+        saved.match.readerIndex >= saved.match.players.length ||
+        !Number.isSafeInteger(saved.match.round) || saved.match.round < 1 ||
+        !Number.isInteger(saved.count) || saved.count < 0 || saved.count > MAX_TIPS ||
+        typeof saved.roundResolved !== 'boolean' ||
+        (saved.roundResolved && (saved.count === 0 || !saved.lastResult ||
+          typeof saved.lastResult.readerName !== 'string' ||
+          !Number.isInteger(saved.lastResult.readerPoints))) ||
+        !Array.isArray(saved.queueIds) || typeof saved.cardId !== 'string') {
+      return false;
+    }
+
+    // Índices de cartas permanecem estáveis mesmo com novas versões do JSON.
+    const byId = new Map(state.data.perfis.map(profile => [profile.id, profile]));
+    const category = saved.category === 'todos' ||
+      state.data.categorias.some(c => c.id === saved.category && byId.size)
+      ? saved.category : 'todos';
+    state.mode = 'match';
+    state.match = {
+      players: saved.match.players.map(p => ({ id:p.id, name:p.name, points:p.points })),
+      readerIndex: saved.match.readerIndex,
+      round: saved.match.round
+    };
+    state.selectedCategory = category;
+    state.card = byId.get(saved.cardId) || null;
+    state.queue = saved.queueIds
+      .filter(id => typeof id === 'string')
+      .map(id => byId.get(id))
+      .filter(p => p && (category === 'todos' || p.categoria === category));
+    state.count = saved.count;
+    state.answerVisible = saved.answerVisible === true;
+    state.roundResolved = saved.roundResolved;
+    state.lastResult = saved.roundResolved ? saved.lastResult : null;
+    state.winnerId = null;
+
+    if (!state.card || (category !== 'todos' && state.card.categoria !== category)) {
+      // Carta removida numa atualização: preserva pontos e leitores;
+      // somente a carta em andamento precisa ser substituída.
+      state.card = null;
+      state.queue = [];
+      chooseNextCard();
+    }
+    return true;
+  }
+
+  function resetMatch() {
+    if (state.mode !== 'match' || !state.match) return;
+    const confirmed = window.confirm(
+      'Reiniciar a partida? O placar e a rodada atual serão apagados deste navegador.'
+    );
+    if (!confirmed) return;
+    const names = state.match.players.map(p => p.name);
+    clearSavedMatch();
+    showLobby(names);
   }
 
   function getReader() {
@@ -365,7 +497,7 @@
     el.lobbyScreen.hidden = true;
     el.workspace.hidden = false;
     el.matchDashboard.hidden = state.mode !== 'match';
-    el.backToLobbyButton.hidden = false;
+    el.backToLobbyButton.hidden = state.mode === 'match';
     el.resetButton.hidden = state.mode === 'match';
     renderCategories();
     renderScoreboard();
@@ -521,7 +653,12 @@
     renderScoreboard();
     renderClues();
     renderCard();
-    if (state.winnerId) showWinner();
+    if (state.winnerId) {
+      clearSavedMatch();
+      showWinner();
+    } else {
+      saveMatch();
+    }
   }
 
   function advanceRound() {
@@ -587,11 +724,13 @@
     if (!state.card) return;
     state.answerVisible = !state.answerVisible;
     renderCard();
+    saveMatch();
   });
   el.nextClueButton.addEventListener('click', () => {
     if (!state.card || state.roundResolved || state.count >= MAX_TIPS) return;
     state.count++;
     renderClues();
+    saveMatch();
   });
   el.resetButton.addEventListener('click', () => {
     if (!state.card || state.mode === 'match') return;
@@ -643,10 +782,9 @@
   });
   el.soloButton.addEventListener('click', startSolo);
   el.backToLobbyButton.addEventListener('click', () => {
-    if (state.mode === 'match' && !state.winnerId &&
-       !window.confirm('Encerrar esta partida? O placar atual será perdido.')) return;
-    showLobby();
+    if (state.mode === 'solo') showLobby();
   });
+  el.matchResetButton.addEventListener('click', resetMatch);
   el.noCorrectButton.addEventListener('click', () => finishRound(null));
   el.newMatchButton.addEventListener('click', () => {
     if (!state.match) return;
