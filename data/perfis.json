@@ -952,6 +952,397 @@
         "Meu personagem de ação se chama John Wick.",
         "Sou Keanu Reeves."
       ]
+    },
+    {
+      "id": "meryl-streep",
+      "categoria": "atrizes",
+      "resposta": "Meryl Streep",
+      "dicas": [
+        "Nasci em Nova Jersey em 1949.",
+        "Minha carreira passou pelo teatro antes de muitos papéis no cinema.",
+        "Interpretei uma sobrevivente do Holocausto em A Escolha de Sofia.",
+        "Ganhei um Oscar de atriz coadjuvante por Kramer vs. Kramer.",
+        "Protagonizei Entre Dois Amores ao lado de Robert Redford.",
+        "Interpretei uma poderosa editora de moda em uma comédia de 2006.",
+        "Essa personagem se chama Miranda Priestly.",
+        "Fui Margaret Thatcher no filme A Dama de Ferro.",
+        "Recebi três Oscars de atuação até 2026.",
+        "Sou Meryl Streep."
+      ]
+    },
+    {
+      "id": "viola-davis",
+      "categoria": "atrizes",
+      "resposta": "Viola Davis",
+      "dicas": [
+        "Nasci na Carolina do Sul em 1965.",
+        "Trabalhei no teatro e na televisão antes de me consagrar no cinema.",
+        "Interpretei uma mãe em uma cena decisiva de Dúvida.",
+        "Fui protagonista da série How to Get Away with Murder.",
+        "Interpretei Annalise Keating nessa série.",
+        "Atuei em Histórias Cruzadas.",
+        "Vivi Rose Maxson na adaptação cinematográfica de Um Limite Entre Nós.",
+        "Ganhei um Oscar por Um Limite Entre Nós.",
+        "Sou uma artista que conquistou Emmy, Grammy, Oscar e Tony.",
+        "Sou Viola Davis."
+      ]
+    },
+    {
+      "id": "cate-blanchett",
+      "categoria": "atrizes",
+      "resposta": "Cate Blanchett",
+      "dicas": [
+        "Nasci na Austrália em 1969.",
+        "Minha carreira inclui filmes históricos e fantasias.",
+        "Interpretei uma monarca inglesa em Elizabeth, de 1998.",
+        "Atuei no filme O Senhor dos Anéis como Galadriel.",
+        "Fui Bob Dylan em uma das interpretações do filme Não Estou Lá.",
+        "Ganhei um Oscar como coadjuvante por O Aviador.",
+        "Interpretei a socialite Jasmine em Blue Jasmine.",
+        "Recebi o Oscar de melhor atriz por Blue Jasmine.",
+        "Protagonizei Tár como uma maestrina de fama internacional.",
+        "Sou Cate Blanchett."
+      ]
+    },
+    {
+      "id": "tilda-swinton",
+      "categoria": "atrizes",
+      "resposta": "Tilda Swinton",
+      "dicas": [
+        "Nasci em Londres em 1960.",
+        "Minha carreira transitou entre cinema experimental e produções comerciais.",
+        "Colaborei com o diretor Derek Jarman.",
+        "Interpretei a protagonista do filme Orlando, de 1992.",
+        "Interpretei a Feiticeira Branca em As Crônicas de Nárnia.",
+        "Ganhei Oscar de atriz coadjuvante por Conduta de Risco.",
+        "Fui uma vampira em Amantes Eternos.",
+        "Interpretei diferentes papéis em Suspiria, de 2018.",
+        "Atuei em O Grande Hotel Budapeste, de Wes Anderson.",
+        "Sou Tilda Swinton."
+      ]
+    },
+    {
+      "id": "isabelle-huppert",
+      "categoria": "atrizes",
+      "resposta": "Isabelle Huppert",
+      "dicas": [
+        "Nasci em Paris em 1953.",
+        "Minha carreira se destaca no cinema francês e europeu.",
+        "Trabalhei com Claude Chabrol em diferentes filmes.",
+        "Interpretei uma mulher que envenena pessoas em Mulheres Diabólicas, de 1988.",
+        "Atuei em A Professora de Piano, de Michael Haneke.",
+        "Por A Professora de Piano recebi prêmio de atuação em Cannes.",
+        "Fui protagonista de Elle, dirigido por Paul Verhoeven.",
+        "Recebi uma indicação ao Oscar por Elle.",
+        "Sou conhecida por interpretar personagens psicológica e moralmente complexas.",
+        "Sou Isabelle Huppert."
+      ]
+    },
+    {
+      "id": "juliette-binoche",
+      "categoria": "atrizes",
+      "resposta": "Juliette Binoche",
+      "dicas": [
+        "Nasci em Paris em 1964.",
+        "Minha carreira reúne filmes franceses e produções internacionais.",
+        "Atuei em A Insustentável Leveza do Ser.",
+        "Fui protagonista de A Liberdade É Azul, de Krzysztof Kieślowski.",
+        "Interpretei Hana em O Paciente Inglês.",
+        "Ganhei o Oscar de atriz coadjuvante por O Paciente Inglês.",
+        "Atuei no drama Chocolate, de 2000.",
+        "Recebi o prêmio de melhor atriz em Cannes por Cópia Fiel.",
+        "Trabalhei com o diretor Abbas Kiarostami em Cópia Fiel.",
+        "Sou Juliette Binoche."
+      ]
+    },
+    {
+      "id": "frances-mcdormand",
+      "categoria": "atrizes",
+      "resposta": "Frances McDormand",
+      "dicas": [
+        "Nasci em Illinois em 1957.",
+        "Participei de filmes dirigidos pelos irmãos Coen.",
+        "Atuei em Mississippi em Chamas.",
+        "Interpretei uma policial grávida em Fargo.",
+        "Minha personagem em Fargo se chama Marge Gunderson.",
+        "Recebi Oscar de melhor atriz por Fargo.",
+        "Fui uma mãe em busca de justiça em Três Anúncios para um Crime.",
+        "Atuei e produzi Nomadland.",
+        "Ganhei três Oscars de melhor atriz por Fargo, Três Anúncios para um Crime e Nomadland.",
+        "Sou Frances McDormand."
+      ]
+    },
+    {
+      "id": "michelle-yeoh",
+      "categoria": "atrizes",
+      "resposta": "Michelle Yeoh",
+      "dicas": [
+        "Nasci na Malásia em 1962.",
+        "Minha carreira começou com filmes de ação em Hong Kong.",
+        "Atuei em Police Story 3: Supercop com Jackie Chan.",
+        "Interpretei Wai Lin em 007: O Amanhã Nunca Morre.",
+        "Fui Yu Shu Lien em O Tigre e o Dragão.",
+        "Atuei em Podres de Ricos.",
+        "Fui a protagonista do multiverso em Tudo em Todo o Lugar ao Mesmo Tempo.",
+        "Minha personagem nesse filme se chama Evelyn Wang.",
+        "Ganhei o Oscar de melhor atriz em 2023, a primeira atriz asiática a conquistar essa categoria.",
+        "Sou Michelle Yeoh."
+      ]
+    },
+    {
+      "id": "gong-li",
+      "categoria": "atrizes",
+      "resposta": "Gong Li",
+      "dicas": [
+        "Nasci na China em 1965.",
+        "Minha carreira internacional começou com grandes dramas históricos chineses.",
+        "Atuei em Sorgo Vermelho, de 1987.",
+        "Trabalhei repetidamente com Zhang Yimou.",
+        "Fui protagonista de Lanternas Vermelhas.",
+        "Atuei em A História de Qiu Ju.",
+        "Também participei de Adeus, Minha Concubina, de Chen Kaige.",
+        "Interpretei Hatsumomo em Memórias de uma Gueixa.",
+        "Vivi a imperatriz em A Maldição da Flor Dourada.",
+        "Sou Gong Li."
+      ]
+    },
+    {
+      "id": "maggie-cheung",
+      "categoria": "atrizes",
+      "resposta": "Maggie Cheung",
+      "dicas": [
+        "Nasci em Hong Kong em 1964.",
+        "Comecei minha carreira no cinema comercial de Hong Kong.",
+        "Atuei em As Lágrimas do Dragão, de Wong Kar-wai.",
+        "Interpretei uma atriz do cinema mudo em Centre Stage.",
+        "Fui protagonista de Irma Vep, de Olivier Assayas.",
+        "Atuei em Herói, de Zhang Yimou.",
+        "Interpretei Su Li-zhen em Amor à Flor da Pele.",
+        "Ganhei o prêmio de melhor atriz em Cannes por Clean, de 2004.",
+        "Colaborei com Wong Kar-wai em diversos filmes.",
+        "Sou Maggie Cheung."
+      ]
+    },
+    {
+      "id": "zhang-ziyi",
+      "categoria": "atrizes",
+      "resposta": "Zhang Ziyi",
+      "dicas": [
+        "Nasci em Pequim em 1979.",
+        "Estudei dança antes de me dedicar à atuação.",
+        "Fui protagonista de O Caminho para Casa, de Zhang Yimou.",
+        "Atuei em O Tigre e o Dragão.",
+        "Interpretei Jen Yu nesse filme de artes marciais.",
+        "Atuei em Herói, de Zhang Yimou.",
+        "Participei de O Clã das Adagas Voadoras.",
+        "Vivi a protagonista de Memórias de uma Gueixa.",
+        "Atuei em O Grande Mestre, de Wong Kar-wai.",
+        "Sou Zhang Ziyi."
+      ]
+    },
+    {
+      "id": "lupita-nyongo",
+      "categoria": "atrizes",
+      "resposta": "Lupita Nyong'o",
+      "dicas": [
+        "Nasci na Cidade do México e cresci no Quênia.",
+        "Estudei atuação na Universidade Yale.",
+        "Ganhei notoriedade internacional em um filme de 2013 sobre a escravidão.",
+        "Interpretei Patsey em 12 Anos de Escravidão.",
+        "Ganhei o Oscar de atriz coadjuvante por esse papel.",
+        "Interpretei Maz Kanata em filmes de Star Wars.",
+        "Atuei em Pantera Negra como Nakia.",
+        "Interpretei dois papéis centrais no filme de terror Nós.",
+        "Trabalhei com o diretor Jordan Peele em Nós.",
+        "Sou Lupita Nyong'o."
+      ]
+    },
+    {
+      "id": "angela-bassett",
+      "categoria": "atrizes",
+      "resposta": "Angela Bassett",
+      "dicas": [
+        "Nasci em Nova York em 1958.",
+        "Minha carreira reúne papéis biográficos e superproduções.",
+        "Interpretei a esposa de Malcolm X em filme de Spike Lee.",
+        "Fui a cantora Tina Turner em Tina, filme de 1993.",
+        "Recebi indicação ao Oscar de melhor atriz por Tina.",
+        "Atuei no filme Estranhos Prazeres, de Kathryn Bigelow.",
+        "Vivi a rainha Ramonda em Pantera Negra.",
+        "Recebi indicação ao Oscar de coadjuvante por Pantera Negra: Wakanda Para Sempre.",
+        "Também atuo na série 9-1-1.",
+        "Sou Angela Bassett."
+      ]
+    },
+    {
+      "id": "regina-king",
+      "categoria": "atrizes",
+      "resposta": "Regina King",
+      "dicas": [
+        "Nasci em Los Angeles em 1971.",
+        "Minha carreira começou com destaque na televisão.",
+        "Atuei em Boyz n the Hood, de John Singleton.",
+        "Participei de Jerry Maguire: A Grande Virada.",
+        "Atuei na série American Crime.",
+        "Interpretei a personagem principal da série Watchmen, de 2019.",
+        "Vivi Sharon Rivers em Se a Rua Beale Falasse.",
+        "Ganhei Oscar de atriz coadjuvante por Se a Rua Beale Falasse.",
+        "Dirigi o filme Uma Noite em Miami...",
+        "Sou Regina King."
+      ]
+    },
+    {
+      "id": "sandra-bullock",
+      "categoria": "atrizes",
+      "resposta": "Sandra Bullock",
+      "dicas": [
+        "Nasci nos Estados Unidos em 1964 e cresci parte da infância na Alemanha.",
+        "Atuei em comédias românticas, dramas e filmes de ação.",
+        "Fui protagonista de Enquanto Você Dormia.",
+        "Atuei em Velocidade Máxima com Keanu Reeves.",
+        "Interpretei uma agente do FBI disfarçada em Miss Simpatia.",
+        "Participei do filme Crash: No Limite.",
+        "Vivi Leigh Anne Tuohy em Um Sonho Possível.",
+        "Ganhei o Oscar de melhor atriz por Um Sonho Possível.",
+        "Protagonizei Gravidade com George Clooney.",
+        "Sou Sandra Bullock."
+      ]
+    },
+    {
+      "id": "natalie-portman",
+      "categoria": "atrizes",
+      "resposta": "Natalie Portman",
+      "dicas": [
+        "Nasci em Jerusalém em 1981.",
+        "Comecei a atuar no cinema ainda adolescente.",
+        "Atuei em O Profissional, de Luc Besson.",
+        "Interpretei Padmé Amidala na trilogia prequela de Star Wars.",
+        "Vivi uma personagem que protesta contra um regime autoritário em V de Vingança.",
+        "Fui uma das protagonistas de Closer: Perto Demais.",
+        "Interpretei a bailarina Nina Sayers em Cisne Negro.",
+        "Ganhei o Oscar de melhor atriz por Cisne Negro.",
+        "Vivi Jacqueline Kennedy no filme Jackie.",
+        "Sou Natalie Portman."
+      ]
+    },
+    {
+      "id": "saoirse-ronan",
+      "categoria": "atrizes",
+      "resposta": "Saoirse Ronan",
+      "dicas": [
+        "Nasci em Nova York em 1994 e cresci na Irlanda.",
+        "Comecei a atuar profissionalmente ainda criança.",
+        "Fui indicada ao Oscar por Desejo e Reparação.",
+        "Interpretei a personagem Briony Tallis mais jovem nesse filme.",
+        "Protagonizei Um Olhar do Paraíso.",
+        "Fui a personagem-título de Brooklyn.",
+        "Atuei em Lady Bird, dirigido por Greta Gerwig.",
+        "Interpretei Jo March em Adoráveis Mulheres, de 2019.",
+        "Sou conhecida por papéis em dramas de formação.",
+        "Sou Saoirse Ronan."
+      ]
+    },
+    {
+      "id": "emma-stone",
+      "categoria": "atrizes",
+      "resposta": "Emma Stone",
+      "dicas": [
+        "Nasci no Arizona em 1988.",
+        "Comecei a atuar no cinema em comédias adolescentes.",
+        "Atuei em Superbad: É Hoje.",
+        "Fui protagonista de A Mentira.",
+        "Interpretei Gwen Stacy em O Espetacular Homem-Aranha.",
+        "Trabalhei com Yorgos Lanthimos em A Favorita.",
+        "Ganhei Oscar de melhor atriz pelo musical La La Land.",
+        "Interpretei Bella Baxter em Pobres Criaturas.",
+        "Ganhei outro Oscar de melhor atriz por Pobres Criaturas.",
+        "Sou Emma Stone."
+      ]
+    },
+    {
+      "id": "jodie-foster",
+      "categoria": "atrizes",
+      "resposta": "Jodie Foster",
+      "dicas": [
+        "Nasci em Los Angeles em 1962.",
+        "Atuo desde a infância e também dirijo filmes.",
+        "Fui uma adolescente no filme Taxi Driver, de Martin Scorsese.",
+        "Atuei em Acusados, lançado em 1988.",
+        "Ganhei um Oscar por Acusados.",
+        "Interpretei a agente Clarice Starling em O Silêncio dos Inocentes.",
+        "Ganhei meu segundo Oscar de melhor atriz por O Silêncio dos Inocentes.",
+        "Atuei em Contato, de Robert Zemeckis.",
+        "Dirigi filmes como Um Novo Despertar e Jogo do Dinheiro.",
+        "Sou Jodie Foster."
+      ]
+    },
+    {
+      "id": "sonia-braga",
+      "categoria": "atrizes",
+      "resposta": "Sônia Braga",
+      "dicas": [
+        "Nasci em Maringá, no Paraná, em 1950.",
+        "Minha carreira se desenvolveu na televisão e no cinema brasileiros.",
+        "Atuei na novela Gabriela, de 1975.",
+        "Interpretei a protagonista do filme Dona Flor e Seus Dois Maridos.",
+        "Atuei em O Beijo da Mulher-Aranha.",
+        "Participei da série Sex and the City.",
+        "Interpretei Clara no filme Aquarius.",
+        "Atuei em Bacurau, de Kleber Mendonça Filho e Juliano Dornelles.",
+        "Tornei-me uma atriz brasileira de projeção internacional.",
+        "Sou Sônia Braga."
+      ]
+    },
+    {
+      "id": "marilia-pera",
+      "categoria": "atrizes",
+      "resposta": "Marília Pêra",
+      "dicas": [
+        "Nasci no Rio de Janeiro em 1943.",
+        "Minha trajetória inclui teatro musical, cinema e televisão.",
+        "Participei da novela Beto Rockfeller.",
+        "Tive atuação destacada nos palcos brasileiros.",
+        "Interpretei uma prostituta em Pixote: A Lei do Mais Fraco.",
+        "Minha personagem em Pixote se chama Sueli.",
+        "Recebi o prêmio de melhor atriz da National Society of Film Critics pelo filme Pixote.",
+        "Atuei em Bar Esperança, de Hugo Carvana.",
+        "Morri em 2015, após longa carreira artística.",
+        "Sou Marília Pêra."
+      ]
+    },
+    {
+      "id": "tais-araujo",
+      "categoria": "atrizes",
+      "resposta": "Taís Araújo",
+      "dicas": [
+        "Nasci no Rio de Janeiro em 1978.",
+        "Comecei a atuar ainda adolescente.",
+        "Protagonizei a novela Xica da Silva, de 1996.",
+        "Interpretei a protagonista Helena em Viver a Vida, de 2009.",
+        "Atuei em novelas como Da Cor do Pecado.",
+        "Fiz a advogada Maria da Penha na série Aruanas.",
+        "Fui uma das protagonistas de Cheias de Charme como Penha.",
+        "Dividi o protagonismo da série Mister Brau com Lázaro Ramos.",
+        "Sou atriz brasileira com importante trajetória de representatividade na TV.",
+        "Sou Taís Araújo."
+      ]
+    },
+    {
+      "id": "fernanda-torres",
+      "categoria": "atrizes",
+      "resposta": "Fernanda Torres",
+      "dicas": [
+        "Nasci no Rio de Janeiro em 1965.",
+        "Sou filha de dois artistas ligados ao teatro brasileiro.",
+        "Atuei em Inocência, de Walter Lima Jr.",
+        "Ganhei prêmio de interpretação em Cannes por Eu Sei que Vou te Amar.",
+        "Atuei em Terra Estrangeira, de Walter Salles e Daniela Thomas.",
+        "Interpretei Vani na série Os Normais.",
+        "Fui uma das protagonistas de Tapas & Beijos.",
+        "Sou filha de Fernanda Montenegro e Fernando Torres.",
+        "Interpretei Eunice Paiva no filme Ainda Estou Aqui.",
+        "Sou Fernanda Torres."
+      ]
     }
   ]
 }
