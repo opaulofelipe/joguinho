@@ -41,7 +41,7 @@
           <div><span class="eyebrow muted">01 / PREPARE A MESA</span><h2 id="lobbyTitle">Quem vai <em>jogar?</em></h2></div>
           <span class="lobby-cap">ATÉ 06<br>JOGADORES</span>
         </div>
-        <p class="lobby-lead">Reúna os participantes, adicione os nomes e dispute uma partida até 100 pontos. Um jogador lê; os demais tentam descobrir o perfil.</p>
+        <p class="lobby-lead">Reúna os participantes, adicione os nomes e dispute uma partida até 100 pontos. Um jogador lê; os demais tentam descobrir o perfil. O progresso fica salvo neste navegador.</p>
         <form id="lobbyForm" novalidate>
           <div class="lobby-section-heading"><h3>Participantes</h3><span id="playerCount" aria-live="polite">2 / 6</span></div>
           <div id="playerFields" class="player-fields"></div>
@@ -77,6 +77,10 @@
       </div>
       <div class="scoreboard-top"><span class="eyebrow muted">PLACAR AO VIVO</span><span>Os pontos se acumulam a cada rodada</span></div>
       <div class="scoreboard" id="scoreboard" role="list" aria-live="polite"></div>
+      <div class="match-persistence">
+        <span id="storageStatus" class="storage-status" role="status" aria-live="polite">Salvando partida...</span>
+        <button id="matchResetButton" type="button" class="match-reset-button">Reiniciar partida</button>
+      </div>
     </section>
 
     <main class="workspace" id="workspace" hidden>
@@ -171,7 +175,7 @@
   <dialog id="helpDialog" class="help-dialog" aria-labelledby="dialogTitle">
     <div class="dialog-header"><span class="eyebrow muted">MANUAL RÁPIDO</span><button type="button" id="closeHelp" class="icon-button" aria-label="Fechar instruções">×</button></div>
     <h2 id="dialogTitle">Como jogar<span class="period">.</span></h2>
-    <p>No lobby, adicione de <strong>2 a 6 jogadores</strong> e escolha o tema. O primeiro participante será o leitor. A cada nova rodada, a função passa para o próximo da lista.</p><p>O leitor vê a resposta e revela as dicas uma por vez. Se alguém acertar após N dicas, quem acertou recebe <strong>11 − N pontos</strong> e o leitor recebe <strong>N pontos</strong>. Assim, na primeira dica são 10 para quem acertou e 1 para o leitor; na décima, 1 e 10, respectivamente.</p><p>Depois de um acerto, selecione o jogador correspondente. Se <strong>ninguém acertar</strong>, marque essa opção: o leitor recebe <strong>10 pontos</strong> e os demais não pontuam. O primeiro a alcançar 100 pontos vence. Se dois jogadores cruzarem 100 na mesma rodada, vence quem tiver maior pontuação; em empate, quem acertou. Também é possível explorar o acervo individualmente, sem pontuação.</p>
+    <p>No lobby, adicione de <strong>2 a 6 jogadores</strong> e escolha o tema. O primeiro participante será o leitor. A cada nova rodada, a função passa para o próximo da lista. A partida é salva automaticamente no navegador e recuperada após atualizações ou recarregamentos.</p><p>A resposta começa <strong>oculta em todas as rodadas</strong>; o leitor deve tocar em <strong>Revelar resposta</strong> para consultá-la. Depois, revela as dicas uma por vez. Se alguém acertar após N dicas, quem acertou recebe <strong>11 − N pontos</strong> e o leitor recebe <strong>N pontos</strong>. Assim, na primeira dica são 10 para quem acertou e 1 para o leitor; na décima, 1 e 10, respectivamente.</p><p>Depois de um acerto, selecione o jogador correspondente. Se <strong>ninguém acertar</strong>, marque essa opção: o leitor recebe <strong>10 pontos</strong> e os demais não pontuam. O primeiro a alcançar 100 pontos vence. A partida só pode ser encerrada antes disso pelo botão <strong>Reiniciar partida</strong>, que pede confirmação. Se dois jogadores cruzarem 100 na mesma rodada, vence quem tiver maior pontuação; em empate, quem acertou. Também é possível explorar o acervo individualmente, sem pontuação.</p>
     <button class="primary-button dialog-okay" id="dialogOkay" type="button">Entendi <span aria-hidden="true">↗</span></button>
   </dialog>
   <dialog id="winnerDialog" class="winner-dialog" aria-labelledby="winnerTitle" aria-modal="true">
