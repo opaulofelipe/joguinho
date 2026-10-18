@@ -1,0 +1,151 @@
+{
+  "versao": 1,
+  "categorias": [
+    { "id": "personagens-historicos", "nome": "Personagens históricos" },
+    { "id": "atores", "nome": "Atores" },
+    { "id": "atrizes", "nome": "Atrizes" },
+    { "id": "diretores", "nome": "Diretores" },
+    { "id": "paises", "nome": "Países" },
+    { "id": "escritores", "nome": "Escritores" },
+    { "id": "escritoras", "nome": "Escritoras" },
+    { "id": "orgaos", "nome": "Órgãos do corpo humano" }
+  ],
+  "perfis": [
+    {
+      "id": "cleo-vii",
+      "categoria": "personagens-historicos",
+      "resposta": "Cleópatra VII",
+      "dicas": [
+        "Minha trajetória está ligada ao fim de uma dinastia de origem macedônica.",
+        "Minha família governou por quase três séculos após as conquistas de Alexandre, o Grande.",
+        "Compartilhei o trono com membros da minha própria família, em meio a disputas pelo poder.",
+        "Governei um território cuja riqueza dependia, em grande parte, do rio Nilo.",
+        "Meu reinado foi marcado pela crescente interferência da República Romana.",
+        "Fui uma das últimas soberanas do Egito da dinastia ptolemaica.",
+        "Mantive uma aliança política e pessoal com Júlio César.",
+        "Minha capital era Alexandria, importante centro cultural do Mediterrâneo.",
+        "Mais tarde, associei meu destino político ao de Marco Antônio.",
+        "Morri em 30 a.C., após a derrota de Marco Antônio e minhas forças diante de Otaviano."
+      ]
+    },
+    {
+      "id": "denzel-washington",
+      "categoria": "atores",
+      "resposta": "Denzel Washington",
+      "dicas": [
+        "Minha carreira se destacou tanto nos palcos quanto nas telas.",
+        "Nasci no estado de Nova York, nos Estados Unidos, em 1954.",
+        "Ao longo da carreira, trabalhei várias vezes com o diretor Spike Lee.",
+        "Interpretei um oficial da Marinha no filme Maré Vermelha, de 1995.",
+        "Vivi o boxeador Rubin Carter em Hurricane: O Furacão, de 1999.",
+        "Interpretei um importante ativista negro norte-americano em um filme lançado em 1992.",
+        "Recebi um Oscar de ator coadjuvante por Tempo de Glória.",
+        "Fui o protagonista de Dia de Treinamento, interpretando o policial Alonzo Harris.",
+        "Ganhei o Oscar de melhor ator pelo filme Dia de Treinamento.",
+        "Também protagonizei a franquia de ação O Protetor, conhecida em inglês como The Equalizer."
+      ]
+    },
+    {
+      "id": "fernanda-montenegro",
+      "categoria": "atrizes",
+      "resposta": "Fernanda Montenegro",
+      "dicas": [
+        "Comecei minha trajetória artística no rádio e me consagrei também no teatro.",
+        "Nasci na cidade do Rio de Janeiro, em 1929.",
+        "Construí uma extensa carreira na televisão brasileira, além do cinema.",
+        "Fui casada com o ator Fernando Torres.",
+        "Minha filha, Fernanda Torres, também se tornou atriz.",
+        "Interpretei Nossa Senhora na adaptação televisiva de O Auto da Compadecida, exibida em 1999.",
+        "Atuei no filme Central do Brasil, dirigido por Walter Salles.",
+        "Minha personagem em Central do Brasil se chama Dora.",
+        "Recebi uma indicação ao Oscar de melhor atriz por Central do Brasil.",
+        "Sou frequentemente chamada de grande dama do teatro brasileiro."
+      ]
+    },
+    {
+      "id": "akira-kurosawa",
+      "categoria": "diretores",
+      "resposta": "Akira Kurosawa",
+      "dicas": [
+        "Meus filmes influenciaram cineastas de diferentes países e gerações.",
+        "Nasci em Tóquio em 1910.",
+        "Antes de dirigir filmes, estudei pintura e tive interesse pelas artes visuais.",
+        "Adaptei obras literárias e combinei referências japonesas e ocidentais.",
+        "Trabalhei repetidamente com o ator Toshiro Mifune.",
+        "Um dos meus filmes de 1950 explora versões contraditórias de um mesmo acontecimento.",
+        "Dirigi uma história sobre guerreiros contratados para defender uma aldeia.",
+        "Meu filme Rashomon ganhou o Leão de Ouro no Festival de Veneza.",
+        "Dirigi Os Sete Samurais, lançado em 1954.",
+        "Também dirigi Ran, uma releitura de Rei Lear ambientada no Japão feudal."
+      ]
+    },
+    {
+      "id": "mocambique",
+      "categoria": "paises",
+      "resposta": "Moçambique",
+      "dicas": [
+        "Meu território reúne planaltos, extensas áreas costeiras e grandes bacias hidrográficas.",
+        "Estou localizado no hemisfério sul.",
+        "Tenho fronteiras terrestres com seis países.",
+        "O rio Zambeze atravessa parte importante do meu território.",
+        "Minha história moderna foi marcada pela colonização portuguesa.",
+        "Conquistei a independência em 1975.",
+        "O português é minha língua oficial.",
+        "Tenho litoral voltado para o oceano Índico.",
+        "Minha capital é Maputo.",
+        "Meu nome começa com M e termina com a sílaba 'que'."
+      ]
+    },
+    {
+      "id": "machado-de-assis",
+      "categoria": "escritores",
+      "resposta": "Machado de Assis",
+      "dicas": [
+        "Meu trabalho inclui romances, contos, crônicas e crítica literária.",
+        "Nasci no Rio de Janeiro durante o período imperial brasileiro.",
+        "Trabalhei como funcionário público e participei intensamente da vida literária da capital.",
+        "Sou considerado um dos principais nomes do realismo brasileiro.",
+        "Fui um dos fundadores da Academia Brasileira de Letras.",
+        "Tornei-me o primeiro presidente da Academia Brasileira de Letras.",
+        "Escrevi o conto O Alienista.",
+        "Um dos meus narradores conta sua própria história depois de morto.",
+        "Publiquei Memórias Póstumas de Brás Cubas em livro em 1881.",
+        "Também sou autor de Dom Casmurro e Quincas Borba."
+      ]
+    },
+    {
+      "id": "clarice-lispector",
+      "categoria": "escritoras",
+      "resposta": "Clarice Lispector",
+      "dicas": [
+        "Minha prosa costuma acompanhar movimentos de pensamento e experiências interiores das personagens.",
+        "Nasci em 1920, em uma região que hoje pertence à Ucrânia.",
+        "Cheguei ainda bebê ao Brasil com minha família.",
+        "Passei parte da infância em Recife e depois vivi no Rio de Janeiro.",
+        "Meu primeiro romance foi publicado em 1943.",
+        "Escrevi romances, contos, crônicas e também livros para crianças.",
+        "Sou autora de A Paixão Segundo G.H.",
+        "Em um de meus romances, uma jovem nordestina se chama Macabéa.",
+        "Publiquei A Hora da Estrela em 1977, ano da minha morte.",
+        "Meu romance de estreia se intitula Perto do Coração Selvagem."
+      ]
+    },
+    {
+      "id": "pancreas",
+      "categoria": "orgaos",
+      "resposta": "Pâncreas",
+      "dicas": [
+        "Tenho funções ligadas à digestão e à regulação de substâncias no sangue.",
+        "Sou uma glândula alongada localizada na parte superior do abdômen.",
+        "Fico, em grande parte, atrás do estômago.",
+        "Possuo uma parte exócrina e outra endócrina.",
+        "Minha secreção digestiva chega ao intestino delgado por ductos.",
+        "Produzo enzimas que ajudam a digerir proteínas, gorduras e carboidratos.",
+        "Minhas ilhotas endócrinas incluem células alfa e beta.",
+        "Produzo o hormônio glucagon.",
+        "Também produzo insulina, importante para regular a glicose no sangue.",
+        "Meu funcionamento está diretamente ligado ao diabetes mellitus."
+      ]
+    }
+  ]
+}
