@@ -17,6 +17,7 @@
         <span class="brand-name">perfil<span class="brand-dot">.</span></span>
       </a>
       <div class="topbar-right">
+        <button class="topbar-lobby-button" type="button" id="backToLobbyButton" hidden>← Lobby</button>
         <span class="edition">O JOGO DAS DEZ DICAS <span aria-hidden="true">/</span> EDIÇÃO 01</span>
         <button class="icon-button" id="helpButton" type="button" aria-label="Como jogar" title="Como jogar">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.7 2.7 0 1 1 4.4 2.1c-1 .8-1.9 1.3-1.9 2.9"/><path d="M12 17.3h.01"/></svg>
@@ -32,7 +33,52 @@
       <p>Uma resposta. Dez pistas.<br>Uma descoberta a cada toque.</p>
     </div>
 
-    <main class="workspace">
+
+    <section id="lobbyScreen" class="lobby-screen" aria-labelledby="lobbyTitle">
+      <div class="lobby-main">
+        <span class="overline"><span class="overline-line"></span> ANTES DE COMEÇAR</span>
+        <div class="lobby-headline">
+          <div><span class="eyebrow muted">01 / PREPARE A MESA</span><h2 id="lobbyTitle">Quem vai <em>jogar?</em></h2></div>
+          <span class="lobby-cap">ATÉ 06<br>JOGADORES</span>
+        </div>
+        <p class="lobby-lead">Reúna os participantes, adicione os nomes e dispute uma partida até 100 pontos. Um jogador lê; os demais tentam descobrir o perfil.</p>
+        <form id="lobbyForm" novalidate>
+          <div class="lobby-section-heading"><h3>Participantes</h3><span id="playerCount" aria-live="polite">2 / 6</span></div>
+          <div id="playerFields" class="player-fields"></div>
+          <button id="addPlayerButton" type="button" class="add-player-button"><span aria-hidden="true">＋</span> Adicionar jogador</button>
+          <div class="lobby-divider"></div>
+          <label class="lobby-select-label" for="lobbyCategory">Tema da partida</label>
+          <select id="lobbyCategory" class="lobby-select"><option value="todos">Todos os temas</option></select>
+          <p class="lobby-field-note">O tema escolhido permanece durante esta partida. As cartas serão embaralhadas e poderão reaparecer após um ciclo completo.</p>
+          <p id="lobbyFeedback" class="lobby-feedback" role="alert" aria-live="assertive"></p>
+          <button type="submit" id="startMatchButton" class="start-match-button" disabled><span>Começar partida</span><span aria-hidden="true">↗</span></button>
+        </form>
+        <button type="button" id="soloButton" class="solo-button">Explorar cartas sem pontuação <span aria-hidden="true">→</span></button>
+      </div>
+      <aside class="lobby-rules" aria-labelledby="lobbyRulesTitle">
+        <div class="rules-asterisk" aria-hidden="true">✳</div>
+        <span class="eyebrow">02 / AS REGRAS</span>
+        <h3 id="lobbyRulesTitle">Menos dicas.<br><em>Mais pontos.</em></h3>
+        <p>O leitor da rodada vê a resposta e revela as pistas uma a uma. Quem acertar primeiro recebe os pontos correspondentes. O leitor não pontua nessa rodada.</p>
+        <div class="rules-math" aria-label="Primeira dica vale 10 pontos, décima dica vale 1 ponto">
+          <div><span>01 dica</span><strong>10 <small>pts</small></strong></div>
+          <div><span>05 dicas</span><strong>06 <small>pts</small></strong></div>
+          <div><span>10 dicas</span><strong>01 <small>pt</small></strong></div>
+        </div>
+        <div class="rules-target"><span class="target-icon" aria-hidden="true">◎</span><div><span>OBJETIVO DA PARTIDA</span><strong>100 pontos</strong><small>O primeiro a chegar vence.</small></div></div>
+      </aside>
+    </section>
+
+    <section id="matchDashboard" class="match-dashboard" aria-label="Placar da partida" hidden>
+      <div class="round-banner">
+        <div><span class="eyebrow">RODADA <strong id="roundNumber">01</strong></span><h2>É a vez de <span id="readerName">—</span><span class="period">.</span></h2><p>O leitor apresenta as dicas. Os outros jogadores disputam os pontos.</p></div>
+        <div class="target-counter"><strong>100</strong><span>PONTOS PARA VENCER</span></div>
+      </div>
+      <div class="scoreboard-top"><span class="eyebrow muted">PLACAR AO VIVO</span><span>Os pontos se acumulam a cada rodada</span></div>
+      <div class="scoreboard" id="scoreboard" role="list" aria-live="polite"></div>
+    </section>
+
+    <main class="workspace" id="workspace" hidden>
       <aside class="sidebar" aria-labelledby="themesTitle">
         <div class="sidebar-header">
           <span class="eyebrow muted">01 &nbsp; / &nbsp; SELECIONE</span>
@@ -90,6 +136,12 @@
               <svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11a9 9 0 1 1 3 7"/><path d="M3 4v7h7"/></svg>
             </button>
           </div>
+          <section id="awardPanel" class="award-panel" aria-labelledby="awardTitle" hidden>
+            <div class="award-panel-top"><div><span class="eyebrow muted">REGISTRE A RESPOSTA</span><h3 id="awardTitle">Quem acertou?</h3></div><span id="roundPoints" class="round-points">+10 PTS</span></div>
+            <p id="awardSubtitle">Selecione quem respondeu corretamente. O leitor não pode pontuar.</p>
+            <div id="awardChoices" class="award-choices"></div>
+            <button id="noCorrectButton" class="no-correct-button" type="button">Ninguém acertou esta carta <span aria-hidden="true">→</span></button>
+          </section>
           <div class="clue-history" id="historySection" hidden>
             <div class="history-heading"><span>DICAS ANTERIORES</span><span id="historyCount">0</span></div>
             <ol id="historyList"></ol>
@@ -118,10 +170,21 @@
   <dialog id="helpDialog" class="help-dialog" aria-labelledby="dialogTitle">
     <div class="dialog-header"><span class="eyebrow muted">MANUAL RÁPIDO</span><button type="button" id="closeHelp" class="icon-button" aria-label="Fechar instruções">×</button></div>
     <h2 id="dialogTitle">Como jogar<span class="period">.</span></h2>
-    <p>Escolha uma categoria e acompanhe uma carta. A resposta aparece de início, como numa coleção de conhecimentos.</p>
-    <p>Toque em <strong>Revelar dica</strong> para abrir as pistas, uma por vez, até a décima. As dicas anteriores ficam disponíveis para consulta.</p>
-    <p>Quer um desafio? Use <strong>Ocultar resposta</strong> e tente descobrir quem ou o que é descrito antes da última pista. A opção <strong>Próxima carta</strong> inicia outra rodada.</p>
+    <p>No lobby, adicione de <strong>2 a 6 jogadores</strong> e escolha o tema. O primeiro participante será o leitor. A cada nova rodada, a função passa para o próximo da lista.</p><p>O leitor vê a resposta e revela as dicas uma por vez. Quem acertar recebe <strong>11 menos o número de dicas reveladas</strong>: 10 pontos na primeira dica, 9 na segunda e assim até 1 ponto na décima. O leitor não pode receber pontos.</p><p>Depois de um acerto, selecione o jogador correspondente ou marque <strong>Ninguém acertou</strong> para encerrar a rodada sem pontos. O primeiro participante com pelo menos <strong>100 pontos</strong> vence. Também é possível explorar o acervo individualmente, sem pontuação.</p>
     <button class="primary-button dialog-okay" id="dialogOkay" type="button">Entendi <span aria-hidden="true">↗</span></button>
+  </dialog>
+  <dialog id="winnerDialog" class="winner-dialog" aria-labelledby="winnerTitle" aria-modal="true">
+    <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+    <div class="winner-content">
+      <div class="winner-medal" aria-hidden="true">✳</div>
+      <span class="winner-overline">PARTIDA ENCERRADA · 100 PONTOS</span>
+      <h2 id="winnerTitle">Temos um<br><em>campeão!</em></h2>
+      <p class="winner-label">A vitória é de</p>
+      <p id="winnerName" class="winner-name">—</p>
+      <p class="winner-score"><strong id="winnerScore">100</strong> PONTOS</p>
+      <div class="winner-standings" id="winnerStandings"></div>
+      <div class="winner-actions"><button id="newMatchButton" type="button" class="start-match-button">Revanche <span aria-hidden="true">↗</span></button><button id="winnerLobbyButton" type="button" class="winner-secondary-button">Alterar jogadores</button></div>
+    </div>
   </dialog>
 </body>
 </html>
