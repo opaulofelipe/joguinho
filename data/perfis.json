@@ -1343,6 +1343,397 @@
         "Interpretei Eunice Paiva no filme Ainda Estou Aqui.",
         "Sou Fernanda Torres."
       ]
+    },
+    {
+      "id": "alfred-hitchcock",
+      "categoria": "diretores",
+      "resposta": "Alfred Hitchcock",
+      "dicas": [
+        "Nasci em Londres em 1899.",
+        "Comecei no cinema durante a era dos filmes mudos.",
+        "Costumava aparecer rapidamente em meus próprios filmes.",
+        "Meu trabalho explorou suspense, voyeurismo e culpa.",
+        "Dirigi Janela Indiscreta.",
+        "Realizei Um Corpo que Cai, de 1958.",
+        "Dirigi Intriga Internacional com Cary Grant.",
+        "Uma célebre sequência em meu cinema acontece em um chuveiro.",
+        "Esse filme de 1960 chama-se Psicose.",
+        "Sou Alfred Hitchcock."
+      ]
+    },
+    {
+      "id": "stanley-kubrick",
+      "categoria": "diretores",
+      "resposta": "Stanley Kubrick",
+      "dicas": [
+        "Nasci em Nova York em 1928.",
+        "Trabalhei como fotógrafo antes de dirigir longas-metragens.",
+        "Tornei-me conhecido pelo controle visual de minhas produções.",
+        "Dirigi Glória Feita de Sangue.",
+        "Fui responsável pelo épico Spartacus.",
+        "Realizei Dr. Fantástico, sátira sobre guerra nuclear.",
+        "Dirigi 2001: Uma Odisseia no Espaço.",
+        "Adaptei Laranja Mecânica para o cinema.",
+        "Dirigi O Iluminado, baseado em Stephen King.",
+        "Sou Stanley Kubrick."
+      ]
+    },
+    {
+      "id": "steven-spielberg",
+      "categoria": "diretores",
+      "resposta": "Steven Spielberg",
+      "dicas": [
+        "Nasci em Ohio em 1946.",
+        "Minha carreira envolve aventuras populares e dramas históricos.",
+        "Dirigi um suspense sobre um caminhão que persegue um motorista.",
+        "Fiz um filme de sucesso sobre um tubarão em 1975.",
+        "Dirigi Contatos Imediatos do Terceiro Grau.",
+        "Meu personagem arqueólogo mais famoso se chama Indiana Jones.",
+        "Fui diretor de E.T. – O Extraterrestre.",
+        "Realizei A Lista de Schindler e O Resgate do Soldado Ryan.",
+        "Também dirigi Jurassic Park: Parque dos Dinossauros.",
+        "Sou Steven Spielberg."
+      ]
+    },
+    {
+      "id": "martin-scorsese",
+      "categoria": "diretores",
+      "resposta": "Martin Scorsese",
+      "dicas": [
+        "Nasci em Nova York em 1942.",
+        "Trabalhei frequentemente com os atores Robert De Niro e Leonardo DiCaprio.",
+        "Minha filmografia explora culpa, crime, religião e identidade.",
+        "Dirigi Caminhos Perigosos em 1973.",
+        "Realizei Taxi Driver em 1976.",
+        "Dirigi Touro Indomável.",
+        "Fiz Os Bons Companheiros, filme de 1990.",
+        "Ganhei o Oscar de direção por Os Infiltrados.",
+        "Dirigi Assassinos da Lua das Flores.",
+        "Sou Martin Scorsese."
+      ]
+    },
+    {
+      "id": "francis-coppola",
+      "categoria": "diretores",
+      "resposta": "Francis Ford Coppola",
+      "dicas": [
+        "Nasci em Detroit em 1939.",
+        "Minha carreira alcançou grande projeção nos anos 1970.",
+        "Dirigi A Conversação, suspense sobre vigilância.",
+        "Fui um dos expoentes da chamada Nova Hollywood.",
+        "Realizei um drama de guerra ambientado no Vietnã.",
+        "Esse filme de guerra é Apocalypse Now.",
+        "Fui responsável pelo primeiro filme de uma trilogia sobre uma família mafiosa.",
+        "Essa trilogia se chama O Poderoso Chefão.",
+        "Sou pai da diretora Sofia Coppola.",
+        "Sou Francis Ford Coppola."
+      ]
+    },
+    {
+      "id": "quentin-tarantino",
+      "categoria": "diretores",
+      "resposta": "Quentin Tarantino",
+      "dicas": [
+        "Nasci em Knoxville, Tennessee, em 1963.",
+        "Meus filmes costumam utilizar referências ao cinema de gênero.",
+        "Trabalhei numa locadora antes de alcançar fama como cineasta.",
+        "Estreei como diretor de longa com Cães de Aluguel.",
+        "Ganhei destaque mundial com Pulp Fiction.",
+        "Dirigi Kill Bill em duas partes.",
+        "Realizei Bastardos Inglórios.",
+        "Dirigi Django Livre e Os Oito Odiados.",
+        "Meu filme Era Uma Vez em... Hollywood foi lançado em 2019.",
+        "Sou Quentin Tarantino."
+      ]
+    },
+    {
+      "id": "christopher-nolan",
+      "categoria": "diretores",
+      "resposta": "Christopher Nolan",
+      "dicas": [
+        "Nasci em Londres em 1970.",
+        "Sou conhecido por histórias com estruturas temporais complexas.",
+        "Dirigi Amnésia, filme que explora a perda de memória recente.",
+        "Realizei O Grande Truque, sobre dois ilusionistas rivais.",
+        "Fui diretor da trilogia Batman iniciada com Batman Begins.",
+        "Dirigi A Origem, ambientado em sonhos compartilhados.",
+        "Realizei Interestelar, de 2014.",
+        "Dirigi Dunkirk, sobre uma evacuação militar na Segunda Guerra.",
+        "Ganhei Oscar de direção por Oppenheimer.",
+        "Sou Christopher Nolan."
+      ]
+    },
+    {
+      "id": "denis-villeneuve",
+      "categoria": "diretores",
+      "resposta": "Denis Villeneuve",
+      "dicas": [
+        "Nasci em Quebec, no Canadá, em 1967.",
+        "Meus filmes transitam entre dramas e ficção científica.",
+        "Dirigi Incêndios, drama de 2010.",
+        "Realizei Os Suspeitos com Hugh Jackman e Jake Gyllenhaal.",
+        "Dirigi Sicario: Terra de Ninguém.",
+        "Fui diretor de A Chegada, sobre comunicação com extraterrestres.",
+        "Dirigi Blade Runner 2049.",
+        "Adaptei para o cinema um romance de Frank Herbert.",
+        "Dirigi Duna e Duna: Parte Dois.",
+        "Sou Denis Villeneuve."
+      ]
+    },
+    {
+      "id": "bong-joon-ho",
+      "categoria": "diretores",
+      "resposta": "Bong Joon-ho",
+      "dicas": [
+        "Nasci em Daegu, na Coreia do Sul.",
+        "Minha filmografia combina suspense e crítica social.",
+        "Dirigi Memórias de um Assassino, inspirado em crimes reais.",
+        "Realizei O Hospedeiro, filme de criatura lançado em 2006.",
+        "Dirigi Expresso do Amanhã.",
+        "Realizei Okja, sobre uma criatura criada pela indústria alimentícia.",
+        "Meu filme de 2019 aborda desigualdade entre duas famílias.",
+        "Esse filme é Parasita.",
+        "Parasita ganhou o Oscar de melhor filme e de direção.",
+        "Sou Bong Joon-ho."
+      ]
+    },
+    {
+      "id": "park-chan-wook",
+      "categoria": "diretores",
+      "resposta": "Park Chan-wook",
+      "dicas": [
+        "Nasci em Seul em 1963.",
+        "Meus filmes frequentemente apresentam dilemas morais e vingança.",
+        "Dirigi Zona de Risco, de 2000.",
+        "Realizei uma trilogia informal sobre vingança.",
+        "O segundo filme dessa trilogia é Oldboy.",
+        "Ganhei o Grande Prêmio do Júri em Cannes por Oldboy.",
+        "Dirigi Sede de Sangue, filme sobre vampirismo.",
+        "Realizei A Criada, ambientado na Coreia sob domínio japonês.",
+        "Dirigi Decisão de Partir, de 2022.",
+        "Sou Park Chan-wook."
+      ]
+    },
+    {
+      "id": "wong-kar-wai",
+      "categoria": "diretores",
+      "resposta": "Wong Kar-wai",
+      "dicas": [
+        "Nasci em Xangai em 1958 e cresci em Hong Kong.",
+        "Meus filmes costumam explorar desejo, tempo e desencontros.",
+        "Trabalhei com o diretor de fotografia Christopher Doyle.",
+        "Dirigi Dias Selvagens.",
+        "Realizei Amores Expressos.",
+        "Fui diretor de Anjos Caídos.",
+        "Dirigi Felizes Juntos, ambientado em parte na Argentina.",
+        "Meu filme de 2000 reúne Maggie Cheung e Tony Leung.",
+        "Esse filme chama-se Amor à Flor da Pele.",
+        "Sou Wong Kar-wai."
+      ]
+    },
+    {
+      "id": "yasujiro-ozu",
+      "categoria": "diretores",
+      "resposta": "Yasujirō Ozu",
+      "dicas": [
+        "Nasci no Japão em 1903.",
+        "Minha obra retrata sobretudo relações familiares e mudanças sociais.",
+        "Utilizava frequentemente a câmera em posição baixa.",
+        "Dirigi Eu Nasci, Mas..., filme de 1932.",
+        "Realizei Primavera Tardia, de 1949.",
+        "Colaborei muitas vezes com o ator Chishū Ryū.",
+        "Dirigi uma história sobre pais idosos que visitam os filhos em Tóquio.",
+        "Esse filme de 1953 é Era uma Vez em Tóquio.",
+        "Minha filmografia é importante no cinema japonês do pós-guerra.",
+        "Sou Yasujirō Ozu."
+      ]
+    },
+    {
+      "id": "hayao-miyazaki",
+      "categoria": "diretores",
+      "resposta": "Hayao Miyazaki",
+      "dicas": [
+        "Nasci em Tóquio em 1941.",
+        "Minha carreira se destaca na animação japonesa.",
+        "Cofundei um estúdio de animação em 1985.",
+        "Esse estúdio é o Studio Ghibli.",
+        "Dirigi Meu Amigo Totoro.",
+        "Realizei Princesa Mononoke.",
+        "Criei a história cinematográfica de uma menina em um mundo de espíritos.",
+        "Esse filme é A Viagem de Chihiro.",
+        "Também dirigi O Castelo Animado e O Menino e a Garça.",
+        "Sou Hayao Miyazaki."
+      ]
+    },
+    {
+      "id": "satyajit-ray",
+      "categoria": "diretores",
+      "resposta": "Satyajit Ray",
+      "dicas": [
+        "Nasci em Calcutá em 1921.",
+        "Minha carreira reuniu cinema, escrita e composição musical.",
+        "Fui influenciado pelo neorrealismo italiano.",
+        "Dirigi um filme sobre a infância de um menino numa aldeia de Bengala.",
+        "Esse filme se chama A Canção da Estrada.",
+        "Minha trilogia mais famosa acompanha o personagem Apu.",
+        "Também dirigi O Invencível e O Mundo de Apu.",
+        "Realizei A Sala de Música.",
+        "Recebi um Oscar honorário em 1992.",
+        "Sou Satyajit Ray."
+      ]
+    },
+    {
+      "id": "abbas-kiarostami",
+      "categoria": "diretores",
+      "resposta": "Abbas Kiarostami",
+      "dicas": [
+        "Nasci em Teerã em 1940.",
+        "Minha carreira combinou documentário e ficção.",
+        "Usei frequentemente locações reais e atores não profissionais.",
+        "Dirigi Onde Fica a Casa do Meu Amigo?.",
+        "Realizei E a Vida Continua..., lançado em 1992.",
+        "Fui o diretor de Através das Oliveiras.",
+        "Meu filme Gosto de Cereja ganhou a Palma de Ouro em 1997.",
+        "Também dirigi O Vento Nos Levará.",
+        "Realizei Cópia Fiel com Juliette Binoche.",
+        "Sou Abbas Kiarostami."
+      ]
+    },
+    {
+      "id": "agnes-varda",
+      "categoria": "diretores",
+      "resposta": "Agnès Varda",
+      "dicas": [
+        "Nasci em Bruxelas em 1928.",
+        "Minha obra passa pela fotografia, documentário e ficção.",
+        "Sou associada à Nouvelle Vague francesa.",
+        "Dirigi La Pointe Courte em 1955.",
+        "Realizei Cléo das 5 às 7.",
+        "Dirigi Sem Teto Nem Lei.",
+        "Meu documentário Os Catadores e Eu aborda pessoas e reaproveitamento.",
+        "Fiz o documentário Visages, Villages com o artista JR.",
+        "Recebi um Oscar honorário em 2017.",
+        "Sou Agnès Varda."
+      ]
+    },
+    {
+      "id": "chantal-akerman",
+      "categoria": "diretores",
+      "resposta": "Chantal Akerman",
+      "dicas": [
+        "Nasci em Bruxelas em 1950.",
+        "Minha obra explora duração, rotinas e espaço doméstico.",
+        "Trabalhei em cinema experimental e instalações.",
+        "Dirigi Eu, Tu, Ele, Ela.",
+        "Fiz um filme de 1975 ambientado principalmente no apartamento de uma viúva.",
+        "Esse filme acompanha tarefas domésticas repetitivas de uma mulher.",
+        "A personagem principal desse filme se chama Jeanne Dielman.",
+        "O título completo inclui 23, quai du Commerce, 1080 Bruxelles.",
+        "Meu filme Jeanne Dielman ganhou grande destaque em pesquisas críticas de cinema.",
+        "Sou Chantal Akerman."
+      ]
+    },
+    {
+      "id": "greta-gerwig",
+      "categoria": "diretores",
+      "resposta": "Greta Gerwig",
+      "dicas": [
+        "Nasci na Califórnia em 1983.",
+        "Comecei a ganhar destaque em filmes independentes norte-americanos.",
+        "Atuei em Frances Ha, de Noah Baumbach.",
+        "Sou também roteirista e atriz.",
+        "Dirigi o filme de formação Lady Bird.",
+        "Adaptei o romance Adoráveis Mulheres em 2019.",
+        "Trabalhei com Saoirse Ronan em Lady Bird e Adoráveis Mulheres.",
+        "Dirigi uma comédia fantástica sobre uma boneca lançada em 2023.",
+        "Esse filme de grande sucesso se chama Barbie.",
+        "Sou Greta Gerwig."
+      ]
+    },
+    {
+      "id": "sofia-coppola",
+      "categoria": "diretores",
+      "resposta": "Sofia Coppola",
+      "dicas": [
+        "Nasci em Nova York em 1971.",
+        "Sou filha de um diretor importante da Nova Hollywood.",
+        "Minha estreia na direção de longa foi As Virgens Suicidas.",
+        "Dirigi Encontros e Desencontros, ambientado no Japão.",
+        "Ganhei Oscar de roteiro original por Encontros e Desencontros.",
+        "Realizei Maria Antonieta, com Kirsten Dunst.",
+        "Dirigi Um Lugar Qualquer, vencedor do Leão de Ouro em Veneza.",
+        "Realizei O Estranho que Nós Amamos, de 2017.",
+        "Meu pai dirigiu O Poderoso Chefão.",
+        "Sou Sofia Coppola."
+      ]
+    },
+    {
+      "id": "kathryn-bigelow",
+      "categoria": "diretores",
+      "resposta": "Kathryn Bigelow",
+      "dicas": [
+        "Nasci na Califórnia em 1951.",
+        "Meus filmes exploram violência, tensão e estruturas de poder.",
+        "Dirigi Quando Chega a Escuridão, de 1987.",
+        "Realizei Caçadores de Emoção, sobre surfistas e assaltos.",
+        "Dirigi Estranhos Prazeres, filme de ficção científica.",
+        "Fui diretora do drama militar Guerra ao Terror.",
+        "Ganhei o Oscar de direção por Guerra ao Terror.",
+        "Tornei-me a primeira mulher a conquistar o Oscar de melhor direção.",
+        "Também dirigi A Hora Mais Escura, sobre a busca por Osama bin Laden.",
+        "Sou Kathryn Bigelow."
+      ]
+    },
+    {
+      "id": "walter-salles",
+      "categoria": "diretores",
+      "resposta": "Walter Salles",
+      "dicas": [
+        "Nasci no Rio de Janeiro em 1956.",
+        "Meu trabalho envolve documentários e dramas de viagem.",
+        "Dirigi Terra Estrangeira ao lado de Daniela Thomas.",
+        "Realizei um filme sobre uma mulher que escreve cartas para pessoas analfabetas.",
+        "Esse filme é Central do Brasil.",
+        "Dirigi Diários de Motocicleta, sobre a juventude de Che Guevara.",
+        "Adaptei Na Estrada, romance de Jack Kerouac.",
+        "Sou o diretor de Abril Despedaçado.",
+        "Dirigi Ainda Estou Aqui, baseado no livro de Marcelo Rubens Paiva.",
+        "Sou Walter Salles."
+      ]
+    },
+    {
+      "id": "glauber-rocha",
+      "categoria": "diretores",
+      "resposta": "Glauber Rocha",
+      "dicas": [
+        "Nasci na Bahia em 1939.",
+        "Fui uma figura central do Cinema Novo brasileiro.",
+        "Minha obra discutiu colonialismo, miséria, religião e poder.",
+        "Defendi a chamada estética da fome em um manifesto.",
+        "Dirigi Barravento.",
+        "Realizei Deus e o Diabo na Terra do Sol.",
+        "Fui diretor de Terra em Transe.",
+        "Dirigi O Dragão da Maldade contra o Santo Guerreiro.",
+        "Participei de debates fundamentais sobre cinema e política na década de 1960.",
+        "Sou Glauber Rocha."
+      ]
+    },
+    {
+      "id": "pedro-almodovar",
+      "categoria": "diretores",
+      "resposta": "Pedro Almodóvar",
+      "dicas": [
+        "Nasci na região espanhola de Castilla-La Mancha em 1949.",
+        "Minha carreira ganhou projeção após a transição democrática espanhola.",
+        "Meus filmes exploram identidade, família e melodrama.",
+        "Dirigi Mulheres à Beira de um Ataque de Nervos.",
+        "Realizei Carne Trêmula e Tudo Sobre Minha Mãe.",
+        "Ganhei Oscar de filme internacional por Tudo Sobre Minha Mãe.",
+        "Dirigi Fale com Ela, que venceu o Oscar de roteiro original.",
+        "Trabalhei diversas vezes com Penélope Cruz.",
+        "Também dirigi Dor e Glória e Mães Paralelas.",
+        "Sou Pedro Almodóvar."
+      ]
     }
   ]
 }
