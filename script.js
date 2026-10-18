@@ -455,22 +455,28 @@
     el.awardPanel.hidden = !active;
     if (!active) return;
     const points = 11 - state.count;
+    const readerPoints = state.count;
     el.awardChoices.replaceChildren();
     el.roundPoints.textContent = state.roundResolved
-      ? (state.lastResult?.points ? '+'+state.lastResult.points+' PTS' : '0 PTS')
-      : '+'+points+' PTS';
+      ? (state.lastResult?.name
+          ? 'ACERTO +' + state.lastResult.points + ' · LEITOR +' + state.lastResult.readerPoints
+          : 'LEITOR +10 PTS')
+      : 'ACERTO +' + points + ' · LEITOR +' + readerPoints;
     el.awardTitle.textContent = state.roundResolved ? 'Rodada concluída.' : 'Quem acertou?';
     el.awardSubtitle.textContent = state.roundResolved
       ? 'Resultado registrado. Toque em Próxima rodada para continuar.'
-      : 'Toque no jogador que acertou. O leitor não pode receber pontos.';
+      : 'Quem acertou ganha ' + points + ' ponto' + (points === 1 ? '' : 's') +
+        '; o leitor ganha ' + readerPoints + '. Se ninguém acertou, o leitor ganha 10 pontos.';
     el.noCorrectButton.hidden = state.roundResolved;
     if (state.roundResolved) {
       const notice = document.createElement('div');
       notice.className = 'award-result';
       notice.setAttribute('role','status');
       notice.textContent = state.lastResult?.name
-        ? state.lastResult.name+' acertou e conquistou '+state.lastResult.points+' ponto'+(state.lastResult.points === 1 ? '.' : 's.')
-        : 'Ninguém acertou. Nenhum ponto foi concedido nesta rodada.';
+        ? state.lastResult.name + ' acertou: +' + state.lastResult.points +
+          ' ponto(s). Leitor ' + state.lastResult.readerName + ': +' +
+          state.lastResult.readerPoints + ' ponto(s).'
+        : 'Ninguém acertou. Leitor ' + state.lastResult.readerName + ': +10 pontos.';
       el.awardChoices.append(notice);
       return;
     }
@@ -495,11 +501,23 @@
     const reader = getReader();
     const scorer = state.match.players.find(p=>p.id===playerId);
     if (playerId !== null && (!scorer || scorer.id === reader.id)) return;
+    // Acerto: total de 11 pontos dividido entre acertador e leitor.
+    // Sem acerto: os 10 pontos são exclusivamente do leitor.
     const points = scorer ? 11 - state.count : 0;
+    const readerPoints = scorer ? state.count : 10;
     if (scorer) scorer.points += points;
+    reader.points += readerPoints;
     state.roundResolved = true;
-    state.lastResult = {name:scorer?.name || null,points};
-    if (scorer && scorer.points >= 100) state.winnerId = scorer.id;
+    state.lastResult = {
+      name: scorer?.name || null, points,
+      readerName: reader.name, readerPoints
+    };
+    // Se os dois cruzarem 100 na mesma rodada, vence a maior pontuação.
+    // Um empate no total favorece quem acertou a resposta.
+    const finishers = [scorer, reader]
+      .filter(player => player && player.points >= 100)
+      .sort((a, b) => b.points - a.points || (a === scorer ? -1 : 1));
+    state.winnerId = finishers[0]?.id || null;
     renderScoreboard();
     renderClues();
     renderCard();
