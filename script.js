@@ -367,7 +367,8 @@
     // Índices de cartas permanecem estáveis mesmo com novas versões do JSON.
     const byId = new Map(state.data.perfis.map(profile => [profile.id, profile]));
     const category = saved.category === 'todos' ||
-      state.data.categorias.some(c => c.id === saved.category && byId.size)
+      state.data.categorias.some(c => c.id === saved.category &&
+        state.data.perfis.some(p => p.categoria === c.id))
       ? saved.category : 'todos';
     state.mode = 'match';
     state.match = {
@@ -382,7 +383,8 @@
       .map(id => byId.get(id))
       .filter(p => p && (category === 'todos' || p.categoria === category));
     state.count = saved.count;
-    state.answerVisible = saved.answerVisible === true;
+    // Mesmo após uma atualização, a resposta só aparece após novo toque explícito.
+    state.answerVisible = false;
     state.roundResolved = saved.roundResolved;
     state.lastResult = saved.roundResolved ? saved.lastResult : null;
     state.winnerId = null;
