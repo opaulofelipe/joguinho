@@ -96,7 +96,7 @@ O arquivo `data/perfis.json` continua sendo a única fonte de cartas e dicas. Pa
 
 - A partida multijogador é salva no **localStorage** do navegador, na chave `perfil.joguinho.partida.v1`. Isso permite **continuar após recarregar a página ou publicar alterações no site**, desde que continue sendo acessado no mesmo navegador e domínio.
 - O estado guardado inclui nomes e pontuações, jogador leitor, rodada, categoria, ID da carta atual, fila de próximas cartas, quantidade de dicas já abertas, resultado da rodada (quando registrado) e se a resposta estava visível.
-- Cada nova rodada começa **com a resposta oculta**. Somente ao tocar em **Revelar resposta** o leitor visualiza a resposta. Se atualizar a página durante a rodada, também será restaurada a visibilidade atual da resposta, sem exibi-la automaticamente.
+- Cada nova rodada começa **com a resposta oculta**. Somente ao tocar em **Revelar resposta** o leitor visualiza a resposta. Se atualizar a página durante a rodada, a carta e as dicas são recuperadas, mas **a resposta volta a ficar oculta** para evitar revelação acidental: é necessário tocar em **Revelar resposta** novamente.
 - As alterações são salvas a cada dica, cada alternância de visibilidade da resposta, cada registro de resultado e cada avanço de rodada. A partida **não termina ao atualizar a página**. A única forma de encerrá-la antes dos 100 pontos é o botão **Reiniciar partida**, com confirmação.
 - Quando alguém chega a **100 pontos ou mais**, o registro salvo é apagado e a animação de vitória é exibida.
 - Se uma atualização do arquivo JSON remover a carta que estava aberta, o jogo mantém o placar e inicia outra carta.
