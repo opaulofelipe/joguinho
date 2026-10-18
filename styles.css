@@ -316,3 +316,9 @@ button:focus-visible, a:focus-visible, input:focus-visible, label.file-picker:fo
 @media (max-width: 760px) { .lobby-screen { grid-template-columns: minmax(0,1fr); gap: 12px; } .lobby-rules { min-height: auto; } .rules-asterisk { font-size: 41px; margin-bottom: 16px; } .lobby-rules h3 { font-size: 2.7rem; } .rules-math > div { min-height: 60px; } .rules-target { transform: none; margin-top: 19px; } .match-dashboard { margin-bottom: 13px; padding: 20px 16px; } .scoreboard { grid-template-columns: repeat(2,minmax(0,1fr)); } .round-banner h2 { font-size: 1.85rem; } }
 @media (max-width: 480px) { .lobby-main { padding: 22px 19px; } .lobby-headline h2 { font-size: 2.75rem; } .lobby-cap { font-size: 8px; padding: 10px; } .lobby-lead { margin-bottom: 23px; font-size: 13px; } .round-banner { align-items: flex-start; } .target-counter { padding: 10px 11px; } .target-counter strong { font-size: 26px; } .target-counter span { font-size: 7px; max-width: 57px; text-align: center; } .scoreboard-top > span:last-child { display: none; } .score-player { padding: 11px; } .score-player-top { gap: 7px; } .score-avatar { width: 28px; height: 28px; flex-basis: 28px; } .score-reader-tag { display: none; } .award-choices { grid-template-columns: 1fr; } .winner-actions { grid-template-columns: 1fr; } .winner-content { padding: 29px 20px; } .topbar-lobby-button { padding: 8px 12px; } .topbar-right { gap: 7px; } }
 @media (prefers-reduced-motion: reduce) { .confetti-piece, .winner-medal { animation: none !important; } .confetti-piece { display: none; } }
+
+/* Pontuação compartilhada na rodada: permite rótulos claros em telas estreitas. */
+.award-panel-top { flex-wrap: wrap; }
+.round-points { white-space: normal; line-height: 1.4; text-align: center; }
+.rules-math strong { font-size: clamp(20px, 2.15vw, 30px); white-space: nowrap; }
+@media (max-width: 420px) { .rules-math strong { font-size: 22px; } .rules-math strong small { font-size: 10px; } }
