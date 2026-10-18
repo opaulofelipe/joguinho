@@ -30,8 +30,8 @@
       "nome": "Escritoras"
     },
     {
-      "id": "orgaos",
-      "nome": "Órgãos do corpo humano"
+      "id": "biologia",
+      "nome": "Biologia"
     }
   ],
   "perfis": [
@@ -156,7 +156,7 @@
     },
     {
       "id": "pancreas",
-      "categoria": "orgaos",
+      "categoria": "biologia",
       "resposta": "Pâncreas",
       "dicas": [
         "Tenho funções ligadas à digestão e à regulação de substâncias no sangue.",
@@ -2906,6 +2906,397 @@
         "As personagens Lorena, Lia e Ana Clara aparecem nesse livro.",
         "Esse romance se chama As Meninas.",
         "Sou Lygia Fagundes Telles."
+      ]
+    },
+    {
+      "id": "mitocondria",
+      "categoria": "biologia",
+      "resposta": "Mitocôndria",
+      "dicas": [
+        "Sou uma estrutura presente em muitas células eucarióticas.",
+        "Minha origem evolutiva é associada à endossimbiose.",
+        "Possuo, em muitos organismos, material genético próprio.",
+        "Tenho uma membrana externa e outra interna.",
+        "A membrana interna forma dobras chamadas cristas.",
+        "Meu interior inclui uma região denominada matriz.",
+        "Abrigo etapas importantes do metabolismo energético.",
+        "Minha membrana interna participa da cadeia transportadora de elétrons.",
+        "Sou conhecida pela produção de grande parte do ATP na respiração aeróbia.",
+        "Sou a mitocôndria."
+      ]
+    },
+    {
+      "id": "cloroplasto",
+      "categoria": "biologia",
+      "resposta": "Cloroplasto",
+      "dicas": [
+        "Sou uma organela presente em plantas e em muitas algas.",
+        "Minha origem evolutiva é relacionada a antigas bactérias fotossintetizantes.",
+        "Possuo envoltório formado por duas membranas.",
+        "Meu interior contém uma região chamada estroma.",
+        "Tenho estruturas membranosas denominadas tilacoides.",
+        "A clorofila está associada às minhas membranas fotossintéticas.",
+        "Minhas reações luminosas utilizam energia da luz.",
+        "Participo da fixação de carbono em organismos fotossintetizantes.",
+        "Estou diretamente relacionado à fotossíntese das plantas.",
+        "Sou o cloroplasto."
+      ]
+    },
+    {
+      "id": "dna",
+      "categoria": "biologia",
+      "resposta": "DNA",
+      "dicas": [
+        "Sou uma molécula presente nas células dos seres vivos conhecidos.",
+        "Minha função envolve armazenamento de informações hereditárias.",
+        "Sou formado por unidades químicas chamadas nucleotídeos.",
+        "Minhas unidades possuem um açúcar denominado desoxirribose.",
+        "Minhas bases incluem adenina, citosina, guanina e timina.",
+        "Minha estrutura foi elucidada com contribuições experimentais fundamentais no século XX.",
+        "Em minha forma mais conhecida, duas cadeias se organizam em dupla hélice.",
+        "As bases adenina e timina se pareiam, assim como citosina e guanina.",
+        "Meu nome significa ácido desoxirribonucleico.",
+        "Sou o DNA."
+      ]
+    },
+    {
+      "id": "rna",
+      "categoria": "biologia",
+      "resposta": "RNA",
+      "dicas": [
+        "Sou uma molécula envolvida em diversos processos celulares.",
+        "Sou formado por nucleotídeos.",
+        "Posso participar de funções estruturais, regulatórias e catalíticas.",
+        "Minha composição apresenta o açúcar ribose.",
+        "Em vez de timina, normalmente utilizo uracila.",
+        "Em muitos organismos, sou produzido a partir de um molde de DNA.",
+        "Uma de minhas formas leva informação genética aos ribossomos.",
+        "Outras formas ajudam na montagem de proteínas e no transporte de aminoácidos.",
+        "Meu nome significa ácido ribonucleico.",
+        "Sou o RNA."
+      ]
+    },
+    {
+      "id": "ribossomo",
+      "categoria": "biologia",
+      "resposta": "Ribossomo",
+      "dicas": [
+        "Sou uma estrutura encontrada em todas as formas de vida celular conhecidas.",
+        "Não sou delimitado por membrana.",
+        "Possuo componentes constituídos por RNA e proteínas.",
+        "Posso estar livre no citosol ou associado a membranas em células eucarióticas.",
+        "Minha estrutura apresenta subunidades que atuam em conjunto.",
+        "Recebo uma sequência de nucleotídeos como instrução molecular.",
+        "Moléculas de RNA transportador interagem comigo.",
+        "Minha função envolve unir aminoácidos na ordem correta.",
+        "Realizo a tradução do RNA mensageiro em proteínas.",
+        "Sou o ribossomo."
+      ]
+    },
+    {
+      "id": "neuronio",
+      "categoria": "biologia",
+      "resposta": "Neurônio",
+      "dicas": [
+        "Sou um tipo celular especializado na comunicação em organismos animais.",
+        "Minha forma pode variar de acordo com minha função.",
+        "Recebo sinais por prolongamentos celulares.",
+        "Possuo frequentemente um prolongamento chamado axônio.",
+        "Alterações do potencial elétrico de minha membrana podem se propagar.",
+        "Em algumas regiões, uma bainha de mielina acelera a condução.",
+        "Comunico-me com outras células em estruturas chamadas sinapses.",
+        "Neurotransmissores participam de muitas dessas comunicações.",
+        "Sou uma célula fundamental do sistema nervoso.",
+        "Sou o neurônio."
+      ]
+    },
+    {
+      "id": "fotossintese",
+      "categoria": "biologia",
+      "resposta": "Fotossíntese",
+      "dicas": [
+        "Sou um processo biológico associado à captação de energia ambiental.",
+        "Minha evolução alterou profundamente a atmosfera terrestre.",
+        "Posso ocorrer em plantas, algas e determinados microrganismos.",
+        "Algumas de minhas modalidades não liberam oxigênio.",
+        "Na modalidade oxigênica, moléculas de água fornecem elétrons.",
+        "Pigmentos participam da absorção de luz.",
+        "Reações luminosas ajudam a formar ATP e NADPH.",
+        "A fixação de carbono incorpora dióxido de carbono a moléculas orgânicas.",
+        "Nas plantas, ocorro principalmente nos cloroplastos.",
+        "Sou a fotossíntese."
+      ]
+    },
+    {
+      "id": "respiracao-celular",
+      "categoria": "biologia",
+      "resposta": "Respiração celular",
+      "dicas": [
+        "Sou um conjunto de reações metabólicas para obtenção de energia utilizável.",
+        "Minha versão aeróbia utiliza oxigênio como aceptor final de elétrons.",
+        "Uma etapa inicial comum envolve a glicólise.",
+        "A glicólise ocorre no citosol de muitas células.",
+        "Em eucariotos, etapas aeróbias centrais acontecem nas mitocôndrias.",
+        "O ciclo do ácido cítrico participa de minha via aeróbia.",
+        "A cadeia transportadora de elétrons contribui para um gradiente de prótons.",
+        "A ATP sintase utiliza esse gradiente para produzir ATP.",
+        "Posso envolver oxidação de moléculas orgânicas como a glicose.",
+        "Sou a respiração celular."
+      ]
+    },
+    {
+      "id": "mitose",
+      "categoria": "biologia",
+      "resposta": "Mitose",
+      "dicas": [
+        "Sou um processo de divisão do núcleo de células eucarióticas.",
+        "Minha ocorrência está ligada a crescimento e renovação tecidual.",
+        "Antes de minha execução, o DNA costuma ser duplicado na interfase.",
+        "Possuo fases descritas como prófase e metáfase.",
+        "Durante uma de minhas etapas, cromossomos alinham-se na região equatorial.",
+        "Na anáfase, cromátides-irmãs se separam.",
+        "Na telófase, reorganizam-se núcleos em muitas células.",
+        "Geralmente sou acompanhada da divisão do citoplasma.",
+        "Minha função distribui cromossomos duplicados para dois núcleos-filhos.",
+        "Sou a mitose."
+      ]
+    },
+    {
+      "id": "meiose",
+      "categoria": "biologia",
+      "resposta": "Meiose",
+      "dicas": [
+        "Sou um processo celular importante para reprodução sexuada em muitos eucariotos.",
+        "Começo após uma fase de duplicação do DNA.",
+        "Envolvo duas divisões nucleares sucessivas.",
+        "Durante minha primeira divisão, cromossomos homólogos se separam.",
+        "A recombinação pode ocorrer entre cromossomos homólogos.",
+        "O pareamento de homólogos é característico de minha prófase I.",
+        "Minha segunda divisão separa cromátides-irmãs.",
+        "Posso originar quatro núcleos haploides a partir de um núcleo diploide.",
+        "Participo da formação de gametas em animais.",
+        "Sou a meiose."
+      ]
+    },
+    {
+      "id": "selecao-natural",
+      "categoria": "biologia",
+      "resposta": "Seleção natural",
+      "dicas": [
+        "Sou um mecanismo central da evolução biológica.",
+        "Dependo de diferenças herdáveis entre indivíduos.",
+        "Não atuo com um objetivo consciente.",
+        "Meu efeito pode variar conforme o ambiente.",
+        "Posso alterar frequências de características ao longo de gerações.",
+        "Não explico sozinha todos os processos evolutivos.",
+        "Fui desenvolvida conceitualmente no século XIX por Darwin e Wallace.",
+        "Indivíduos com certas características podem deixar mais descendentes em determinado ambiente.",
+        "Minha operação relaciona variação, sobrevivência e sucesso reprodutivo.",
+        "Sou a seleção natural."
+      ]
+    },
+    {
+      "id": "mutacao-genetica",
+      "categoria": "biologia",
+      "resposta": "Mutação genética",
+      "dicas": [
+        "Sou uma alteração que pode surgir no material hereditário.",
+        "Nem sempre produzo mudança visível em um organismo.",
+        "Posso aparecer espontaneamente ou após exposição a certos agentes.",
+        "Minha ocorrência não é necessariamente benéfica nem prejudicial.",
+        "Erros de replicação podem estar entre minhas causas.",
+        "Posso envolver a substituição de uma única base.",
+        "Também posso envolver inserções ou deleções de sequências.",
+        "Quando afeto células germinativas, posso ser transmitida aos descendentes.",
+        "Contribuo para a geração de variação genética nas populações.",
+        "Sou a mutação genética."
+      ]
+    },
+    {
+      "id": "microbioma",
+      "categoria": "biologia",
+      "resposta": "Microbioma",
+      "dicas": [
+        "Meu estudo envolve comunidades microscópicas e seu contexto.",
+        "Minha composição varia conforme o ambiente e o organismo hospedeiro.",
+        "Posso ser investigado em solos, oceanos e corpos de animais.",
+        "Técnicas de sequenciamento ajudam a estudar meus componentes.",
+        "Em seres humanos, minhas comunidades variam entre pele, boca e intestino.",
+        "Nem todos os microrganismos associados a mim causam doenças.",
+        "Parte de minhas funções pode envolver processamento de nutrientes.",
+        "Minha alteração pode estar associada a mudanças de saúde, sem implicar causalidade automática.",
+        "Sou frequentemente discutido em relação à microbiota intestinal e a seus genes e ambiente.",
+        "Sou o microbioma."
+      ]
+    },
+    {
+      "id": "virus",
+      "categoria": "biologia",
+      "resposta": "Vírus",
+      "dicas": [
+        "Sou uma entidade biológica cuja classificação como ser vivo é debatida.",
+        "Não possuo metabolismo celular independente.",
+        "Minha estrutura pode variar muito entre diferentes grupos.",
+        "Posso conter material genético de DNA ou RNA.",
+        "Muitos de meus tipos possuem um envoltório proteico chamado capsídeo.",
+        "Alguns também apresentam envelope lipídico.",
+        "Minha multiplicação depende de maquinaria da célula hospedeira.",
+        "Posso infectar bactérias, plantas, animais e outros organismos.",
+        "Exemplos conhecidos incluem influenza e SARS-CoV-2.",
+        "Sou um vírus."
+      ]
+    },
+    {
+      "id": "bacteria",
+      "categoria": "biologia",
+      "resposta": "Bactéria",
+      "dicas": [
+        "Faço parte de um domínio de seres vivos celulares.",
+        "Minha história evolutiva remonta a bilhões de anos.",
+        "Posso viver em ambientes terrestres, aquáticos e no interior de organismos.",
+        "Minhas espécies apresentam enorme variedade metabólica.",
+        "Sou um organismo procarionte.",
+        "Meu material genético não fica dentro de um núcleo delimitado por membrana.",
+        "Muitas de minhas espécies se reproduzem por divisão binária.",
+        "Algumas são úteis na fermentação de alimentos.",
+        "Outras podem causar doenças, enquanto muitas são inofensivas ou benéficas.",
+        "Sou uma bactéria."
+      ]
+    },
+    {
+      "id": "fungos",
+      "categoria": "biologia",
+      "resposta": "Fungos",
+      "dicas": [
+        "Constituo um grupo de organismos eucarióticos.",
+        "Meus representantes ocupam ambientes terrestres e aquáticos.",
+        "Não realizo fotossíntese.",
+        "Adquiro nutrientes por absorção após digestão extracelular.",
+        "Minha parede celular geralmente contém quitina.",
+        "Diversas espécies formam redes de filamentos chamados hifas.",
+        "Posso estabelecer associações com raízes de plantas.",
+        "Alguns de meus representantes são leveduras.",
+        "Outros são cogumelos e bolores.",
+        "Sou o grupo dos fungos."
+      ]
+    },
+    {
+      "id": "ecossistema",
+      "categoria": "biologia",
+      "resposta": "Ecossistema",
+      "dicas": [
+        "Sou uma unidade de estudo da ecologia.",
+        "Posso existir em escalas que vão de pequenos ambientes a grandes regiões.",
+        "Minha delimitação depende da pergunta de pesquisa.",
+        "Incluo fatores físicos e seres vivos.",
+        "Água, luz e temperatura podem influenciar meu funcionamento.",
+        "Nutrientes circulam entre meus componentes.",
+        "Fluxos de energia sustentam processos biológicos em mim.",
+        "Posso ser terrestre, aquático ou de transição.",
+        "Integro organismos, comunidades e ambiente abiótico em interação.",
+        "Sou um ecossistema."
+      ]
+    },
+    {
+      "id": "cadeia-alimentar",
+      "categoria": "biologia",
+      "resposta": "Cadeia alimentar",
+      "dicas": [
+        "Sou um modelo simplificado de relações ecológicas.",
+        "Meu estudo ajuda a explicar transferência de energia entre organismos.",
+        "Minha representação costuma ser linear.",
+        "Cada etapa pode ser chamada de nível trófico.",
+        "Uma comunidade real geralmente apresenta várias relações interligadas.",
+        "Quando essas relações se conectam, falamos em teia alimentar.",
+        "Posso incluir organismos produtores, consumidores e decompositores.",
+        "Setas em meus esquemas apontam no sentido do fluxo de energia ou alimento.",
+        "Um exemplo simples é capim, gafanhoto, sapo e serpente.",
+        "Sou uma cadeia alimentar."
+      ]
+    },
+    {
+      "id": "biodiversidade",
+      "categoria": "biologia",
+      "resposta": "Biodiversidade",
+      "dicas": [
+        "Meu significado envolve diferentes formas de variedade biológica.",
+        "Sou importante para o estudo da conservação da natureza.",
+        "Minha perda pode afetar processos ecológicos.",
+        "Não me refiro somente à quantidade de indivíduos em um lugar.",
+        "Posso ser examinada em escalas locais e globais.",
+        "Incluo variação dentro de espécies.",
+        "Também incluo diferenças entre espécies.",
+        "Posso abranger diversidade de ecossistemas.",
+        "Minha preservação se relaciona à manutenção de patrimônios genéticos e ecológicos.",
+        "Sou a biodiversidade."
+      ]
+    },
+    {
+      "id": "rins",
+      "categoria": "biologia",
+      "resposta": "Rins",
+      "dicas": [
+        "Sou uma estrutura presente em pares no corpo humano, normalmente.",
+        "Minha função contribui para manter o equilíbrio interno do organismo.",
+        "Participo da regulação da pressão arterial.",
+        "Produzo uma substância hormonal que estimula a produção de glóbulos vermelhos.",
+        "Também atuo no metabolismo da vitamina D.",
+        "Contenho unidades funcionais chamadas néfrons.",
+        "Meus glomérulos filtram parte do plasma sanguíneo.",
+        "Reabsorvo substâncias e secretam-se outras ao longo de meus túbulos.",
+        "Produzo a urina, conduzida até a bexiga pelos ureteres.",
+        "Sou os rins."
+      ]
+    },
+    {
+      "id": "sistema-imunologico",
+      "categoria": "biologia",
+      "resposta": "Sistema imunológico",
+      "dicas": [
+        "Atuo por meio de células, tecidos, moléculas e órgãos distribuídos pelo corpo.",
+        "Minha ação envolve reconhecer sinais associados a infecções e danos.",
+        "Nem todas as minhas respostas produzem inflamação visível.",
+        "Barreiras como pele e mucosas participam de minha proteção.",
+        "Neutrófilos e macrófagos integram minhas respostas inatas.",
+        "Linfócitos B e T são importantes em respostas adaptativas.",
+        "Anticorpos reconhecem estruturas específicas chamadas antígenos.",
+        "Vacinas ajudam a desenvolver proteção imunológica específica.",
+        "Defendo o organismo contra muitos patógenos e participo da vigilância celular.",
+        "Sou o sistema imunológico."
+      ]
+    },
+    {
+      "id": "homeostase",
+      "categoria": "biologia",
+      "resposta": "Homeostase",
+      "dicas": [
+        "Sou um princípio importante da fisiologia.",
+        "Não significa que todas as variáveis corporais permaneçam perfeitamente imóveis.",
+        "Dependo de mecanismos de regulação e comunicação.",
+        "Respostas nervosas e hormonais podem participar de minha manutenção.",
+        "Muitos de meus circuitos utilizam retroalimentação negativa.",
+        "Posso envolver controle do pH e da concentração de glicose.",
+        "A regulação da temperatura corporal é um exemplo.",
+        "Quando uma variável se desvia, mecanismos podem agir para compensar a mudança.",
+        "Descrevo a manutenção dinâmica de condições internas compatíveis com a vida.",
+        "Sou a homeostase."
+      ]
+    },
+    {
+      "id": "sistema-circulatorio",
+      "categoria": "biologia",
+      "resposta": "Sistema circulatório",
+      "dicas": [
+        "Sou responsável por transporte interno em muitos animais.",
+        "Minhas características variam entre diferentes grupos animais.",
+        "Em vertebrados, tenho estruturas como vasos e órgão de bombeamento.",
+        "Posso ajudar a distribuir hormônios e nutrientes.",
+        "Também participo do transporte de substâncias residuais.",
+        "Em humanos, possuo circulação pulmonar e sistêmica.",
+        "As artérias conduzem sangue para fora do coração.",
+        "As veias conduzem sangue em direção ao coração.",
+        "Nos capilares ocorrem trocas de substâncias com os tecidos.",
+        "Sou o sistema circulatório."
       ]
     }
   ]
