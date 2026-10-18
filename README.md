@@ -1,6 +1,6 @@
 # PERFIL — O jogo das dez dicas
 
-Um jogo de conhecimento, feito em **HTML, CSS e JavaScript puro**, com **8 cartas iniciais**, uma de cada categoria solicitada, **10 dicas progressivas por carta** e interface adaptada para celulares, tablets e computadores. Não precisa de framework, npm nem conexão com serviços externos.
+Um jogo de conhecimento, feito em **HTML, CSS e JavaScript puro**, com **192 cartas**, organizadas em **8 categorias com 24 perfis cada**, e **10 dicas progressivas por carta** e interface adaptada para celulares, tablets e computadores. Não precisa de framework, npm nem conexão com serviços externos.
 
 ## Arquivos
 
@@ -62,7 +62,7 @@ Exemplo de nova carta para uma categoria já existente (adicione como novo objet
 }
 ```
 
-Para incluir novos temas, primeiro crie uma nova categoria em `categorias` com uma ID inédita e depois atribua-a aos novos perfis. O menu e as contagens se atualizam automaticamente. É obrigatório manter um JSON válido (aspas duplas e vírgulas entre objetos). A aplicação valida a estrutura e informa erros.
+Para incluir novos temas, primeiro crie uma nova categoria em `categorias` com uma ID inédita e depois atribua-a aos novos perfis. O menu e as contagens se atualizam automaticamente. É obrigatório manter um JSON válido (aspas duplas e vírgulas entre objetos). A aplicação valida a estrutura e informa erros. O acervo atualmente possui **192 perfis e 1.920 dicas**.
 
 ## Decisões de interface
 
@@ -84,3 +84,9 @@ Depois de uma ou mais dicas, quem acertar recebe **11 − quantidade de dicas re
 O botão **Lobby** permite encerrar a partida atual e modificar jogadores. O modo **Explorar cartas sem pontuação** preserva as funcionalidades originais (trocar categoria, revelar dicas, reiniciar carta). Em partida, o tema é fixado no início para evitar mudar a carta antes de pontuar. O JSON de cartas continua independente e não precisa de alterações.
 
 *Observação*: esta é uma partida local no mesmo aparelho, com pontuação controlada por quem está lendo. O estado da partida não é salvo ao fechar ou recarregar a página. Para partidas longas até 100 pontos, recomenda-se manter a página aberta. Com apenas oito cartas no acervo inicial, perfis podem voltar a aparecer após o ciclo de sorteio.
+
+## Acervo atual (outubro de 2026)
+
+Cada categoria possui 24 perfis: **Personagens históricos**, **Atores**, **Atrizes**, **Diretores**, **Países**, **Escritores**, **Escritoras** e **Biologia**. A antiga categoria **Órgãos do corpo humano** foi expandida para Biologia e usa a ID `biologia`, contendo também células, genética, evolução, ecologia, microbiologia, processos biológicos e sistemas do corpo. A carta do pâncreas foi mantida com sua categoria atualizada.
+
+O arquivo `data/perfis.json` continua sendo a única fonte de cartas e dicas. Para incluir novos itens, crie novos objetos no array `perfis` com ID exclusiva, categoria válida e exatamente dez dicas. O acervo é carregado dinamicamente sem mudança necessária no código JavaScript. As cartas existentes são mantidas ao ampliar o banco.
