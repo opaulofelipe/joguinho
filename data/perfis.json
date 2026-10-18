@@ -2125,6 +2125,397 @@
         "Minha capital é Camberra.",
         "Sou a Austrália."
       ]
+    },
+    {
+      "id": "homero",
+      "categoria": "escritores",
+      "resposta": "Homero",
+      "dicas": [
+        "Meu nome está ligado à poesia épica da Antiguidade.",
+        "Minha existência histórica e a autoria das obras atribuídas a mim são debatidas.",
+        "Sou tradicionalmente associado a composições originalmente transmitidas oralmente.",
+        "Meus poemas utilizam fórmulas e epítetos recorrentes.",
+        "Meus relatos envolvem deuses e guerreiros do mundo grego.",
+        "Uma obra atribuída a mim acompanha a ira de Aquiles.",
+        "Essa obra é a Ilíada.",
+        "Outra narrativa acompanha o retorno de Odisseu à sua ilha natal.",
+        "Essa narrativa é a Odisseia.",
+        "Sou Homero."
+      ]
+    },
+    {
+      "id": "dante-alighieri",
+      "categoria": "escritores",
+      "resposta": "Dante Alighieri",
+      "dicas": [
+        "Nasci na Itália medieval em 1265.",
+        "Minha carreira envolveu vida política e exílio.",
+        "Escrevi também obras em latim.",
+        "Contribuí para o prestígio literário do vernáculo florentino.",
+        "Minha produção inclui Vita Nuova.",
+        "Um poema meu conduz o narrador por diferentes espaços do além.",
+        "Virgílio e Beatriz são figuras fundamentais nesse percurso.",
+        "As etapas do poema são Inferno, Purgatório e Paraíso.",
+        "A obra é conhecida como Divina Comédia.",
+        "Sou Dante Alighieri."
+      ]
+    },
+    {
+      "id": "miguel-cervantes",
+      "categoria": "escritores",
+      "resposta": "Miguel de Cervantes",
+      "dicas": [
+        "Nasci na Espanha no século XVI.",
+        "Participei de campanhas militares e sofri ferimentos em batalha.",
+        "Fui mantido em cativeiro em Argel por alguns anos.",
+        "Escrevi poesia, teatro e prosa.",
+        "Publiquei a primeira parte de meu romance mais famoso em 1605.",
+        "Um protagonista meu interpreta o mundo através de livros de cavalaria.",
+        "Outro personagem importante é seu escudeiro Sancho Pança.",
+        "O cavaleiro enfrenta moinhos de vento imaginando gigantes.",
+        "Sou autor de Dom Quixote.",
+        "Sou Miguel de Cervantes."
+      ]
+    },
+    {
+      "id": "william-shakespeare",
+      "categoria": "escritores",
+      "resposta": "William Shakespeare",
+      "dicas": [
+        "Nasci na Inglaterra no século XVI.",
+        "Trabalhei como ator e dramaturgo.",
+        "Minha obra reúne comédias, tragédias e peças históricas.",
+        "Estive ligado à companhia King's Men.",
+        "Escrevi Sonetos publicados em 1609.",
+        "Uma peça minha apresenta um príncipe que desconfia do assassinato do pai.",
+        "Outra apresenta um casal de amantes de famílias rivais em Verona.",
+        "Sou autor de Macbeth e Rei Lear.",
+        "Meu nascimento é associado à cidade de Stratford-upon-Avon.",
+        "Sou William Shakespeare."
+      ]
+    },
+    {
+      "id": "goethe",
+      "categoria": "escritores",
+      "resposta": "Johann Wolfgang von Goethe",
+      "dicas": [
+        "Nasci em Frankfurt em 1749.",
+        "Trabalhei com literatura, administração e estudos da natureza.",
+        "Participei do ambiente cultural do Sturm und Drang.",
+        "Um romance epistolar meu influenciou leitores europeus no século XVIII.",
+        "Esse romance é Os Sofrimentos do Jovem Werther.",
+        "Participei do classicismo de Weimar.",
+        "Minha obra inclui poemas, teatro e escritos científicos.",
+        "Dediquei décadas a uma peça sobre um pacto e a busca humana por conhecimento.",
+        "Essa obra é Fausto.",
+        "Sou Johann Wolfgang von Goethe."
+      ]
+    },
+    {
+      "id": "dostoievski",
+      "categoria": "escritores",
+      "resposta": "Fiódor Dostoiévski",
+      "dicas": [
+        "Nasci no Império Russo em 1821.",
+        "Fui preso por minha participação em um círculo intelectual.",
+        "Passei anos em trabalhos forçados na Sibéria.",
+        "Meus romances investigam dilemas morais, culpa e religião.",
+        "Escrevi Memórias do Subsolo.",
+        "Um de meus romances acompanha um estudante chamado Raskólnikov.",
+        "Esse romance se chama Crime e Castigo.",
+        "Também escrevi O Idiota e Os Demônios.",
+        "Minha última grande obra é Os Irmãos Karamázov.",
+        "Sou Fiódor Dostoiévski."
+      ]
+    },
+    {
+      "id": "tolstoi",
+      "categoria": "escritores",
+      "resposta": "Liev Tolstói",
+      "dicas": [
+        "Nasci em 1828 no Império Russo.",
+        "Fui militar antes de me consolidar como romancista.",
+        "Minha obra aborda moral, família, violência e sociedade.",
+        "Escrevi A Morte de Ivan Ilitch.",
+        "Um de meus romances retrata a aristocracia russa durante guerras napoleônicas.",
+        "Esse romance é Guerra e Paz.",
+        "Outra obra acompanha uma mulher casada que vive um relacionamento socialmente condenado.",
+        "Essa obra se chama Anna Kariênina.",
+        "Na maturidade defendi ideias religiosas e pacifistas.",
+        "Sou Liev Tolstói."
+      ]
+    },
+    {
+      "id": "franz-kafka",
+      "categoria": "escritores",
+      "resposta": "Franz Kafka",
+      "dicas": [
+        "Nasci em Praga em 1883, quando a cidade integrava a Áustria-Hungria.",
+        "Escrevi principalmente em língua alemã.",
+        "Trabalhei em uma instituição de seguros.",
+        "Minha ficção explora burocracia, culpa e situações opressivas.",
+        "Pedi a um amigo que destruísse muitos manuscritos depois de minha morte.",
+        "Esse amigo era Max Brod, que preservou várias obras.",
+        "Escrevi um romance sobre um homem submetido a um processo judicial incompreensível.",
+        "Esse romance é O Processo.",
+        "Minha novela mais conhecida começa com um homem transformado em inseto monstruoso.",
+        "Sou Franz Kafka."
+      ]
+    },
+    {
+      "id": "george-orwell",
+      "categoria": "escritores",
+      "resposta": "George Orwell",
+      "dicas": [
+        "Nasci em 1903 na Índia britânica.",
+        "Trabalhei na polícia imperial na Birmânia.",
+        "Escrevi relatos sobre pobreza e experiências políticas.",
+        "Participei da Guerra Civil Espanhola.",
+        "Minha literatura critica autoritarismo e manipulação política.",
+        "Publiquei Homenagem à Catalunha.",
+        "Uma de minhas fábulas políticas apresenta animais que expulsam um fazendeiro.",
+        "Essa obra é A Revolução dos Bichos.",
+        "Sou autor de 1984 e criei a figura do Grande Irmão.",
+        "Sou George Orwell."
+      ]
+    },
+    {
+      "id": "james-joyce",
+      "categoria": "escritores",
+      "resposta": "James Joyce",
+      "dicas": [
+        "Nasci em Dublin em 1882.",
+        "Passei parte significativa da vida fora da Irlanda.",
+        "Minha escrita explorou experiências urbanas e pensamento interior.",
+        "Publiquei a coletânea Dublinenses.",
+        "Um conto meu intitula-se Os Mortos.",
+        "Escrevi Retrato do Artista Quando Jovem.",
+        "Meu romance mais conhecido acompanha um único dia na cidade de Dublin.",
+        "Esse dia é 16 de junho de 1904.",
+        "Leopold Bloom é uma das figuras centrais de Ulisses.",
+        "Sou James Joyce."
+      ]
+    },
+    {
+      "id": "marcel-proust",
+      "categoria": "escritores",
+      "resposta": "Marcel Proust",
+      "dicas": [
+        "Nasci em Paris em 1871.",
+        "Minha escrita explora memória, tempo e relações sociais.",
+        "Frequentei círculos aristocráticos e burgueses franceses.",
+        "Trabalhei durante anos em uma extensa sequência romanesca.",
+        "Uma experiência involuntária de memória envolve um pequeno bolo mergulhado em bebida.",
+        "Esse bolo tornou-se conhecido como madeleine.",
+        "Minha principal obra tem sete volumes.",
+        "Um de seus volumes se chama À Sombra das Raparigas em Flor.",
+        "Sou autor de Em Busca do Tempo Perdido.",
+        "Sou Marcel Proust."
+      ]
+    },
+    {
+      "id": "albert-camus",
+      "categoria": "escritores",
+      "resposta": "Albert Camus",
+      "dicas": [
+        "Nasci em 1913 na Argélia sob domínio francês.",
+        "Trabalhei com jornalismo e teatro.",
+        "Participei da Resistência francesa durante a Segunda Guerra.",
+        "Minha filosofia literária trata do absurdo e da revolta.",
+        "Escrevi O Mito de Sísifo.",
+        "Fui autor de A Peste, romance sobre uma epidemia.",
+        "Meu personagem Meursault aparece em um romance publicado em 1942.",
+        "Esse romance se chama O Estrangeiro.",
+        "Recebi o Nobel de Literatura em 1957.",
+        "Sou Albert Camus."
+      ]
+    },
+    {
+      "id": "gabriel-garcia-marquez",
+      "categoria": "escritores",
+      "resposta": "Gabriel García Márquez",
+      "dicas": [
+        "Nasci na Colômbia em 1927.",
+        "Trabalhei como jornalista e romancista.",
+        "Minha obra é associada ao realismo mágico latino-americano.",
+        "Escrevi Crônica de uma Morte Anunciada.",
+        "Também publiquei O Amor nos Tempos do Cólera.",
+        "Uma cidade imaginária recorrente em minha ficção chama-se Macondo.",
+        "A família Buendía aparece em meu romance mais famoso.",
+        "Esse romance é Cem Anos de Solidão.",
+        "Recebi o Nobel de Literatura em 1982.",
+        "Sou Gabriel García Márquez."
+      ]
+    },
+    {
+      "id": "jorge-luis-borges",
+      "categoria": "escritores",
+      "resposta": "Jorge Luis Borges",
+      "dicas": [
+        "Nasci em Buenos Aires em 1899.",
+        "Minha obra inclui poesia, ensaios e contos.",
+        "Trabalhei com temas de espelhos, labirintos e infinitude.",
+        "Escrevi o conto A Biblioteca de Babel.",
+        "Também escrevi Pierre Menard, Autor do Quixote.",
+        "Publiquei o livro de contos Ficções.",
+        "O Aleph é título de um livro e de um conto meu.",
+        "Tive perda progressiva da visão ao longo da vida.",
+        "Fui diretor da Biblioteca Nacional da Argentina.",
+        "Sou Jorge Luis Borges."
+      ]
+    },
+    {
+      "id": "julio-cortazar",
+      "categoria": "escritores",
+      "resposta": "Julio Cortázar",
+      "dicas": [
+        "Nasci na Bélgica em 1914, de pais argentinos.",
+        "Vivi muitos anos em Paris.",
+        "Escrevi narrativas que rompem expectativas de tempo e espaço.",
+        "Publiquei o conto Casa Tomada.",
+        "Outro conto meu foi adaptado livremente por Michelangelo Antonioni no filme Blow-Up.",
+        "Escrevi Histórias de Cronópios e de Famas.",
+        "Meu romance mais conhecido permite diferentes ordens de leitura.",
+        "Seus protagonistas incluem Horacio Oliveira e La Maga.",
+        "Esse romance chama-se O Jogo da Amarelinha.",
+        "Sou Julio Cortázar."
+      ]
+    },
+    {
+      "id": "pablo-neruda",
+      "categoria": "escritores",
+      "resposta": "Pablo Neruda",
+      "dicas": [
+        "Nasci no Chile em 1904.",
+        "Fui diplomata e participante da vida política.",
+        "Minha poesia abrange amor, história e cotidiano.",
+        "Publiquei Residência na Terra.",
+        "Também escrevi Canto Geral.",
+        "Um de meus livros reúne poemas de amor e uma canção desesperada.",
+        "Esse livro é Vinte Poemas de Amor e Uma Canção Desesperada.",
+        "Fui senador e militante do Partido Comunista chileno.",
+        "Recebi o Nobel de Literatura em 1971.",
+        "Sou Pablo Neruda."
+      ]
+    },
+    {
+      "id": "jose-saramago",
+      "categoria": "escritores",
+      "resposta": "José Saramago",
+      "dicas": [
+        "Nasci em Portugal em 1922.",
+        "Trabalhei como jornalista, editor e escritor.",
+        "Minha prosa frequentemente utiliza longos períodos e diálogos sem marcação tradicional.",
+        "Escrevi Memorial do Convento.",
+        "Um de meus romances imagina a cegueira espalhando-se pela população.",
+        "Esse romance é Ensaio sobre a Cegueira.",
+        "Publiquei O Evangelho Segundo Jesus Cristo.",
+        "Também escrevi As Intermitências da Morte.",
+        "Recebi o Nobel de Literatura em 1998.",
+        "Sou José Saramago."
+      ]
+    },
+    {
+      "id": "fernando-pessoa",
+      "categoria": "escritores",
+      "resposta": "Fernando Pessoa",
+      "dicas": [
+        "Nasci em Lisboa em 1888.",
+        "Passei parte da juventude na África do Sul.",
+        "Escrevi poesia e prosa em português e inglês.",
+        "Publiquei parte importante de meus textos em revistas.",
+        "Criei autores fictícios com estilos e biografias próprios.",
+        "Entre eles estão Alberto Caeiro e Ricardo Reis.",
+        "Outro desses autores é Álvaro de Campos.",
+        "Meu poema Mensagem foi publicado em vida.",
+        "O Livro do Desassossego é associado à figura de Bernardo Soares.",
+        "Sou Fernando Pessoa."
+      ]
+    },
+    {
+      "id": "guimaraes-rosa",
+      "categoria": "escritores",
+      "resposta": "João Guimarães Rosa",
+      "dicas": [
+        "Nasci em Minas Gerais em 1908.",
+        "Formei-me em medicina e trabalhei como diplomata.",
+        "Minha ficção recria a linguagem e a paisagem do sertão.",
+        "Publiquei Sagarana.",
+        "Escrevi o livro de novelas Corpo de Baile.",
+        "Meu romance mais conhecido apresenta o narrador Riobaldo.",
+        "Nesse romance aparece a personagem Diadorim.",
+        "A narrativa é marcada por reflexões sobre jagunços, violência e pacto.",
+        "Esse romance se chama Grande Sertão: Veredas.",
+        "Sou João Guimarães Rosa."
+      ]
+    },
+    {
+      "id": "graciliano-ramos",
+      "categoria": "escritores",
+      "resposta": "Graciliano Ramos",
+      "dicas": [
+        "Nasci em Alagoas em 1892.",
+        "Fui prefeito de Palmeira dos Índios.",
+        "Minha prosa é conhecida pelo estilo conciso e rigoroso.",
+        "Escrevi São Bernardo, narrado por Paulo Honório.",
+        "Também sou autor de Angústia.",
+        "Um de meus romances acompanha uma família de retirantes do sertão.",
+        "Nessa família aparecem Fabiano, Sinhá Vitória e a cachorra Baleia.",
+        "Esse romance é Vidas Secas.",
+        "Relatei minha prisão durante o Estado Novo em Memórias do Cárcere.",
+        "Sou Graciliano Ramos."
+      ]
+    },
+    {
+      "id": "lima-barreto",
+      "categoria": "escritores",
+      "resposta": "Lima Barreto",
+      "dicas": [
+        "Nasci no Rio de Janeiro em 1881.",
+        "Trabalhei como funcionário público e jornalista.",
+        "Escrevi crítica à República oligárquica e ao racismo brasileiro.",
+        "Publiquei Recordações do Escrivão Isaías Caminha.",
+        "Um personagem meu acredita profundamente na cultura nacional.",
+        "Esse personagem tenta tornar o tupi-guarani uma língua oficial.",
+        "A história é narrada em Triste Fim de Policarpo Quaresma.",
+        "Também escrevi Clara dos Anjos.",
+        "Minha obra frequentemente satiriza burocratas e elites cariocas.",
+        "Sou Lima Barreto."
+      ]
+    },
+    {
+      "id": "milton-hatoum",
+      "categoria": "escritores",
+      "resposta": "Milton Hatoum",
+      "dicas": [
+        "Nasci em Manaus em 1952.",
+        "Tenho ascendência familiar libanesa.",
+        "Minha escrita explora memória, relações familiares e cidades amazônicas.",
+        "Meu romance de estreia foi Relato de um Certo Oriente.",
+        "Um de meus romances acompanha uma família marcada pela rivalidade entre irmãos gêmeos.",
+        "Esses irmãos são Yaqub e Omar.",
+        "O romance se chama Dois Irmãos.",
+        "Também publiquei Cinzas do Norte.",
+        "Escrevi a trilogia O Lugar Mais Sombrio, iniciada com A Noite da Espera.",
+        "Sou Milton Hatoum."
+      ]
+    },
+    {
+      "id": "chinua-achebe",
+      "categoria": "escritores",
+      "resposta": "Chinua Achebe",
+      "dicas": [
+        "Nasci em 1930, na região da atual Nigéria.",
+        "Escrevi em inglês e discuti os efeitos do colonialismo.",
+        "Minha ficção representa sociedades igbo e transformações históricas.",
+        "Trabalhei também como professor e editor.",
+        "Publiquei A Paz Dura Pouco Tempo.",
+        "Meu romance de estreia saiu em 1958.",
+        "O protagonista desse romance se chama Okonkwo.",
+        "A obra retrata uma comunidade igbo diante da expansão colonial britânica.",
+        "Seu título em português é O Mundo se Despedaça.",
+        "Sou Chinua Achebe."
+      ]
     }
   ]
 }
