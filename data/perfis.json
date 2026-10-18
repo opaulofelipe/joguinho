@@ -561,6 +561,397 @@
         "Minha memória é central ao Dia Nacional de Zumbi e da Consciência Negra.",
         "Sou Zumbi dos Palmares."
       ]
+    },
+    {
+      "id": "leonardo-dicaprio",
+      "categoria": "atores",
+      "resposta": "Leonardo DiCaprio",
+      "dicas": [
+        "Comecei a atuar profissionalmente ainda jovem.",
+        "Minha carreira abrange dramas históricos, thrillers e produções de grande orçamento.",
+        "Fui indicado ao Oscar por Gilbert Grape: Aprendiz de Sonhador.",
+        "Interpretei um personagem envolvido em um naufrágio fictício de 1912.",
+        "Trabalhei repetidamente com o diretor Martin Scorsese.",
+        "Interpretei Howard Hughes em O Aviador.",
+        "Protagonizei A Origem, dirigido por Christopher Nolan.",
+        "Atuei como Jordan Belfort em O Lobo de Wall Street.",
+        "Ganhei o Oscar de melhor ator por O Regresso.",
+        "Sou Leonardo DiCaprio."
+      ]
+    },
+    {
+      "id": "morgan-freeman",
+      "categoria": "atores",
+      "resposta": "Morgan Freeman",
+      "dicas": [
+        "Minha trajetória inclui teatro, cinema e narração.",
+        "Minha voz se tornou especialmente reconhecida em documentários.",
+        "Atuei no drama Conduzindo Miss Daisy.",
+        "Fiz parte do elenco de Os Imperdoáveis.",
+        "Interpretei um preso chamado Red em um filme sobre esperança.",
+        "Esse filme é Um Sonho de Liberdade.",
+        "Interpretei Deus em Todo Poderoso.",
+        "Ganhei o Oscar de ator coadjuvante por Menina de Ouro.",
+        "Interpretei Lucius Fox na trilogia Batman de Christopher Nolan.",
+        "Sou Morgan Freeman."
+      ]
+    },
+    {
+      "id": "tom-hanks",
+      "categoria": "atores",
+      "resposta": "Tom Hanks",
+      "dicas": [
+        "Trabalhei tanto em comédias quanto em dramas.",
+        "Ganhei notoriedade no cinema durante a década de 1980.",
+        "Interpretei um jovem que acorda no corpo de um adulto em Quero Ser Grande.",
+        "Recebi Oscars consecutivos por filmes lançados em 1993 e 1994.",
+        "Interpretei um advogado em Filadélfia.",
+        "Vivi um personagem cuja trajetória cruza eventos da história dos Estados Unidos em Forrest Gump.",
+        "Fui um astronauta em Apollo 13.",
+        "Interpretei o capitão Miller em O Resgate do Soldado Ryan.",
+        "Dei voz ao brinquedo Woody na franquia Toy Story.",
+        "Sou Tom Hanks."
+      ]
+    },
+    {
+      "id": "anthony-hopkins",
+      "categoria": "atores",
+      "resposta": "Anthony Hopkins",
+      "dicas": [
+        "Nasci no País de Gales em 1937.",
+        "Minha carreira inclui Shakespeare no teatro e personagens no cinema.",
+        "Atuei em O Homem Elefante, de David Lynch.",
+        "Interpretei o mordomo Stevens em Vestígios do Dia.",
+        "Ganhei o Oscar de melhor ator em 1992.",
+        "Meu personagem mais famoso é um psiquiatra e assassino canibal.",
+        "Interpretei Hannibal Lecter em O Silêncio dos Inocentes.",
+        "Fui o pai de Thor em filmes da Marvel.",
+        "Recebi outro Oscar por Meu Pai, no qual vivo um homem com demência.",
+        "Sou Anthony Hopkins."
+      ]
+    },
+    {
+      "id": "daniel-day-lewis",
+      "categoria": "atores",
+      "resposta": "Daniel Day-Lewis",
+      "dicas": [
+        "Nasci em Londres em 1957.",
+        "Tornei-me conhecido pela preparação intensa para personagens.",
+        "Atuei em Minha Adorável Lavanderia.",
+        "Interpretei um escritor e pintor com paralisia cerebral em Meu Pé Esquerdo.",
+        "Atuei em Gangues de Nova York como Bill, o Açougueiro.",
+        "Fui o protagonista de Sangue Negro, filme de Paul Thomas Anderson.",
+        "Interpretei Abraham Lincoln em filme dirigido por Steven Spielberg.",
+        "Recebi três Oscars de melhor ator, por Meu Pé Esquerdo, Sangue Negro e Lincoln.",
+        "Também protagonizei Trama Fantasma.",
+        "Sou Daniel Day-Lewis."
+      ]
+    },
+    {
+      "id": "robert-de-niro",
+      "categoria": "atores",
+      "resposta": "Robert De Niro",
+      "dicas": [
+        "Nasci em Nova York em 1943.",
+        "Atuei em filmes que abordam crime e vida urbana.",
+        "Ganhei um Oscar de ator coadjuvante por O Poderoso Chefão: Parte II.",
+        "Interpretei um veterano de guerra e taxista em Nova York.",
+        "Esse personagem chama-se Travis Bickle.",
+        "Fiz parceria frequente com Martin Scorsese.",
+        "Vivi o boxeador Jake LaMotta em Touro Indomável.",
+        "Interpretei o gangster Jimmy Conway em Os Bons Companheiros.",
+        "Também participei de comédias como Entrando Numa Fria.",
+        "Sou Robert De Niro."
+      ]
+    },
+    {
+      "id": "al-pacino",
+      "categoria": "atores",
+      "resposta": "Al Pacino",
+      "dicas": [
+        "Nasci no bairro do Bronx, em Nova York.",
+        "Minha formação esteve ligada ao teatro nova-iorquino.",
+        "Recebi grande reconhecimento no início dos anos 1970.",
+        "Interpretei um policial em Serpico.",
+        "Fui protagonista de Um Dia de Cão.",
+        "Vivi Michael Corleone na trilogia O Poderoso Chefão.",
+        "Interpretei Tony Montana em Scarface.",
+        "Meu personagem em Perfume de Mulher é um tenente-coronel cego.",
+        "Ganhei o Oscar de melhor ator por Perfume de Mulher.",
+        "Sou Al Pacino."
+      ]
+    },
+    {
+      "id": "samuel-l-jackson",
+      "categoria": "atores",
+      "resposta": "Samuel L. Jackson",
+      "dicas": [
+        "Nasci em Washington, D.C., em 1948.",
+        "Minha carreira inclui filmes independentes e grandes franquias.",
+        "Atuei em Faça a Coisa Certa, de Spike Lee.",
+        "Vivi Jules Winnfield em Pulp Fiction.",
+        "Trabalhei com Quentin Tarantino em Jackie Brown e Django Livre.",
+        "Fui o Jedi Mace Windu na saga Star Wars.",
+        "Interpretei Elijah Price em Corpo Fechado.",
+        "Meu personagem Nick Fury participa de diversos filmes da Marvel.",
+        "Sou conhecido por falas marcantes e personagens de forte presença.",
+        "Sou Samuel L. Jackson."
+      ]
+    },
+    {
+      "id": "joaquin-phoenix",
+      "categoria": "atores",
+      "resposta": "Joaquin Phoenix",
+      "dicas": [
+        "Atuo no cinema desde a infância.",
+        "Nasci em Porto Rico, de pais norte-americanos.",
+        "Interpretei o imperador Cômodo em Gladiador.",
+        "Vivi Johnny Cash em Johnny & June.",
+        "Atuei em O Mestre, dirigido por Paul Thomas Anderson.",
+        "Fui protagonista de Ela, de Spike Jonze.",
+        "Interpretei o personagem-título de Beau Tem Medo.",
+        "Ganhei o Oscar de melhor ator em 2020.",
+        "Meu papel premiado foi Arthur Fleck em Coringa.",
+        "Sou Joaquin Phoenix."
+      ]
+    },
+    {
+      "id": "christian-bale",
+      "categoria": "atores",
+      "resposta": "Christian Bale",
+      "dicas": [
+        "Comecei minha carreira de ator ainda criança.",
+        "Protagonizei um filme de Steven Spielberg ambientado na Segunda Guerra Mundial.",
+        "Esse filme de 1987 é Império do Sol.",
+        "Interpretei Patrick Bateman em Psicopata Americano.",
+        "Fiquei conhecido por grandes transformações físicas para papéis.",
+        "Atuei em O Grande Truque e A Grande Aposta.",
+        "Vivi Dick Cheney em Vice.",
+        "Ganhei o Oscar de ator coadjuvante por O Vencedor.",
+        "Fui Bruce Wayne na trilogia Batman de Christopher Nolan.",
+        "Sou Christian Bale."
+      ]
+    },
+    {
+      "id": "mahershala-ali",
+      "categoria": "atores",
+      "resposta": "Mahershala Ali",
+      "dicas": [
+        "Nasci na Califórnia em 1974.",
+        "Minha carreira começou com participações em televisão.",
+        "Atuei na série House of Cards.",
+        "Também interpretei o antagonista Cottonmouth em Luke Cage.",
+        "Interpretei Juan, figura importante na infância de um menino em Moonlight.",
+        "Ganhei um Oscar de ator coadjuvante por Moonlight.",
+        "Interpretei Don Shirley em Green Book: O Guia.",
+        "Recebi outro Oscar de ator coadjuvante por Green Book.",
+        "Sou um dos atores premiados duas vezes na mesma categoria de coadjuvante.",
+        "Sou Mahershala Ali."
+      ]
+    },
+    {
+      "id": "javier-bardem",
+      "categoria": "atores",
+      "resposta": "Javier Bardem",
+      "dicas": [
+        "Nasci em Las Palmas, nas ilhas Canárias.",
+        "Venho de uma família ligada à atuação.",
+        "Fui indicado ao Oscar por Antes do Anoitecer.",
+        "Interpretei o escritor cubano Reinaldo Arenas nesse filme.",
+        "Atuei em Biutiful, dirigido por Alejandro González Iñárritu.",
+        "Participei de 007: Operação Skyfall como Raoul Silva.",
+        "Atuei em Duna como Stilgar.",
+        "Ganhei o Oscar de ator coadjuvante por Onde os Fracos Não Têm Vez.",
+        "Nesse filme interpretei o assassino Anton Chigurh.",
+        "Sou Javier Bardem."
+      ]
+    },
+    {
+      "id": "antonio-banderas",
+      "categoria": "atores",
+      "resposta": "Antonio Banderas",
+      "dicas": [
+        "Minha carreira internacional começou após trabalhos no cinema espanhol.",
+        "Nasci em Málaga em 1960.",
+        "Atuei em filmes do diretor Pedro Almodóvar.",
+        "Participei de Mulheres à Beira de um Ataque de Nervos.",
+        "Interpretei Armand em Entrevista com o Vampiro.",
+        "Fui o herói mascarado em A Máscara do Zorro.",
+        "Dei voz ao Gato de Botas na franquia Shrek.",
+        "Protagonizei Dor e Glória, de Almodóvar.",
+        "Por Dor e Glória fui indicado ao Oscar de melhor ator.",
+        "Sou Antonio Banderas."
+      ]
+    },
+    {
+      "id": "wagner-moura",
+      "categoria": "atores",
+      "resposta": "Wagner Moura",
+      "dicas": [
+        "Nasci em Salvador, na Bahia.",
+        "Atuei no cinema brasileiro e em produções internacionais.",
+        "Interpretei Olavo em Ó Paí, Ó.",
+        "Fui o capitão Nascimento em Tropa de Elite.",
+        "Também atuei na continuação Tropa de Elite 2.",
+        "Interpretei Pablo Escobar na série Narcos.",
+        "Dirigi o longa Marighella, lançado no Brasil em 2021.",
+        "Protagonizei Guerra Civil, dirigido por Alex Garland.",
+        "Interpretei um homem chamado Armando em O Agente Secreto, de Kleber Mendonça Filho.",
+        "Sou Wagner Moura."
+      ]
+    },
+    {
+      "id": "lazaro-ramos",
+      "categoria": "atores",
+      "resposta": "Lázaro Ramos",
+      "dicas": [
+        "Nasci em Salvador em 1978.",
+        "Minha carreira começou no teatro baiano.",
+        "Fiz parte do Bando de Teatro Olodum.",
+        "Interpretei João Francisco dos Santos em Madame Satã.",
+        "Atuei na série Ó Paí, Ó.",
+        "Fui um dos protagonistas do filme Cidade Baixa.",
+        "Interpretei Foguinho na novela Cobras & Lagartos.",
+        "Participei da série Mister Brau.",
+        "Dirigi o filme Medida Provisória.",
+        "Sou Lázaro Ramos."
+      ]
+    },
+    {
+      "id": "selton-mello",
+      "categoria": "atores",
+      "resposta": "Selton Mello",
+      "dicas": [
+        "Comecei a trabalhar como ator ainda criança.",
+        "Construí carreira também como dublador e diretor.",
+        "Participei de filmes como Lisbela e o Prisioneiro.",
+        "Interpretei Chicó em O Auto da Compadecida.",
+        "Dirigi o longa O Palhaço, lançado em 2011.",
+        "Atuei na série Sessão de Terapia.",
+        "Fui um dos protagonistas de Meu Nome Não É Johnny.",
+        "Interpretei Joaquim em O Filme da Minha Vida.",
+        "Atuei em Ainda Estou Aqui, de Walter Salles.",
+        "Sou Selton Mello."
+      ]
+    },
+    {
+      "id": "rodrigo-santoro",
+      "categoria": "atores",
+      "resposta": "Rodrigo Santoro",
+      "dicas": [
+        "Nasci em Petrópolis, no Rio de Janeiro.",
+        "Comecei minha trajetória na televisão brasileira.",
+        "Atuei em Bicho de Sete Cabeças.",
+        "Participei da comédia romântica Simplesmente Amor.",
+        "Fui um dos atores brasileiros no elenco de As Panteras: Detonando.",
+        "Interpretei o rei Xerxes no filme 300.",
+        "Participei da série Lost como Paulo.",
+        "Atuei na série Westworld.",
+        "Interpretei Jesus no filme Ben-Hur de 2016.",
+        "Sou Rodrigo Santoro."
+      ]
+    },
+    {
+      "id": "tony-leung",
+      "categoria": "atores",
+      "resposta": "Tony Leung Chiu-wai",
+      "dicas": [
+        "Nasci em Hong Kong em 1962.",
+        "Trabalhei tanto em dramas românticos quanto em filmes de ação.",
+        "Colaborei com o diretor Wong Kar-wai em diversas produções.",
+        "Atuei em Amores Expressos.",
+        "Participei do filme Felizes Juntos.",
+        "Fui protagonista de Amor à Flor da Pele.",
+        "Atuei em Herói, dirigido por Zhang Yimou.",
+        "Interpretei um policial infiltrado em Conflitos Internos.",
+        "Fui Xu Wenwu em Shang-Chi e a Lenda dos Dez Anéis.",
+        "Sou Tony Leung Chiu-wai."
+      ]
+    },
+    {
+      "id": "song-kang-ho",
+      "categoria": "atores",
+      "resposta": "Song Kang-ho",
+      "dicas": [
+        "Nasci na Coreia do Sul em 1967.",
+        "Minha filmografia inclui comédias, thrillers e dramas sociais.",
+        "Atuei em Memórias de um Assassino, de Bong Joon-ho.",
+        "Interpretei um pai no filme O Hospedeiro, de 2006.",
+        "Atuei em Expresso do Amanhã.",
+        "Fui protagonista de O Motorista de Táxi, filme sul-coreano de 2017.",
+        "Também participei do filme Corretor, de Hirokazu Kore-eda.",
+        "Ganhei o prêmio de melhor ator em Cannes por Corretor.",
+        "Interpretei Kim Ki-taek no filme Parasita.",
+        "Sou Song Kang-ho."
+      ]
+    },
+    {
+      "id": "irrfan-khan",
+      "categoria": "atores",
+      "resposta": "Irrfan Khan",
+      "dicas": [
+        "Nasci em Jaipur, na Índia.",
+        "Trabalhei no cinema indiano e em produções internacionais.",
+        "Atuei em O Poder do Amor, filme de Mira Nair conhecido em inglês como The Namesake.",
+        "Interpretei um investigador em Quem Quer Ser um Milionário?.",
+        "Fui o protagonista de As Aventuras de Pi como Pi adulto.",
+        "Atuei em Jurassic World.",
+        "Protagonizei o filme indiano The Lunchbox.",
+        "Recebi o prêmio National Film Award por Paan Singh Tomar.",
+        "Morri em 2020, aos 53 anos.",
+        "Sou Irrfan Khan."
+      ]
+    },
+    {
+      "id": "dev-patel",
+      "categoria": "atores",
+      "resposta": "Dev Patel",
+      "dicas": [
+        "Nasci em Londres em 1990 e tenho ascendência indiana.",
+        "Comecei a ganhar notoriedade numa série adolescente britânica.",
+        "Essa série era Skins.",
+        "Protagonizei Quem Quer Ser um Milionário?, de Danny Boyle.",
+        "Interpretei um jovem em busca da família biológica no filme Lion.",
+        "Recebi indicação ao Oscar de coadjuvante por Lion.",
+        "Atuei em A História Pessoal de David Copperfield.",
+        "Protagonizei o filme de fantasia A Lenda do Cavaleiro Verde.",
+        "Dirigi e protagonizei o filme de ação Fúria Primitiva, de 2024.",
+        "Sou Dev Patel."
+      ]
+    },
+    {
+      "id": "rami-malek",
+      "categoria": "atores",
+      "resposta": "Rami Malek",
+      "dicas": [
+        "Nasci em Los Angeles em 1981.",
+        "Tenho ascendência egípcia.",
+        "Atuei nos filmes Uma Noite no Museu.",
+        "Interpretei o personagem Ahkmenrah nessa franquia.",
+        "Ganhei destaque como protagonista de uma série sobre segurança digital.",
+        "Interpretei Elliot Alderson em Mr. Robot.",
+        "Vivi o cantor Freddie Mercury no cinema.",
+        "Esse filme musical chama-se Bohemian Rhapsody.",
+        "Ganhei o Oscar de melhor ator por Bohemian Rhapsody.",
+        "Sou Rami Malek."
+      ]
+    },
+    {
+      "id": "keanu-reeves",
+      "categoria": "atores",
+      "resposta": "Keanu Reeves",
+      "dicas": [
+        "Nasci em Beirute em 1964 e cresci no Canadá.",
+        "Comecei a atuar profissionalmente nos anos 1980.",
+        "Atuei em Bill & Ted: Uma Aventura Fantástica.",
+        "Fui protagonista de Velocidade Máxima, ao lado de Sandra Bullock.",
+        "Interpretei um homem ligado ao mundo sobrenatural em Constantine.",
+        "Fui Neo em uma franquia de ficção científica iniciada em 1999.",
+        "Essa franquia se chama Matrix.",
+        "Mais tarde interpretei um assassino de aluguel em uma série de filmes.",
+        "Meu personagem de ação se chama John Wick.",
+        "Sou Keanu Reeves."
+      ]
     }
   ]
 }
