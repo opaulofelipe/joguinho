@@ -59,6 +59,21 @@
 
   function pad(value) { return String(value).padStart(2, '0'); }
 
+  // Normaliza acentos e pontuação para detectar respostas entregues por engano nas pistas.
+  function normalizeClueText(value) {
+    return value.normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '')
+      .toLocaleLowerCase('pt-BR')
+      .replace(/[^\p{L}\p{N}]+/gu, ' ')
+      .trim();
+  }
+
+  function clueContainsAnswer(clue, answer) {
+    const normalizedAnswer = normalizeClueText(answer);
+    if (!normalizedAnswer) return false;
+    return (' ' + normalizeClueText(clue) + ' ').includes(' ' + normalizedAnswer + ' ');
+  }
+
   function loadAndValidate(raw) {
     if (!raw || !Array.isArray(raw.categorias) || !Array.isArray(raw.perfis)) {
       throw new Error('O JSON precisa conter os campos "categorias" e "perfis", ambos como listas.');
@@ -80,6 +95,9 @@
           !Array.isArray(profile.dicas) || profile.dicas.length !== MAX_TIPS ||
           !profile.dicas.every((tip) => typeof tip === 'string' && tip.trim())) {
         throw new Error(`Perfil inválido: ${profile?.id ?? '(sem ID)'}. Confira ID, categoria, resposta e as 10 dicas.`);
+      }
+      if (profile.dicas.some(tip => clueContainsAnswer(tip, profile.resposta))) {
+        throw new Error(`A carta "${profile.id}" contém a própria resposta em uma dica. Revise as dez pistas.`);
       }
       profileIds.add(profile.id);
     }
