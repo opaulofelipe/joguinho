@@ -1,0 +1,554 @@
+{
+  "categorias": [
+    {
+      "id": "series",
+      "nome": "Séries"
+    }
+  ],
+  "perfis": [
+    {
+      "id": "breaking-bad",
+      "categoria": "series",
+      "resposta": "Breaking Bad",
+      "dicas": [
+        "Esta série estreou em 2008.",
+        "A produção tem origem em Estados Unidos.",
+        "É um drama criminal ambientado no Novo México.",
+        "Um professor de química recebe diagnóstico de câncer.",
+        "Decide fabricar uma droga ilegal.",
+        "Seu antigo aluno se torna parceiro de negócios.",
+        "Bryan Cranston vive Walter White.",
+        "Aaron Paul interpreta Jesse Pinkman.",
+        "Um advogado questionável ajuda a dupla.",
+        "O protagonista usa o pseudônimo Heisenberg."
+      ]
+    },
+    {
+      "id": "better-call-saul",
+      "categoria": "series",
+      "resposta": "Better Call Saul",
+      "dicas": [
+        "Esta série estreou em 2015.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma série derivada de um drama criminal célebre.",
+        "A história começa antes dos acontecimentos da série original.",
+        "O protagonista é um advogado chamado Jimmy McGill.",
+        "Bob Odenkirk interpreta o personagem principal.",
+        "Kim Wexler é uma personagem importante.",
+        "Mike Ehrmantraut aparece na trama.",
+        "A narrativa mostra a transformação moral do advogado.",
+        "O nome profissional adotado por ele remete a uma expressão publicitária."
+      ]
+    },
+    {
+      "id": "familia-soprano",
+      "categoria": "series",
+      "resposta": "Família Soprano",
+      "dicas": [
+        "Esta série estreou em 1999.",
+        "A produção tem origem em Estados Unidos.",
+        "É um drama sobre uma família ligada ao crime organizado.",
+        "Boa parte da ação acontece em Nova Jersey.",
+        "O protagonista procura ajuda em sessões de terapia.",
+        "James Gandolfini interpreta Tony.",
+        "Uma psiquiatra chamada Jennifer Melfi escuta seus conflitos.",
+        "A série mistura vida doméstica e violência mafiosa.",
+        "O personagem Paulie é um aliado de longa data.",
+        "O final da série tornou-se objeto de intensos debates."
+      ]
+    },
+    {
+      "id": "the-wire",
+      "categoria": "series",
+      "resposta": "The Wire",
+      "dicas": [
+        "Esta série estreou em 2002.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma série policial de crítica institucional.",
+        "David Simon criou a obra.",
+        "A ação se passa principalmente em Baltimore.",
+        "Cada temporada enfatiza uma instituição diferente da cidade.",
+        "A polícia investiga redes de tráfico de drogas.",
+        "A segunda temporada acompanha trabalhadores portuários.",
+        "Personagens como Omar Little são marcantes.",
+        "O título faz referência a um método de interceptação de comunicações."
+      ]
+    },
+    {
+      "id": "game-of-thrones",
+      "categoria": "series",
+      "resposta": "Game of Thrones",
+      "dicas": [
+        "Esta série estreou em 2011.",
+        "A produção tem origem em Estados Unidos e Reino Unido.",
+        "É fantasia épica adaptada de romances.",
+        "A política de famílias nobres orienta grande parte da trama.",
+        "A narrativa se passa em Westeros e Essos.",
+        "Um trono de espadas simboliza o poder.",
+        "Dragões reaparecem no continente.",
+        "Personagens incluem Jon Snow e Tyrion Lannister.",
+        "A ameaça de criaturas além de uma muralha cresce.",
+        "A frase O inverno está chegando ficou conhecida."
+      ]
+    },
+    {
+      "id": "a-casa-do-dragao",
+      "categoria": "series",
+      "resposta": "A Casa do Dragão",
+      "dicas": [
+        "Esta série estreou em 2022.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma série de fantasia derivada de universo literário conhecido.",
+        "Sua história se passa muito antes de outra série da franquia.",
+        "Um conflito sucessório divide uma dinastia.",
+        "Os protagonistas pertencem à família Targaryen.",
+        "Dragões são instrumentos importantes de poder.",
+        "Emma D'Arcy interpreta Rhaenyra na fase adulta.",
+        "A guerra civil recebe o nome Dança dos Dragões.",
+        "A produção adapta parte do livro Fogo & Sangue."
+      ]
+    },
+    {
+      "id": "succession",
+      "categoria": "series",
+      "resposta": "Succession",
+      "dicas": [
+        "Esta série estreou em 2018.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma sátira dramática sobre poder corporativo.",
+        "A história acompanha uma família bilionária.",
+        "O conglomerado de mídia se chama Waystar Royco.",
+        "Quatro filhos disputam reconhecimento do patriarca.",
+        "Brian Cox interpreta Logan Roy.",
+        "A trama aborda negociação, manipulação e herança empresarial.",
+        "O personagem Kendall tenta assumir liderança.",
+        "O tema de abertura é assinado por Nicholas Britell."
+      ]
+    },
+    {
+      "id": "ruptura",
+      "categoria": "series",
+      "resposta": "Ruptura",
+      "dicas": [
+        "Esta série estreou em 2022.",
+        "A produção tem origem em Estados Unidos.",
+        "É um suspense de ficção científica sobre trabalho.",
+        "Seus protagonistas trabalham numa empresa chamada Lumon.",
+        "Um procedimento separa memórias profissionais e pessoais.",
+        "Adam Scott interpreta Mark Scout.",
+        "Funcionários não se lembram da vida externa enquanto trabalham.",
+        "O ambiente corporativo é minimalista e inquietante.",
+        "Helly é uma funcionária central na trama.",
+        "O título original em inglês é Severance."
+      ]
+    },
+    {
+      "id": "the-last-of-us",
+      "categoria": "series",
+      "resposta": "The Last of Us",
+      "dicas": [
+        "Esta série estreou em 2023.",
+        "A produção tem origem em Estados Unidos.",
+        "É um drama pós-apocalíptico adaptado de videogame.",
+        "Uma infecção fúngica destruiu estruturas sociais.",
+        "Um homem escolta uma adolescente pelos Estados Unidos.",
+        "Pedro Pascal interpreta Joel.",
+        "Bella Ramsey vive Ellie.",
+        "A história explora vínculos afetivos e sobrevivência.",
+        "Os infectados são associados ao fungo cordyceps.",
+        "A série foi criada por Craig Mazin e Neil Druckmann."
+      ]
+    },
+    {
+      "id": "stranger-things",
+      "categoria": "series",
+      "resposta": "Stranger Things",
+      "dicas": [
+        "Esta série estreou em 2016.",
+        "A produção tem origem em Estados Unidos.",
+        "É ficção científica e terror ambientados nos anos 1980.",
+        "A trama se passa numa cidade chamada Hawkins.",
+        "O desaparecimento de um menino inicia a primeira temporada.",
+        "Um grupo de crianças enfrenta fenômenos sobrenaturais.",
+        "Uma garota com poderes é chamada Eleven.",
+        "Existe uma dimensão conhecida como Mundo Invertido.",
+        "Uma criatura chamada Demogorgon surge no começo.",
+        "A canção Running Up That Hill voltou às paradas após aparecer na série."
+      ]
+    },
+    {
+      "id": "dark",
+      "categoria": "series",
+      "resposta": "Dark",
+      "dicas": [
+        "Esta série estreou em 2017.",
+        "A produção tem origem em Alemanha.",
+        "É um suspense com elementos de ficção científica.",
+        "A narrativa se passa numa pequena cidade chamada Winden.",
+        "Desaparecimentos de crianças conectam famílias.",
+        "Uma caverna tem relação com eventos inexplicáveis.",
+        "Diferentes períodos históricos se interligam.",
+        "Viagens no tempo estruturam a história.",
+        "O personagem Jonas é peça central do enredo.",
+        "A obra explora ciclos, causalidade e paradoxos temporais."
+      ]
+    },
+    {
+      "id": "lost",
+      "categoria": "series",
+      "resposta": "Lost",
+      "dicas": [
+        "Esta série estreou em 2004.",
+        "A produção tem origem em Estados Unidos.",
+        "É um drama de mistério e sobrevivência.",
+        "Os passageiros de um voo sofrem um acidente.",
+        "A maior parte da história ocorre numa ilha.",
+        "Uma escotilha subterrânea possui função misteriosa.",
+        "Flashbacks mostram vidas anteriores ao desastre.",
+        "Os personagens incluem Jack, Kate e Sawyer.",
+        "Os números 4, 8, 15, 16, 23 e 42 reaparecem.",
+        "A Iniciativa Dharma integra a mitologia da série."
+      ]
+    },
+    {
+      "id": "the-office",
+      "categoria": "series",
+      "resposta": "The Office",
+      "dicas": [
+        "Esta série estreou em 2005.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma comédia produzida no formato falso documentário.",
+        "Adapta uma série britânica de mesmo formato.",
+        "A trama se passa numa empresa de papel.",
+        "Os funcionários trabalham na filial de Scranton.",
+        "Steve Carell interpreta Michael Scott.",
+        "Jim e Pam vivem uma história romântica.",
+        "Dwight é um vendedor peculiar.",
+        "Personagens frequentemente olham diretamente para a câmera."
+      ]
+    },
+    {
+      "id": "friends",
+      "categoria": "series",
+      "resposta": "Friends",
+      "dicas": [
+        "Esta série estreou em 1994.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma comédia centrada na vida de seis amigos.",
+        "A trama se passa em Nova York.",
+        "Os protagonistas frequentam um café chamado Central Perk.",
+        "Uma personagem trabalha inicialmente como garçonete.",
+        "Rachel e Ross vivem um relacionamento intermitente.",
+        "Outros personagens incluem Phoebe e Chandler.",
+        "O apartamento de Monica é cenário recorrente.",
+        "A canção de abertura é I'll Be There for You."
+      ]
+    },
+    {
+      "id": "seinfeld",
+      "categoria": "series",
+      "resposta": "Seinfeld",
+      "dicas": [
+        "Esta série estreou em 1989.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma comédia de observação do cotidiano.",
+        "O protagonista interpreta versão ficcional de si mesmo.",
+        "A ação ocorre principalmente em Nova York.",
+        "George, Elaine e Kramer são amigos centrais.",
+        "A série foi criada por um comediante e Larry David.",
+        "Episódios giram em torno de convenções sociais banais.",
+        "Um restaurante fictício funciona como ponto de encontro.",
+        "Tornou-se conhecida como série sobre nada."
+      ]
+    },
+    {
+      "id": "how-i-met-your-mother",
+      "categoria": "series",
+      "resposta": "How I Met Your Mother",
+      "dicas": [
+        "Esta série estreou em 2005.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma comédia romântica com estrutura de relato.",
+        "O narrador conta aos filhos acontecimentos de sua juventude.",
+        "Grande parte da ação ocorre em Nova York.",
+        "Um bar chamado MacLaren's aparece repetidamente.",
+        "Ted Mosby é o personagem que narra a história.",
+        "Barney Stinson é conhecido por bordões e ternos.",
+        "Os amigos incluem Marshall, Lily e Robin.",
+        "O título se relaciona à identidade futura da mãe dos filhos."
+      ]
+    },
+    {
+      "id": "black-mirror",
+      "categoria": "series",
+      "resposta": "Black Mirror",
+      "dicas": [
+        "Esta série estreou em 2011.",
+        "A produção tem origem em Reino Unido.",
+        "É uma antologia de ficção especulativa.",
+        "Cada episódio costuma apresentar personagens novos.",
+        "Muitas histórias exploram efeitos sociais de tecnologias.",
+        "Uma trama associa reputação a avaliações por estrelas.",
+        "Outra imagina a transferência de consciências.",
+        "O episódio San Junipero aborda amor e simulação.",
+        "A série foi criada por Charlie Brooker.",
+        "O título sugere a tela escura de aparelhos eletrônicos."
+      ]
+    },
+    {
+      "id": "the-crown",
+      "categoria": "series",
+      "resposta": "The Crown",
+      "dicas": [
+        "Esta série estreou em 2016.",
+        "A produção tem origem em Reino Unido e Estados Unidos.",
+        "É um drama histórico sobre uma família real.",
+        "A ação acompanha décadas de mudanças políticas.",
+        "A protagonista ocupa o trono britânico.",
+        "Diferentes atrizes interpretam a soberana ao longo do tempo.",
+        "Claire Foy assumiu o papel nas primeiras temporadas.",
+        "Olivia Colman atuou nas temporadas intermediárias.",
+        "Imelda Staunton representou a monarca na fase final.",
+        "A série explora dever institucional e vida privada."
+      ]
+    },
+    {
+      "id": "peaky-blinders",
+      "categoria": "series",
+      "resposta": "Peaky Blinders",
+      "dicas": [
+        "Esta série estreou em 2013.",
+        "A produção tem origem em Reino Unido.",
+        "É um drama criminal de época.",
+        "A narrativa se passa em Birmingham após a Primeira Guerra.",
+        "Uma família administra atividades ilegais.",
+        "Cillian Murphy interpreta Thomas Shelby.",
+        "Bonés e roupas de alfaiataria marcam o estilo.",
+        "Os conflitos envolvem gangues e política.",
+        "A música Red Right Hand aparece na abertura.",
+        "A série recebeu título inspirado num grupo criminoso histórico."
+      ]
+    },
+    {
+      "id": "chernobyl",
+      "categoria": "series",
+      "resposta": "Chernobyl",
+      "dicas": [
+        "Esta série estreou em 2019.",
+        "A produção tem origem em Estados Unidos e Reino Unido.",
+        "É uma minissérie histórica.",
+        "Retrata uma catástrofe nuclear de 1986.",
+        "A história ocorre na então União Soviética.",
+        "O acidente foi numa usina localizada na atual Ucrânia.",
+        "Jared Harris interpreta o cientista Valery Legasov.",
+        "A trama mostra falhas técnicas e institucionais.",
+        "A personagem Ulana Khomyuk condensa contribuições de vários pesquisadores.",
+        "A produção tem cinco episódios."
+      ]
+    },
+    {
+      "id": "band-of-brothers",
+      "categoria": "series",
+      "resposta": "Band of Brothers",
+      "dicas": [
+        "Esta série estreou em 2001.",
+        "A produção tem origem em Estados Unidos e Reino Unido.",
+        "É uma minissérie histórica de guerra.",
+        "Baseia-se em livro de Stephen E. Ambrose.",
+        "Acompanha soldados americanos na Segunda Guerra.",
+        "O grupo pertence à Easy Company.",
+        "A campanha inclui o desembarque na Normandia.",
+        "Damian Lewis interpreta Richard Winters.",
+        "Tom Hanks e Steven Spielberg participaram da produção.",
+        "A história segue os paraquedistas da 101ª Divisão Aerotransportada."
+      ]
+    },
+    {
+      "id": "the-bear",
+      "categoria": "series",
+      "resposta": "The Bear",
+      "dicas": [
+        "Esta série estreou em 2022.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma comédia dramática sobre o universo gastronômico.",
+        "A narrativa se passa em Chicago.",
+        "Um chef retorna para administrar negócio da família.",
+        "Jeremy Allen White interpreta Carmy.",
+        "A cozinha enfrenta pressão e conflitos de gestão.",
+        "Ayo Edebiri interpreta Sydney.",
+        "Uma lanchonete passa por tentativa de transformação.",
+        "Um episódio acompanha o caos de um jantar familiar."
+      ]
+    },
+    {
+      "id": "the-boys",
+      "categoria": "series",
+      "resposta": "The Boys",
+      "dicas": [
+        "Esta série estreou em 2019.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma sátira violenta sobre super-heróis.",
+        "A produção se baseia em quadrinhos.",
+        "Heróis são administrados por uma corporação chamada Vought.",
+        "A imagem pública é central para o negócio.",
+        "Antony Starr interpreta Homelander.",
+        "Billy Butcher lidera grupo que confronta os superpoderosos.",
+        "A série explora abuso de poder e propaganda.",
+        "Um composto chamado V permite criar pessoas com habilidades."
+      ]
+    },
+    {
+      "id": "mr-robot",
+      "categoria": "series",
+      "resposta": "Mr. Robot",
+      "dicas": [
+        "Esta série estreou em 2015.",
+        "A produção tem origem em Estados Unidos.",
+        "É um suspense psicológico sobre tecnologia e poder.",
+        "O protagonista trabalha como especialista em cibersegurança.",
+        "Também participa de atividades hacker.",
+        "Rami Malek interpreta Elliot Alderson.",
+        "Um grupo clandestino se chama fsociety.",
+        "A empresa E Corp é alvo de ações subversivas.",
+        "A trama emprega narrador pouco confiável.",
+        "Christian Slater interpreta uma figura decisiva para o protagonista."
+      ]
+    },
+    {
+      "id": "fleabag",
+      "categoria": "series",
+      "resposta": "Fleabag",
+      "dicas": [
+        "Esta série estreou em 2016.",
+        "A produção tem origem em Reino Unido.",
+        "É uma comédia dramática criada por sua protagonista.",
+        "A personagem principal conversa diretamente com a câmera.",
+        "A trama acompanha uma mulher de Londres.",
+        "Phoebe Waller-Bridge escreveu e estrelou a série.",
+        "Luto e relações familiares atravessam os episódios.",
+        "A segunda temporada apresenta um padre.",
+        "Olivia Colman interpreta a madrinha da protagonista.",
+        "A produção se originou de um monólogo teatral."
+      ]
+    },
+    {
+      "id": "the-handmaid-s-tale",
+      "categoria": "series",
+      "resposta": "The Handmaid's Tale",
+      "dicas": [
+        "Esta série estreou em 2017.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma distopia adaptada de romance de Margaret Atwood.",
+        "Um regime teocrático restringe direitos das mulheres.",
+        "A trama ocorre num Estado chamado Gilead.",
+        "Algumas mulheres são submetidas à reprodução forçada.",
+        "Elisabeth Moss interpreta June Osborne.",
+        "A protagonista é identificada também por nome imposto.",
+        "Vestes vermelhas e toucas brancas simbolizam um grupo oprimido.",
+        "A narrativa aborda resistência ao autoritarismo."
+      ]
+    },
+    {
+      "id": "narcos",
+      "categoria": "series",
+      "resposta": "Narcos",
+      "dicas": [
+        "Esta série estreou em 2015.",
+        "A produção tem origem em Estados Unidos e Colômbia.",
+        "É um drama criminal inspirado em acontecimentos reais.",
+        "Grande parte das primeiras temporadas se passa na Colômbia.",
+        "A trama aborda cartéis internacionais de drogas.",
+        "Wagner Moura interpreta Pablo Escobar.",
+        "Agentes americanos investigam redes de narcotráfico.",
+        "Pedro Pascal interpreta Javier Peña.",
+        "A produção combina dramatização e imagens históricas.",
+        "A abertura usa a canção Tuyo."
+      ]
+    },
+    {
+      "id": "mindhunter",
+      "categoria": "series",
+      "resposta": "Mindhunter",
+      "dicas": [
+        "Esta série estreou em 2017.",
+        "A produção tem origem em Estados Unidos.",
+        "É um drama policial sobre investigação psicológica.",
+        "A história se passa no fim dos anos 1970.",
+        "Dois agentes do FBI entrevistam assassinos presos.",
+        "O objetivo é identificar padrões de comportamento.",
+        "David Fincher dirigiu vários episódios.",
+        "Jonathan Groff interpreta Holden Ford.",
+        "A série se inspira em livro de John E. Douglas.",
+        "A criação de perfis criminais é parte central da trama."
+      ]
+    },
+    {
+      "id": "round-6",
+      "categoria": "series",
+      "resposta": "Round 6",
+      "dicas": [
+        "Esta série estreou em 2021.",
+        "A produção tem origem em Coreia do Sul.",
+        "É um suspense sobre desigualdade e sobrevivência.",
+        "Pessoas endividadas participam de competição secreta.",
+        "Jogos infantis ganham consequências mortais.",
+        "Os participantes usam uniformes verdes numerados.",
+        "Os organizadores utilizam máscaras geométricas.",
+        "Lee Jung-jae interpreta Gi-hun.",
+        "Uma boneca gigante aparece numa disputa de parar e avançar.",
+        "A premiação envolve grande soma de dinheiro."
+      ]
+    },
+    {
+      "id": "the-white-lotus",
+      "categoria": "series",
+      "resposta": "The White Lotus",
+      "dicas": [
+        "Esta série estreou em 2021.",
+        "A produção tem origem em Estados Unidos.",
+        "É uma sátira social ambientada em hotéis de luxo.",
+        "Cada temporada acompanha novos hóspedes e funcionários.",
+        "A trama discute privilégios econômicos e relações pessoais.",
+        "Mike White criou a produção.",
+        "A primeira temporada acontece no Havaí.",
+        "A segunda é ambientada na Sicília.",
+        "Jennifer Coolidge interpreta Tanya McQuoid.",
+        "A abertura e a música têm papel marcante no clima inquietante."
+      ]
+    },
+    {
+      "id": "3",
+      "categoria": "series",
+      "resposta": "3%",
+      "dicas": [
+        "Esta série estreou em 2016.",
+        "A produção tem origem em Brasil.",
+        "É uma ficção científica distópica.",
+        "A sociedade retratada é dividida por desigualdade extrema.",
+        "Jovens participam de provas de seleção.",
+        "A aprovação oferece acesso a uma região privilegiada.",
+        "A maior parte da população permanece no Continente.",
+        "O lugar privilegiado se chama Maralto.",
+        "Bianca Comparato interpreta Michele.",
+        "Foi uma das primeiras séries originais brasileiras da Netflix."
+      ]
+    },
+    {
+      "id": "cidade-invisivel",
+      "categoria": "series",
+      "resposta": "Cidade Invisível",
+      "dicas": [
+        "Esta série estreou em 2021.",
+        "A produção tem origem em Brasil.",
+        "É uma fantasia de investigação policial.",
+        "A trama se passa em ambientes urbanos e naturais brasileiros.",
+        "Um detetive investiga uma morte misteriosa.",
+        "Entidades do folclore aparecem no enredo.",
+        "Marco Pigossi interpreta Eric.",
+        "Personagens inspiram-se em figuras como o Curupira e a Cuca.",
+        "Carlos Saldanha participou da criação.",
+        "A série combina mitologia popular e conflitos ambientais."
+      ]
+    }
+  ]
+}
