@@ -1,0 +1,554 @@
+{
+  "categorias": [
+    {
+      "id": "cientistas",
+      "nome": "Cientistas/Inventores"
+    }
+  ],
+  "perfis": [
+    {
+      "id": "isaac-newton",
+      "categoria": "cientistas",
+      "resposta": "Isaac Newton",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XVII e XVIII.",
+        "Tenho uma trajetória vinculada a Inglaterra.",
+        "Estudei na Universidade de Cambridge.",
+        "Desenvolvi um método matemático ligado ao cálculo infinitesimal.",
+        "Investiguei óptica e a decomposição da luz.",
+        "Usei prismas em experimentos.",
+        "Formulei três leis fundamentais da mecânica clássica.",
+        "Propus a lei da gravitação universal.",
+        "Publiquei os Principia Mathematica em 1687.",
+        "Também trabalhei na Casa da Moeda britânica."
+      ]
+    },
+    {
+      "id": "albert-einstein",
+      "categoria": "cientistas",
+      "resposta": "Albert Einstein",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Alemanha, Suíça e Estados Unidos.",
+        "Trabalhei num escritório de patentes.",
+        "Publiquei estudos decisivos em 1905.",
+        "Expliquei teoricamente o efeito fotoelétrico.",
+        "Desenvolvi a relatividade especial.",
+        "Formulei a equivalência entre massa e energia.",
+        "Apresentei a teoria da relatividade geral em 1915.",
+        "Recebi o Nobel de Física de 1921.",
+        "Emigrei após a ascensão do nazismo."
+      ]
+    },
+    {
+      "id": "charles-darwin",
+      "categoria": "cientistas",
+      "resposta": "Charles Darwin",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XIX.",
+        "Tenho uma trajetória vinculada a Reino Unido.",
+        "Viajei a bordo do navio Beagle.",
+        "Observei organismos na América do Sul.",
+        "Estudei variações de espécies em ambientes diferentes.",
+        "Elaborei um mecanismo de evolução por seleção natural.",
+        "Alfred Russel Wallace chegou independentemente a ideia semelhante.",
+        "Publiquei A Origem das Espécies em 1859.",
+        "Investiguei também plantas e minhocas.",
+        "Minha teoria mudou profundamente a biologia."
+      ]
+    },
+    {
+      "id": "nikola-tesla",
+      "categoria": "cientistas",
+      "resposta": "Nikola Tesla",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XIX e XX.",
+        "Tenho uma trajetória vinculada a Europa e Estados Unidos.",
+        "Trabalhei com sistemas de eletricidade.",
+        "Migrei para os Estados Unidos.",
+        "Investiguei motores de indução.",
+        "Defendi sistemas de corrente alternada.",
+        "Participei de uma disputa tecnológica com Edison.",
+        "Meu nome está ligado a uma bobina de alta tensão.",
+        "Realizei experiências de transmissão sem fios.",
+        "Uma unidade de densidade de fluxo magnético homenageia meu sobrenome."
+      ]
+    },
+    {
+      "id": "thomas-edison",
+      "categoria": "cientistas",
+      "resposta": "Thomas Edison",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XIX e XX.",
+        "Tenho uma trajetória vinculada a Estados Unidos.",
+        "Trabalhei em sistemas de telégrafo.",
+        "Criei laboratório de pesquisa industrial em Menlo Park.",
+        "Desenvolvi um fonógrafo comercialmente marcante.",
+        "Aperfeiçoei sistemas de iluminação elétrica.",
+        "Participei da expansão de redes de distribuição de energia.",
+        "Disputei modelos elétricos com defensores da corrente alternada.",
+        "Acumulei muitas patentes.",
+        "Também trabalhei com equipamentos para registrar imagens em movimento."
+      ]
+    },
+    {
+      "id": "alan-turing",
+      "categoria": "cientistas",
+      "resposta": "Alan Turing",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Reino Unido.",
+        "Fui matemático e lógico.",
+        "Formulei um modelo abstrato de computação.",
+        "Trabalhei na decifração de mensagens criptografadas durante a Segunda Guerra.",
+        "Participei da equipe de Bletchley Park.",
+        "Colaborei em estudos de computação eletrônica.",
+        "Propus um teste relacionado à inteligência de máquinas.",
+        "Sofri perseguição legal por minha homossexualidade.",
+        "Um prêmio internacional de computação recebeu meu nome."
+      ]
+    },
+    {
+      "id": "rosalind-franklin",
+      "categoria": "cientistas",
+      "resposta": "Rosalind Franklin",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Reino Unido.",
+        "Estudei técnicas de difração de raios X.",
+        "Pesquisei estruturas moleculares.",
+        "Produzi dados decisivos sobre a estrutura do DNA.",
+        "Uma fotografia de difração minha ficou conhecida como Foto 51.",
+        "Trabalhei no King's College de Londres.",
+        "Minha contribuição foi insuficientemente reconhecida por décadas.",
+        "Depois, investiguei vírus e moléculas biológicas.",
+        "Morri em 1958, antes da concessão do Nobel de 1962."
+      ]
+    },
+    {
+      "id": "niels-bohr",
+      "categoria": "cientistas",
+      "resposta": "Niels Bohr",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Dinamarca.",
+        "Fui físico dedicado à estrutura atômica.",
+        "Trabalhei com Ernest Rutherford.",
+        "Propus um modelo de átomo com níveis discretos de energia.",
+        "Minha teoria explicou aspectos do espectro do hidrogênio.",
+        "Participei do desenvolvimento da mecânica quântica.",
+        "Defendi o princípio da complementaridade.",
+        "Recebi o Nobel de Física de 1922.",
+        "Minha instituição em Copenhague tornou-se centro internacional de pesquisa."
+      ]
+    },
+    {
+      "id": "dmitri-mendeleev",
+      "categoria": "cientistas",
+      "resposta": "Dmitri Mendeleev",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XIX.",
+        "Tenho uma trajetória vinculada a Rússia.",
+        "Estudei química e propriedades dos elementos.",
+        "Organizei elementos segundo padrões periódicos.",
+        "Deixei lacunas para substâncias ainda desconhecidas.",
+        "Previ propriedades de elementos que seriam descobertos depois.",
+        "Minha classificação foi divulgada em 1869.",
+        "Minha tabela sofreu modificações com a descoberta do número atômico.",
+        "Pesquisei também soluções e propriedades físicas.",
+        "Meu sobrenome é associado à organização periódica dos elementos."
+      ]
+    },
+    {
+      "id": "louis-pasteur",
+      "categoria": "cientistas",
+      "resposta": "Louis Pasteur",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XIX.",
+        "Tenho uma trajetória vinculada a França.",
+        "Fui químico e microbiologista.",
+        "Investiguei processos de fermentação.",
+        "Mostrei o papel de microrganismos em alterações de alimentos.",
+        "Contestei a ideia de geração espontânea.",
+        "Desenvolvi procedimento de aquecimento para conservação de líquidos.",
+        "Pesquisei doenças de animais.",
+        "Contribuí para uma vacina contra a raiva.",
+        "Um instituto de pesquisa francês leva meu nome."
+      ]
+    },
+    {
+      "id": "alexander-fleming",
+      "categoria": "cientistas",
+      "resposta": "Alexander Fleming",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Escócia e Inglaterra.",
+        "Fui médico e bacteriologista.",
+        "Investiguei substâncias antibacterianas.",
+        "Observei contaminação inesperada em cultura bacteriana.",
+        "Um fungo inibiu o crescimento de bactérias próximas.",
+        "Publiquei descoberta relacionada à penicilina em 1929.",
+        "Outros pesquisadores transformaram a substância em tratamento.",
+        "Recebi o Nobel de Medicina em 1945.",
+        "Minha descoberta revolucionou o combate a infecções."
+      ]
+    },
+    {
+      "id": "michael-faraday",
+      "categoria": "cientistas",
+      "resposta": "Michael Faraday",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XIX.",
+        "Tenho uma trajetória vinculada a Reino Unido.",
+        "Comecei como aprendiz de encadernador.",
+        "Fui autodidata em muitos temas de ciência.",
+        "Trabalhei com Humphry Davy.",
+        "Investiguei eletricidade e magnetismo.",
+        "Demonstrei indução eletromagnética.",
+        "Minha pesquisa ajudou a fundamentar geradores elétricos.",
+        "Descrevi leis da eletrólise.",
+        "Uma unidade de capacitância recebeu meu sobrenome."
+      ]
+    },
+    {
+      "id": "johannes-kepler",
+      "categoria": "cientistas",
+      "resposta": "Johannes Kepler",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XVI e XVII.",
+        "Tenho uma trajetória vinculada a territórios germânicos.",
+        "Fui astrônomo e matemático.",
+        "Trabalhei com dados de Tycho Brahe.",
+        "Investiguei o movimento de Marte.",
+        "Mostrei que órbitas planetárias podem ser elípticas.",
+        "Formulei três leis de movimento planetário.",
+        "Contribuí para o modelo heliocêntrico.",
+        "Também estudei óptica.",
+        "Minha obra foi essencial à física posterior."
+      ]
+    },
+    {
+      "id": "nicolau-copernico",
+      "categoria": "cientistas",
+      "resposta": "Nicolau Copérnico",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XV e XVI.",
+        "Tenho uma trajetória vinculada a Europa Central.",
+        "Estudei matemática, medicina e direito canônico.",
+        "Fui cônego.",
+        "Propus reorganizar o modelo astronômico conhecido.",
+        "Coloquei o Sol perto do centro da descrição planetária.",
+        "Minha proposta contrariava sistemas geocêntricos tradicionais.",
+        "Meu livro principal foi publicado em 1543.",
+        "A obra se chama Das Revoluções dos Orbes Celestes.",
+        "Meu modelo influenciou a revolução científica."
+      ]
+    },
+    {
+      "id": "gregor-mendel",
+      "categoria": "cientistas",
+      "resposta": "Gregor Mendel",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XIX.",
+        "Tenho uma trajetória vinculada a região da atual República Tcheca.",
+        "Fui monge agostiniano.",
+        "Realizei cruzamentos controlados com plantas.",
+        "Escolhi ervilhas para investigar hereditariedade.",
+        "Contei características transmitidas por gerações.",
+        "Descrevi padrões de dominância e segregação.",
+        "Publiquei resultados em 1866.",
+        "Meu trabalho só recebeu amplo reconhecimento décadas depois.",
+        "Sou chamado frequentemente de fundador da genética."
+      ]
+    },
+    {
+      "id": "antoine-lavoisier",
+      "categoria": "cientistas",
+      "resposta": "Antoine Lavoisier",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XVIII.",
+        "Tenho uma trajetória vinculada a França.",
+        "Trabalhei com medições quantitativas em química.",
+        "Investiguei combustão e gases.",
+        "Ajudei a refutar a teoria do flogisto.",
+        "Participei da criação de uma nomenclatura química moderna.",
+        "Formulei uma explicação da conservação da massa em reações.",
+        "Escrevi Tratado Elementar de Química.",
+        "Atuei como arrecadador de impostos antes da Revolução.",
+        "Fui executado durante o Terror revolucionário."
+      ]
+    },
+    {
+      "id": "blaise-pascal",
+      "categoria": "cientistas",
+      "resposta": "Blaise Pascal",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XVII.",
+        "Tenho uma trajetória vinculada a França.",
+        "Fui matemático, físico e pensador religioso.",
+        "Trabalhei em cálculo de probabilidades.",
+        "Construí uma máquina mecânica de calcular.",
+        "Realizei estudos sobre pressão atmosférica.",
+        "Uma unidade de pressão recebeu meu sobrenome.",
+        "Escrevi reflexões reunidas em Pensamentos.",
+        "Minha obra discute limites da razão humana.",
+        "Também estudei a geometria das cônicas."
+      ]
+    },
+    {
+      "id": "rene-descartes",
+      "categoria": "cientistas",
+      "resposta": "René Descartes",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XVII.",
+        "Tenho uma trajetória vinculada a França e Países Baixos.",
+        "Fui filósofo e matemático.",
+        "Defendi o uso sistemático da dúvida.",
+        "Elaborei uma relação entre geometria e álgebra.",
+        "Ajudei a desenvolver a geometria analítica.",
+        "Escrevi Discurso do Método.",
+        "Uma frase minha relaciona pensamento e existência.",
+        "Contribuí para debates da filosofia moderna.",
+        "Morri na Suécia em 1650."
+      ]
+    },
+    {
+      "id": "robert-hooke",
+      "categoria": "cientistas",
+      "resposta": "Robert Hooke",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XVII.",
+        "Tenho uma trajetória vinculada a Inglaterra.",
+        "Fui membro da Royal Society.",
+        "Realizei estudos com microscópios.",
+        "Publiquei Micrographia em 1665.",
+        "Observei pequenas estruturas em cortiça.",
+        "Popularizei o termo célula para descrevê-las.",
+        "Investiguei elasticidade de materiais.",
+        "Uma lei da física descreve deformação proporcional à força.",
+        "Trabalhei também em astronomia e arquitetura."
+      ]
+    },
+    {
+      "id": "carl-linnaeus",
+      "categoria": "cientistas",
+      "resposta": "Carl Linnaeus",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XVIII.",
+        "Tenho uma trajetória vinculada a Suécia.",
+        "Fui médico e naturalista.",
+        "Organizei organismos em categorias hierárquicas.",
+        "Contribuí para a nomenclatura binomial das espécies.",
+        "Defendi nomes científicos em latim.",
+        "Publiquei Systema Naturae.",
+        "Classifiquei plantas segundo características reprodutivas.",
+        "Minha obra influenciou toda a taxonomia posterior.",
+        "Em português, sou conhecido também por uma forma latinizada de meu nome."
+      ]
+    },
+    {
+      "id": "katherine-johnson",
+      "categoria": "cientistas",
+      "resposta": "Katherine Johnson",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Estados Unidos.",
+        "Fui matemática.",
+        "Trabalhei em pesquisas de aeronáutica.",
+        "Integrei equipes pioneiras com mulheres negras.",
+        "Calculei trajetórias para missões espaciais.",
+        "Participei dos cálculos ligados ao voo orbital de John Glenn.",
+        "Atuei em trabalhos relacionados ao programa Apollo.",
+        "Minha história foi mostrada em Estrelas Além do Tempo.",
+        "Recebi a Medalha Presidencial da Liberdade."
+      ]
+    },
+    {
+      "id": "grace-hopper",
+      "categoria": "cientistas",
+      "resposta": "Grace Hopper",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Estados Unidos.",
+        "Fui matemática e oficial da Marinha.",
+        "Trabalhei com computadores da família Harvard Mark.",
+        "Ajudei a difundir a ideia de compiladores.",
+        "Contribuí para a criação de linguagens de programação mais acessíveis.",
+        "Tive papel central no desenvolvimento do COBOL.",
+        "Popularizei explicações sobre o termo debugging.",
+        "Alcancei a patente de contra-almirante.",
+        "Meu nome é associado a uma conferência para mulheres em computação."
+      ]
+    },
+    {
+      "id": "hedy-lamarr",
+      "categoria": "cientistas",
+      "resposta": "Hedy Lamarr",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Áustria e Estados Unidos.",
+        "Ganhei notoriedade como atriz de cinema.",
+        "Fugi do contexto político europeu dos anos 1930.",
+        "Estudei soluções tecnológicas fora da profissão artística.",
+        "Colaborei com George Antheil.",
+        "Propusemos um sistema de saltos de frequência.",
+        "A patente buscava dificultar interferência em torpedos guiados.",
+        "Minha invenção se relaciona à história das comunicações sem fio.",
+        "Fui reconhecida tardiamente como inventora."
+      ]
+    },
+    {
+      "id": "jane-goodall",
+      "categoria": "cientistas",
+      "resposta": "Jane Goodall",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XX e XXI.",
+        "Tenho uma trajetória vinculada a Reino Unido e Tanzânia.",
+        "Sou primatóloga e conservacionista.",
+        "Comecei pesquisas de campo na África Oriental.",
+        "Observei chimpanzés em seu habitat.",
+        "Registrei uso de ferramentas por esses animais.",
+        "Meu trabalho contestou fronteiras rígidas entre humanos e outros primatas.",
+        "Dediquei décadas à proteção ambiental.",
+        "Pesquisei no Parque Nacional de Gombe.",
+        "Criei uma instituição internacional voltada à conservação."
+      ]
+    },
+    {
+      "id": "tu-youyou",
+      "categoria": "cientistas",
+      "resposta": "Tu Youyou",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XX e XXI.",
+        "Tenho uma trajetória vinculada a China.",
+        "Pesquisei medicina e farmacologia.",
+        "Investiguei fontes de tratamentos tradicionais.",
+        "Buscava substâncias eficazes contra a malária.",
+        "Uma planta chamada Artemisia annua foi central.",
+        "Minha equipe isolou a artemisinina.",
+        "O composto permitiu novos tratamentos antimaláricos.",
+        "Recebi Nobel de Medicina de 2015.",
+        "Tornei-me primeira mulher chinesa a receber Nobel em ciência."
+      ]
+    },
+    {
+      "id": "chien-shiung-wu",
+      "categoria": "cientistas",
+      "resposta": "Chien-Shiung Wu",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a China e Estados Unidos.",
+        "Fui física experimental.",
+        "Emigrei para os Estados Unidos.",
+        "Trabalhei no projeto Manhattan.",
+        "Realizei experimento decisivo sobre decaimento beta.",
+        "Minha equipe demonstrou violação de paridade em interações fracas.",
+        "O resultado confirmou hipótese de Lee e Yang.",
+        "Esses teóricos ganharam Nobel em 1957.",
+        "Minha contribuição gerou debates sobre reconhecimento das pesquisadoras."
+      ]
+    },
+    {
+      "id": "dorothy-hodgkin",
+      "categoria": "cientistas",
+      "resposta": "Dorothy Hodgkin",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Reino Unido.",
+        "Fui química e cristalógrafa.",
+        "Usei difração de raios X para estudar moléculas.",
+        "Determinei a estrutura da penicilina.",
+        "Também investiguei a vitamina B12.",
+        "Trabalhei na estrutura da insulina por muitos anos.",
+        "Recebi Nobel de Química em 1964.",
+        "Participei de campanhas pela paz.",
+        "Fui orientadora acadêmica de Margaret Thatcher."
+      ]
+    },
+    {
+      "id": "barbara-mcclintock",
+      "categoria": "cientistas",
+      "resposta": "Barbara McClintock",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Estados Unidos.",
+        "Fui geneticista.",
+        "Estudei cromossomos de milho.",
+        "Observei alterações de padrões de pigmentação.",
+        "Propus que segmentos genéticos mudam de posição.",
+        "Minha ideia passou a ser conhecida como transposição genética.",
+        "O reconhecimento foi lento inicialmente.",
+        "Recebi Nobel de Medicina em 1983.",
+        "Fui a primeira mulher a receber esse prêmio individualmente."
+      ]
+    },
+    {
+      "id": "cesar-lattes",
+      "categoria": "cientistas",
+      "resposta": "César Lattes",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Brasil.",
+        "Fui físico experimental.",
+        "Pesquisei partículas em raios cósmicos.",
+        "Trabalhei com emulsões fotográficas.",
+        "Participei da identificação do méson pi.",
+        "Atuei em pesquisas no exterior e no Brasil.",
+        "Contribuí para a criação do Centro Brasileiro de Pesquisas Físicas.",
+        "Trabalhei com aceleração de partículas.",
+        "Meu nome batiza um sistema brasileiro de currículos acadêmicos."
+      ]
+    },
+    {
+      "id": "oswaldo-cruz",
+      "categoria": "cientistas",
+      "resposta": "Oswaldo Cruz",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de séculos XIX e XX.",
+        "Tenho uma trajetória vinculada a Brasil.",
+        "Fui médico sanitarista.",
+        "Atuei em campanhas contra epidemias no Rio de Janeiro.",
+        "Coordenei medidas contra febre amarela.",
+        "Defendi vacinação em campanhas públicas.",
+        "Meu trabalho se relaciona ao contexto da Revolta da Vacina.",
+        "Dirigi instituição de pesquisa em Manguinhos.",
+        "Participei da modernização da saúde pública brasileira.",
+        "Uma fundação científica nacional recebeu meu nome."
+      ]
+    },
+    {
+      "id": "carlos-chagas",
+      "categoria": "cientistas",
+      "resposta": "Carlos Chagas",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Brasil.",
+        "Fui médico e pesquisador.",
+        "Atuei no combate à malária.",
+        "Estudei um inseto conhecido como barbeiro.",
+        "Identifiquei agente parasitário de uma doença.",
+        "Descrevi manifestações clínicas ligadas a esse parasita.",
+        "O protozoário foi denominado Trypanosoma cruzi.",
+        "Fui indicado ao Nobel de Medicina.",
+        "Uma doença tropical passou a ser identificada por meu sobrenome."
+      ]
+    },
+    {
+      "id": "bertha-lutz",
+      "categoria": "cientistas",
+      "resposta": "Bertha Lutz",
+      "dicas": [
+        "Minha contribuição à ciência pertence principalmente ao contexto de século XX.",
+        "Tenho uma trajetória vinculada a Brasil.",
+        "Fui bióloga e funcionária pública.",
+        "Atuei pela educação e participação política de mulheres.",
+        "Integrei o movimento sufragista brasileiro.",
+        "Fundamentei a Federação Brasileira pelo Progresso Feminino.",
+        "Atuei em debates que antecederam o voto feminino em 1932.",
+        "Trabalhei no Museu Nacional.",
+        "Participei da conferência de criação da ONU em 1945.",
+        "Defendi a presença dos direitos das mulheres na Carta das Nações Unidas."
+      ]
+    }
+  ]
+}
