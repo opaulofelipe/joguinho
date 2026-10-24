@@ -38,7 +38,7 @@
         "Meu templo funerário fica em Deir el-Bahari.",
         "Governava o Egito durante o Império Novo.",
         "Meu nome é frequentemente associado a uma das mais importantes mulheres faraós.",
-        "Sou Hatshepsut, governante da XVIII dinastia egípcia."
+        "Meu templo funerário foi construído na região de Deir el-Bahari."
       ],
       "origem": "global"
     },
@@ -56,7 +56,7 @@
         "Meu pai foi Filipe II da Macedônia.",
         "Meu império se estendeu até a região do rio Indo.",
         "Após minha morte em Babilônia, generais dividiram os territórios conquistados.",
-        "Sou Alexandre III da Macedônia, chamado de Alexandre, o Grande."
+        "Minhas conquistas se estenderam até regiões próximas ao rio Indo."
       ],
       "origem": "global"
     },
@@ -74,7 +74,7 @@
         "Essa guerra aconteceu na região de Calinga.",
         "Apoiei o budismo sem reduzir meu governo somente a essa religião.",
         "Fui neto de Chandragupta Máuria.",
-        "Sou o imperador Ashoka, governante da Índia no século III a.C."
+        "Edictos meus foram gravados em pilares e paredes rochosas."
       ],
       "origem": "global"
     },
@@ -92,7 +92,7 @@
         "Fui o primeiro imperador de uma China unificada.",
         "A unificação ocorreu em 221 a.C.",
         "Meu nome dinástico é Qin, origem do nome da dinastia Qin.",
-        "Sou Qin Shi Huang."
+        "Meu mausoléu ficou conhecido por seu exército de estátuas de terracota."
       ],
       "origem": "global"
     },
@@ -110,7 +110,7 @@
         "Minha morte violenta envolveu uma multidão em conflitos urbanos e religiosos.",
         "Vivi na Alexandria do Egito romano.",
         "Fui assassinada em 415 ou 416 da era comum.",
-        "Sou Hipátia de Alexandria."
+        "Ensinei matemática e filosofia neoplatônica em Alexandria."
       ],
       "origem": "global"
     },
@@ -128,7 +128,7 @@
         "Campanhas militares sob meu comando avançaram sobre o norte da China e a Ásia Central.",
         "Meus descendentes ampliaram ainda mais o império que fundei.",
         "Sou considerado fundador do Império Mongol.",
-        "Fiquei conhecido como Gêngis Khan."
+        "As conquistas de meus descendentes formaram vasto império pela Eurásia."
       ],
       "origem": "global"
     },
@@ -146,7 +146,7 @@
         "Passei pelo Cairo em direção à cidade de Meca.",
         "Governava o Império do Mali no século XIV.",
         "Meu nome costuma aparecer em debates sobre riqueza histórica.",
-        "Sou Mansa Musa."
+        "Minha peregrinação a Meca ficou famosa pela quantidade de ouro distribuído."
       ],
       "origem": "global"
     },
@@ -164,7 +164,7 @@
         "Fui capturada e julgada por um tribunal eclesiástico.",
         "Morri na fogueira em Rouen em 1431.",
         "Fui canonizada pela Igreja Católica em 1920.",
-        "Sou Joana d'Arc."
+        "Fui executada em Rouen, em 1431."
       ],
       "origem": "global"
     },
@@ -182,7 +182,7 @@
         "Tropas sob meu comando venceram a batalha de Mohács em 1526.",
         "Fui sultão do Império Otomano no século XVI.",
         "Recebi no Ocidente o epíteto de Magnífico e, internamente, associação à legislação.",
-        "Sou Solimão I, ou Solimão, o Magnífico."
+        "Meu governo conduziu o cerco de Viena em 1529."
       ],
       "origem": "global"
     },
@@ -200,7 +200,7 @@
         "Resisti às pretensões coloniais portuguesas no século XVII.",
         "Meu nome também é escrito Njinga ou Ginga.",
         "Sou lembrada como rainha de reinos localizados na atual Angola.",
-        "Sou Nzinga Mbande."
+        "Governei Ndongo e Matamba e negociei alianças contra a expansão portuguesa."
       ],
       "origem": "global"
     },
@@ -218,7 +218,7 @@
         "Meu regime é associado ao início do período Edo.",
         "Fui o fundador do xogunato Tokugawa.",
         "O xogunato de minha família permaneceu até o século XIX.",
-        "Sou Tokugawa Ieyasu."
+        "Minha vitória na batalha de Sekigahara ocorreu em 1600."
       ],
       "origem": "global"
     },
@@ -236,7 +236,7 @@
         "Defendi argumentos favoráveis ao heliocentrismo.",
         "Fui julgado pela Inquisição romana em 1633.",
         "Sou autor de Diálogo sobre os Dois Máximos Sistemas do Mundo.",
-        "Sou Galileu Galilei."
+        "Observei luas em órbita de Júpiter usando uma luneta."
       ],
       "origem": "global"
     },
@@ -254,7 +254,7 @@
         "Uma constituição local de 1801 concentrou autoridade em meu governo.",
         "Fui preso por tropas francesas enviadas por Napoleão.",
         "Morri em 1803, antes da independência do Haiti.",
-        "Sou Toussaint Louverture."
+        "Comandei forças na revolução de Saint-Domingue."
       ],
       "origem": "global"
     },
@@ -272,7 +272,7 @@
         "Fui figura central da formação da Grã-Colômbia.",
         "Meu título político mais conhecido é Libertador.",
         "Um país sul-americano recebeu um nome derivado do meu sobrenome.",
-        "Sou Simón Bolívar."
+        "Liderei campanhas de independência no norte da América do Sul."
       ],
       "origem": "global"
     },
@@ -290,7 +290,7 @@
         "Fui conhecida pelo apelido de Moisés entre abolicionistas.",
         "Minha atuação é associada à Underground Railroad.",
         "Tornei-me uma das mais conhecidas abolicionistas norte-americanas.",
-        "Sou Harriet Tubman."
+        "Conduzi pessoas escravizadas por rotas clandestinas de fuga."
       ],
       "origem": "global"
     },
@@ -308,7 +308,7 @@
         "Uma de minhas notas detalha procedimentos para calcular números de Bernoulli.",
         "Trabalhei conceitualmente com a Máquina Analítica.",
         "Sou frequentemente lembrada como pioneira da programação de computadores.",
-        "Sou Ada Lovelace."
+        "Elaborei notas sobre algoritmos para a Máquina Analítica."
       ],
       "origem": "global"
     },
@@ -326,7 +326,7 @@
         "Fui coautor do Manifesto do Partido Comunista, de 1848.",
         "Publiquei o primeiro volume de O Capital em 1867.",
         "Minha obra deu origem a diversas correntes do pensamento marxista.",
-        "Sou Karl Marx."
+        "Minha obra O Capital examina criticamente as relações econômicas capitalistas."
       ],
       "origem": "global"
     },
@@ -344,7 +344,7 @@
         "Ajudei a profissionalizar a formação de enfermeiras na Inglaterra.",
         "Fui chamada de Dama da Lâmpada.",
         "Sou referência histórica da enfermagem moderna.",
-        "Sou Florence Nightingale."
+        "Organizei serviços de enfermagem durante a Guerra da Crimeia."
       ],
       "origem": "global"
     },
@@ -362,7 +362,7 @@
         "A Marcha do Sal ocorreu em 1930.",
         "Liderei campanhas ligadas à independência da Índia do domínio britânico.",
         "Fui assassinado em 1948, após a independência.",
-        "Sou Mohandas Karamchand Gandhi, conhecido como Mahatma Gandhi."
+        "Mobilizei uma marcha contra o monopólio colonial do sal em 1930."
       ],
       "origem": "global"
     },
@@ -380,7 +380,7 @@
         "Minha atuação se deu sobretudo no movimento socialista alemão.",
         "Fui uma das fundadoras do Partido Comunista da Alemanha.",
         "Fui assassinada em Berlim em janeiro de 1919.",
-        "Sou Rosa Luxemburgo."
+        "Escrevi Reforma ou Revolução? e debati os limites do reformismo."
       ],
       "origem": "global"
     },
@@ -398,7 +398,7 @@
         "Em 1911 recebi também o Nobel de Química.",
         "Pesquisei o rádio e o polônio.",
         "Fui a primeira pessoa a ganhar prêmios Nobel em duas ciências diferentes.",
-        "Sou Marie Curie."
+        "Recebi prêmios Nobel em duas ciências diferentes."
       ],
       "origem": "global"
     },
@@ -416,7 +416,7 @@
         "Recebi o Nobel da Paz em 1993 juntamente com F. W. de Klerk.",
         "Participei do fim do apartheid na África do Sul.",
         "Tornei-me presidente sul-africano nas eleições de 1994.",
-        "Sou Nelson Mandela."
+        "Fui libertado em 1990 após 27 anos de prisão."
       ],
       "origem": "global"
     },
@@ -434,7 +434,7 @@
         "O conflito envolveu expedições organizadas por autoridades coloniais.",
         "Morri em 20 de novembro de 1695.",
         "Minha memória é central ao Dia Nacional de Zumbi e da Consciência Negra.",
-        "Sou Zumbi dos Palmares."
+        "Fui liderança do Quilombo dos Palmares e morri em 1695."
       ],
       "origem": "global"
     },
@@ -444,8 +444,8 @@
       "resposta": "Napoleão Bonaparte",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de Europa dos séculos XVIII e XIX.",
-        "Minha história está ligada a França e Córsega.",
+        "Período histórico associado à minha vida: Europa dos séculos XVIII e XIX.",
+        "Região associada à minha trajetória: França e Córsega.",
         "Minha ascensão ocorreu durante a Revolução Francesa.",
         "Ganhei prestígio como general.",
         "Assumi o poder num golpe em 1799.",
@@ -462,8 +462,8 @@
       "resposta": "Júlio César",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século I a.C..",
-        "Minha história está ligada a República Romana.",
+        "Período histórico associado à minha vida: século I a.C..",
+        "Região associada à minha trajetória: República Romana.",
         "Integrei aliança com Pompeu e Crasso.",
         "Comandei campanhas na Gália.",
         "Escrevi relatos sobre minhas guerras.",
@@ -480,8 +480,8 @@
       "resposta": "Augusto",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de transição para o Império Romano.",
-        "Minha história está ligada a Roma.",
+        "Período histórico associado à minha vida: transição para o Império Romano.",
+        "Região associada à minha trajetória: Roma.",
         "Nasci com o nome Caio Otávio.",
         "Fui adotado por testamento por um tio-avô.",
         "Integrei o Segundo Triunvirato.",
@@ -498,8 +498,8 @@
       "resposta": "Aníbal Barca",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de Antiguidade clássica.",
-        "Minha história está ligada a Cartago.",
+        "Período histórico associado à minha vida: Antiguidade clássica.",
+        "Região associada à minha trajetória: Cartago.",
         "Comandei exércitos na Segunda Guerra Púnica.",
         "Atravessei os Alpes com soldados e elefantes.",
         "Venci tropas romanas no lago Trasimeno.",
@@ -516,8 +516,8 @@
       "resposta": "Péricles",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século V a.C..",
-        "Minha história está ligada a Atenas.",
+        "Período histórico associado à minha vida: século V a.C..",
+        "Região associada à minha trajetória: Atenas.",
         "Atuei durante o auge do poder naval ateniense.",
         "Fui eleito estratego repetidas vezes.",
         "Defendi remuneração por certos serviços cívicos.",
@@ -534,13 +534,13 @@
       "resposta": "Sócrates",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século V a.C..",
-        "Minha história está ligada a Atenas.",
+        "Período histórico associado à minha vida: século V a.C..",
+        "Região associada à minha trajetória: Atenas.",
         "Não deixei escritos filosóficos próprios.",
         "Conhecemos minhas ideias sobretudo por discípulos.",
         "Meu método recorria a perguntas e refutações.",
         "Platão me colocou nos diálogos.",
-        "Discuta-se comigo virtude e conhecimento.",
+        "Questionava conceitos como virtude e conhecimento.",
         "Participei de campanhas militares atenienses.",
         "Fui julgado por impiedade.",
         "Morri após beber cicuta."
@@ -552,8 +552,8 @@
       "resposta": "Aristóteles",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século IV a.C..",
-        "Minha história está ligada a Grécia Antiga.",
+        "Período histórico associado à minha vida: século IV a.C..",
+        "Região associada à minha trajetória: Grécia Antiga.",
         "Estudei na Academia de Platão.",
         "Fui preceptor de Alexandre da Macedônia.",
         "Escrevi tratados de lógica.",
@@ -570,8 +570,8 @@
       "resposta": "Confúcio",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de séculos VI e V a.C..",
-        "Minha história está ligada a China antiga.",
+        "Período histórico associado à minha vida: séculos VI e V a.C..",
+        "Região associada à minha trajetória: China antiga.",
         "Vivi no período das Primaveras e Outonos.",
         "Defendi a importância de educação e rituais.",
         "Meus ensinamentos trataram do bom governo.",
@@ -588,8 +588,8 @@
       "resposta": "Ramsés II",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIII a.C..",
-        "Minha história está ligada a Egito Antigo.",
+        "Período histórico associado à minha vida: século XIII a.C..",
+        "Região associada à minha trajetória: Egito Antigo.",
         "Fui faraó da XIX dinastia.",
         "Meu reinado durou décadas.",
         "Mandei erguer grandes monumentos.",
@@ -606,8 +606,8 @@
       "resposta": "Dom Pedro I",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Brasil e Portugal.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Brasil e Portugal.",
         "Pertenci à dinastia de Bragança.",
         "Permaneci no Brasil após o retorno do rei a Portugal.",
         "Participei da ruptura política de 1822.",
@@ -624,8 +624,8 @@
       "resposta": "Dom Pedro II",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Império do Brasil.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Império do Brasil.",
         "Herdei o trono quando era criança.",
         "Minha maioridade foi antecipada em 1840.",
         "Meu governo atravessou a Guerra do Paraguai.",
@@ -642,8 +642,8 @@
       "resposta": "Princesa Isabel",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Império do Brasil.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Império do Brasil.",
         "Fui filha do segundo imperador.",
         "Atuei como regente em vários períodos.",
         "Sancionei a Lei do Ventre Livre.",
@@ -660,8 +660,8 @@
       "resposta": "Tiradentes",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XVIII.",
-        "Minha história está ligada a Minas Gerais colonial.",
+        "Período histórico associado à minha vida: século XVIII.",
+        "Região associada à minha trajetória: Minas Gerais colonial.",
         "Exerci diferentes ocupações, inclusive dentista prático.",
         "Fui alferes da cavalaria.",
         "Critiquei medidas fiscais portuguesas.",
@@ -678,8 +678,8 @@
       "resposta": "Getúlio Vargas",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Brasil.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Brasil.",
         "Iniciei a carreira política no Rio Grande do Sul.",
         "Assumi o governo após 1930.",
         "Concentrei poderes durante o Estado Novo.",
@@ -696,8 +696,8 @@
       "resposta": "Juscelino Kubitschek",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Brasil.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Brasil.",
         "Fui médico.",
         "Exerci a Prefeitura de Belo Horizonte.",
         "Fui governador de Minas Gerais.",
@@ -714,8 +714,8 @@
       "resposta": "Luiz Gama",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Bahia e São Paulo.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Bahia e São Paulo.",
         "Nasci livre, mas fui vendido como escravizado.",
         "Recuperei minha liberdade.",
         "Atuei como jornalista e poeta.",
@@ -732,8 +732,8 @@
       "resposta": "Maria Quitéria",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Bahia.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Bahia.",
         "Vivi a guerra pela independência brasileira.",
         "Enfrentei restrições sociais às mulheres.",
         "Alistei-me usando roupas masculinas.",
@@ -750,8 +750,8 @@
       "resposta": "Chiquinha Gonzaga",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de séculos XIX e XX.",
-        "Minha história está ligada a Rio de Janeiro.",
+        "Período histórico associado à minha vida: séculos XIX e XX.",
+        "Região associada à minha trajetória: Rio de Janeiro.",
         "Atuei como pianista e compositora.",
         "Enfrentei convenções sobre o papel das mulheres.",
         "Escrevi música para teatro.",
@@ -768,8 +768,8 @@
       "resposta": "Chico Mendes",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Acre.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Acre.",
         "Fui seringueiro e sindicalista.",
         "Defendi o uso sustentável da floresta.",
         "Participei de empates contra o desmatamento.",
@@ -786,8 +786,8 @@
       "resposta": "Olga Benário",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de primeira metade do século XX.",
-        "Minha história está ligada a Alemanha e Brasil.",
+        "Período histórico associado à minha vida: primeira metade do século XX.",
+        "Região associada à minha trajetória: Alemanha e Brasil.",
         "Fui militante comunista e antinazista.",
         "Atuei em organização política clandestina.",
         "Vim ao Brasil com Luís Carlos Prestes.",
@@ -804,8 +804,8 @@
       "resposta": "Luís Carlos Prestes",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Brasil.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Brasil.",
         "Fui militar ligado ao tenentismo.",
         "Comandei uma marcha armada pelo interior.",
         "Ela foi conhecida como Coluna Prestes.",
@@ -822,8 +822,8 @@
       "resposta": "Anita Garibaldi",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Brasil e Itália.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Brasil e Itália.",
         "Nasci em Santa Catarina.",
         "Participei da Revolução Farroupilha.",
         "Lutei em conflitos sul-americanos.",
@@ -840,8 +840,8 @@
       "resposta": "José Bonifácio de Andrada e Silva",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de séculos XVIII e XIX.",
-        "Minha história está ligada a Brasil e Portugal.",
+        "Período histórico associado à minha vida: séculos XVIII e XIX.",
+        "Região associada à minha trajetória: Brasil e Portugal.",
         "Atuei como naturalista.",
         "Pesquisei mineralogia em instituições europeias.",
         "Defendi reformas sociais e educacionais.",
@@ -858,13 +858,13 @@
       "resposta": "Marechal Deodoro da Fonseca",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Brasil.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Brasil.",
         "Fiz carreira no Exército.",
         "Combati na Guerra do Paraguai.",
         "Minha atuação cresceu na crise do Império.",
         "Liderei o movimento militar de 1889.",
-        "Chefi ei o governo provisório republicano.",
+        "Chefiei o governo provisório republicano.",
         "Fui o primeiro presidente brasileiro.",
         "Renunciei em 1891.",
         "Meu sucessor foi Floriano Peixoto."
@@ -876,8 +876,8 @@
       "resposta": "José do Patrocínio",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Rio de Janeiro imperial.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Rio de Janeiro imperial.",
         "Fui jornalista e escritor.",
         "Nasci filho de mulher escravizada.",
         "Atuei em redes abolicionistas.",
@@ -894,8 +894,8 @@
       "resposta": "Nísia Floresta",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Rio Grande do Norte e Rio de Janeiro.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Rio Grande do Norte e Rio de Janeiro.",
         "Fui educadora e escritora.",
         "Defendi ensino escolar para mulheres.",
         "Publiquei um texto feminista em 1832.",
@@ -912,8 +912,8 @@
       "resposta": "Frida Kahlo",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a México.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: México.",
         "Um acidente grave marcou minha juventude.",
         "Dor e corpo foram temas centrais.",
         "Pintei muitos autorretratos.",
@@ -930,8 +930,8 @@
       "resposta": "Eva Perón",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Argentina.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Argentina.",
         "Trabalhei como atriz e radialista.",
         "Tornei-me primeira-dama nos anos 1940.",
         "Atuei em fundação assistencial.",
@@ -948,8 +948,8 @@
       "resposta": "Fidel Castro",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Cuba.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Cuba.",
         "Estudei direito.",
         "Participei do ataque ao quartel Moncada.",
         "Comandei guerrilheiros de Sierra Maestra.",
@@ -966,8 +966,8 @@
       "resposta": "Che Guevara",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Argentina, Cuba e Bolívia.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Argentina, Cuba e Bolívia.",
         "Estudei medicina.",
         "Viajei pela América Latina.",
         "Participei de guerrilha em Cuba.",
@@ -984,8 +984,8 @@
       "resposta": "Martin Luther King Jr.",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Estados Unidos.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Estados Unidos.",
         "Fui pastor batista.",
         "Liderei protestos contra a segregação.",
         "Ajudei o boicote aos ônibus de Montgomery.",
@@ -1002,8 +1002,8 @@
       "resposta": "Malcolm X",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Estados Unidos.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Estados Unidos.",
         "Fui preso quando jovem.",
         "Tornei-me orador contra o racismo.",
         "Atuei na Nação do Islã.",
@@ -1020,8 +1020,8 @@
       "resposta": "Abraham Lincoln",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XIX.",
-        "Minha história está ligada a Estados Unidos.",
+        "Período histórico associado à minha vida: século XIX.",
+        "Região associada à minha trajetória: Estados Unidos.",
         "Trabalhei como advogado.",
         "Fui eleito presidente em 1860.",
         "Meu mandato atravessou uma guerra civil.",
@@ -1038,8 +1038,8 @@
       "resposta": "Winston Churchill",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Reino Unido.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Reino Unido.",
         "Fui militar, jornalista e político.",
         "Participei do sistema colonial britânico.",
         "Fui ministro antes da Segunda Guerra.",
@@ -1056,14 +1056,14 @@
       "resposta": "Vladimir Lenin",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Império Russo e União Soviética.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Império Russo e União Soviética.",
         "Fui militante e teórico marxista.",
         "Passei anos no exílio.",
         "Defendi uma organização revolucionária centralizada.",
         "Liderei os bolcheviques.",
         "Fui figura principal da Revolução de Outubro.",
-        "Chefi ei o primeiro governo soviético.",
+        "Chefiei o primeiro governo soviético.",
         "Implantei a Nova Política Econômica em 1921.",
         "Morri em 1924."
       ]
@@ -1074,8 +1074,8 @@
       "resposta": "Josef Stalin",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Geórgia e União Soviética.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Geórgia e União Soviética.",
         "Atuei no movimento bolchevique.",
         "Tornei-me secretário-geral do partido em 1922.",
         "Concentrei poder após Lenin.",
@@ -1092,14 +1092,14 @@
       "resposta": "Leon Trotsky",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Rússia e México.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Rússia e México.",
         "Participei de movimentos revolucionários russos.",
         "Presidi o Soviete de Petrogrado em 1917.",
         "Fui importante na Revolução de Outubro.",
         "Organizei o Exército Vermelho.",
         "Defendi a revolução permanente.",
-        "Romp i com a direção de Stalin.",
+        "Rompi com a direção de Stalin.",
         "Vivi no exílio após ser expulso da URSS.",
         "Fui assassinado no México em 1940."
       ]
@@ -1110,8 +1110,8 @@
       "resposta": "Rosa Parks",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Estados Unidos.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Estados Unidos.",
         "Trabalhei como costureira.",
         "Participei da NAACP.",
         "Recusei uma ordem discriminatória num ônibus.",
@@ -1128,8 +1128,8 @@
       "resposta": "Eleanor Roosevelt",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de século XX.",
-        "Minha história está ligada a Estados Unidos e ONU.",
+        "Período histórico associado à minha vida: século XX.",
+        "Região associada à minha trajetória: Estados Unidos e ONU.",
         "Atuei publicamente em defesa de direitos humanos.",
         "Fui casada com um presidente eleito quatro vezes.",
         "Fui primeira-dama de 1933 a 1945.",
@@ -1146,8 +1146,8 @@
       "resposta": "Santos Dumont",
       "origem": "global",
       "dicas": [
-        "Minha trajetória aconteceu no contexto de virada do século XIX para o XX.",
-        "Minha história está ligada a Brasil e França.",
+        "Período histórico associado à minha vida: virada do século XIX para o XX.",
+        "Região associada à minha trajetória: Brasil e França.",
         "Interessei-me por mecânica e navegação aérea.",
         "Fiz experiências com balões.",
         "Voei com dirigíveis em Paris.",
