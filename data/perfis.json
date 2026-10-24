@@ -23,6 +23,10 @@
     {
       "id": "series",
       "nome": "Séries"
+    },
+    {
+      "id": "paises",
+      "nome": "Países"
     }
   ],
   "perfis": [
@@ -5112,6 +5116,1094 @@
         "Personagens inspiram-se em figuras como o Curupira e a Cuca.",
         "Carlos Saldanha participou da criação.",
         "A série combina mitologia popular e conflitos ambientais."
+      ]
+    },
+    {
+      "id": "mocambique",
+      "categoria": "paises",
+      "resposta": "Moçambique",
+      "dicas": [
+        "Meu território reúne planaltos, extensas áreas costeiras e grandes bacias hidrográficas.",
+        "Estou localizado no hemisfério sul.",
+        "Tenho fronteiras terrestres com seis países.",
+        "O rio Zambeze atravessa parte importante do meu território.",
+        "Minha história moderna foi marcada pela colonização portuguesa.",
+        "Conquistei a independência em 1975.",
+        "O português é minha língua oficial.",
+        "Tenho litoral voltado para o oceano Índico.",
+        "Minha capital é Maputo.",
+        "Um importante porto do meu país está situado na cidade de Beira."
+      ]
+    },
+    {
+      "id": "brasil",
+      "categoria": "paises",
+      "resposta": "Brasil",
+      "dicas": [
+        "Meu território reúne extensas áreas de floresta, savana e zonas úmidas.",
+        "Sou uma federação formada por 26 estados e um Distrito Federal.",
+        "Minha independência política foi proclamada no século XIX.",
+        "Tenho fronteiras terrestres com quase todos os países da América do Sul.",
+        "O rio Amazonas atravessa minha região Norte.",
+        "Minha língua oficial é o português.",
+        "Minha capital foi transferida do Rio de Janeiro em 1960.",
+        "Minha capital atual é Brasília.",
+        "Sou o maior país da América do Sul em território.",
+        "A bossa nova surgiu em meu território, e uma festa popular com desfiles de escolas de samba acontece anualmente."
+      ]
+    },
+    {
+      "id": "argentina",
+      "categoria": "paises",
+      "resposta": "Argentina",
+      "dicas": [
+        "Minha formação nacional ocorreu após a crise do império colonial espanhol.",
+        "Minha paisagem inclui planícies, montanhas e regiões muito frias.",
+        "Compartilho uma longa fronteira montanhosa com o Chile.",
+        "O estuário do Rio da Prata se relaciona à minha história econômica.",
+        "Possuo uma região sul chamada Patagônia.",
+        "A dança tango é associada à minha cultura urbana.",
+        "Meu território inclui parte da cordilheira dos Andes.",
+        "Meu esporte mais popular é o futebol e sediamos títulos mundiais.",
+        "Minha capital é Buenos Aires.",
+        "Uma avenida conhecida como 9 de Julio atravessa o centro de minha capital."
+      ]
+    },
+    {
+      "id": "uruguai",
+      "categoria": "paises",
+      "resposta": "Uruguai",
+      "dicas": [
+        "Sou um dos menores países da América do Sul em área.",
+        "Minha história colonial foi disputada por forças espanholas e portuguesas.",
+        "Minha independência foi consolidada no século XIX.",
+        "Possuo fronteira terrestre com dois países.",
+        "Minha economia rural esteve historicamente ligada à pecuária.",
+        "O espanhol é a língua predominante em meu território.",
+        "Sou banhado pelo Rio da Prata e pelo oceano Atlântico.",
+        "Fico entre Brasil e Argentina.",
+        "Minha capital é Montevidéu.",
+        "A bebida conhecida como mate tem grande presença na minha cultura cotidiana."
+      ]
+    },
+    {
+      "id": "chile",
+      "categoria": "paises",
+      "resposta": "Chile",
+      "dicas": [
+        "Meu território se estende por uma grande variedade de latitudes.",
+        "Integro a margem ocidental da América do Sul.",
+        "Possuo áreas de clima desértico no norte e glaciares no sul.",
+        "Meu território é atravessado pela cordilheira dos Andes.",
+        "Um deserto famoso no meu norte é o Atacama.",
+        "Sou um importante produtor mundial de cobre.",
+        "Compartilho fronteiras terrestres com Peru, Bolívia e Argentina.",
+        "Meu litoral se volta ao oceano Pacífico.",
+        "Minha capital é Santiago.",
+        "A Ilha de Páscoa, conhecida pelos moais, integra meu território."
+      ]
+    },
+    {
+      "id": "peru",
+      "categoria": "paises",
+      "resposta": "Peru",
+      "dicas": [
+        "Fui parte importante do domínio colonial espanhol nas Américas.",
+        "Tenho paisagens de costa, montanha e floresta tropical.",
+        "Minha área andina preserva sítios arqueológicos importantes.",
+        "O lago Titicaca ocupa parte de minha fronteira com a Bolívia.",
+        "Línguas indígenas como quéchua e aimará têm relevância histórica e social.",
+        "Minha capital foi uma importante cidade colonial no litoral.",
+        "Machu Picchu fica em meu território.",
+        "Meu território abrigou o centro político do Império Inca em Cusco.",
+        "Minha capital é Lima.",
+        "As linhas de Nazca estão entre os vestígios arqueológicos de meu território."
+      ]
+    },
+    {
+      "id": "mexico",
+      "categoria": "paises",
+      "resposta": "México",
+      "dicas": [
+        "Meu território liga diferentes regiões culturais da América do Norte.",
+        "Sou uma federação.",
+        "Meu patrimônio arqueológico inclui grandes centros pré-colombianos.",
+        "Civilizações como maias e mexicas fazem parte de minha história.",
+        "Minha independência começou a ser disputada em 1810.",
+        "Compartilho fronteira com os Estados Unidos ao norte.",
+        "Tenho costas voltadas ao Pacífico e ao golfo que leva meu nome.",
+        "Minha capital foi construída sobre a área da antiga Tenochtitlán.",
+        "Minha capital ocupa o lugar onde existia a antiga cidade de Tenochtitlán.",
+        "As ruínas de Teotihuacán ficam próximas de minha capital."
+      ]
+    },
+    {
+      "id": "canada",
+      "categoria": "paises",
+      "resposta": "Canadá",
+      "dicas": [
+        "Grande parte de meu território apresenta invernos rigorosos.",
+        "Possuo muitos lagos e uma vasta faixa de florestas boreais.",
+        "Sou uma monarquia constitucional e uma federação.",
+        "Minhas línguas oficiais no plano federal são inglês e francês.",
+        "A província de Quebec tem forte identidade francófona.",
+        "Compartilho a maior parte da fronteira terrestre com os Estados Unidos.",
+        "Minhas cidades incluem Toronto, Montreal e Vancouver.",
+        "Sou o segundo maior país do mundo em área total.",
+        "Minha capital é Ottawa.",
+        "A folha de bordo vermelha aparece no centro de minha bandeira."
+      ]
+    },
+    {
+      "id": "estados-unidos",
+      "categoria": "paises",
+      "resposta": "Estados Unidos",
+      "dicas": [
+        "Minha formação política foi influenciada pelo republicanismo do século XVIII.",
+        "Sou uma federação de cinquenta estados.",
+        "Minha constituição federal entrou em vigor em 1789.",
+        "Minha história inclui uma guerra civil no século XIX.",
+        "Tenho territórios continentais banhados por dois grandes oceanos.",
+        "Compartilho fronteiras terrestres com Canadá e México.",
+        "A cidade de Nova York é um dos meus centros financeiros.",
+        "Minha capital é Washington, D.C.",
+        "Minha independência foi declarada em 1776.",
+        "A Estátua da Liberdade foi inaugurada em 1886 no porto de Nova York."
+      ]
+    },
+    {
+      "id": "portugal",
+      "categoria": "paises",
+      "resposta": "Portugal",
+      "dicas": [
+        "Meu território europeu ocupa a porção ocidental da Península Ibérica.",
+        "Minha história inclui um império marítimo estabelecido desde o século XV.",
+        "Sou integrante da União Europeia.",
+        "Também fazem parte de meu território os arquipélagos dos Açores e da Madeira.",
+        "Meu país participou diretamente da colonização do Brasil.",
+        "Uma revolução de 1974 encerrou um regime autoritário.",
+        "Essa revolução ficou conhecida como Revolução dos Cravos.",
+        "Tenho uma única fronteira terrestre com a Espanha.",
+        "Minha capital é Lisboa.",
+        "Minha tradição musical inclui o fado."
+      ]
+    },
+    {
+      "id": "espanha",
+      "categoria": "paises",
+      "resposta": "Espanha",
+      "dicas": [
+        "Minha formação histórica envolve reinos medievais diversos.",
+        "Ocupo a maior parte da Península Ibérica.",
+        "Sou uma monarquia parlamentar e membro da União Europeia.",
+        "Possuo comunidades autônomas com identidades linguísticas próprias.",
+        "Minhas línguas regionais incluem catalão, basco e galego.",
+        "Em meu território ficam cidades como Sevilha e Valência.",
+        "O museu do Prado é uma referência cultural de minha capital.",
+        "Compartilho com Portugal a Península Ibérica.",
+        "Minha capital é Madri.",
+        "Meu patrimônio artístico inclui a obra Guernica, de Pablo Picasso."
+      ]
+    },
+    {
+      "id": "franca",
+      "categoria": "paises",
+      "resposta": "França",
+      "dicas": [
+        "Minha história política inclui uma revolução no século XVIII.",
+        "Meu território europeu abriga parte da cordilheira dos Alpes.",
+        "Sou membro fundador do processo de integração europeia.",
+        "Meu idioma oficial é o francês.",
+        "Possuo regiões ultramarinas em diferentes oceanos.",
+        "Uma de minhas cidades mediterrâneas é Marselha.",
+        "Em 1789 começou uma revolução decisiva em minha história.",
+        "A Torre Eiffel fica em minha capital.",
+        "Minha capital é Paris.",
+        "O Museu do Louvre fica em minha capital."
+      ]
+    },
+    {
+      "id": "alemanha",
+      "categoria": "paises",
+      "resposta": "Alemanha",
+      "dicas": [
+        "Meu território está situado na Europa Central.",
+        "Minha unificação nacional moderna ocorreu em 1871.",
+        "Minha história do século XX inclui divisão em dois Estados.",
+        "O muro que dividia uma cidade importante caiu em 1989.",
+        "Sou uma república federal.",
+        "Minha economia industrial tem destaque na Europa.",
+        "O rio Reno atravessa parte importante de meu território.",
+        "Minha reunificação ocorreu em 1990.",
+        "Minha capital é Berlim.",
+        "A Porta de Brandemburgo fica na capital federal."
+      ]
+    },
+    {
+      "id": "islandia",
+      "categoria": "paises",
+      "resposta": "Islândia",
+      "dicas": [
+        "Sou uma ilha situada no Atlântico Norte.",
+        "Minha paisagem é marcada pela atividade geotérmica.",
+        "Fui povoada por colonos nórdicos na Idade Média.",
+        "Possuo geleiras e vulcões ativos.",
+        "Minha eletricidade provém amplamente de fontes renováveis.",
+        "Minha língua nacional deriva de formas antigas do nórdico.",
+        "Integro a região nórdica, mas não faço parte da União Europeia.",
+        "Meu parlamento, o Alþingi, tem origens no século X.",
+        "Minha capital é Reykjavík.",
+        "Meu litoral abriga a península de Snæfellsnes e extensos campos de lava."
+      ]
+    },
+    {
+      "id": "egito",
+      "categoria": "paises",
+      "resposta": "Egito",
+      "dicas": [
+        "Meu território inclui uma grande extensão desértica.",
+        "Minha história antiga deixou monumentos religiosos e funerários conhecidos mundialmente.",
+        "Tenho litoral no Mediterrâneo e no Mar Vermelho.",
+        "Parte importante da minha agricultura depende de um rio.",
+        "Faraós governaram diferentes dinastias no meu território.",
+        "As pirâmides de Gizé ficam no meu país.",
+        "O canal de Suez conecta mares em meu território.",
+        "O rio Nilo atravessa meu país.",
+        "Minha capital é o Cairo.",
+        "Uma escultura monumental com corpo de leão guarda a área das pirâmides de Gizé."
+      ]
+    },
+    {
+      "id": "nigeria",
+      "categoria": "paises",
+      "resposta": "Nigéria",
+      "dicas": [
+        "Sou uma federação da África Ocidental.",
+        "Meu território reúne zonas costeiras, savanas e áreas de floresta.",
+        "Fui administrado como colônia britânica.",
+        "Minha independência foi conquistada em 1960.",
+        "Mais de duzentas línguas são faladas em meu território.",
+        "Meu cinema comercial é conhecido mundialmente como Nollywood.",
+        "O inglês é minha língua oficial.",
+        "Lagos é meu maior centro urbano, mas não minha capital.",
+        "Minha capital é Abuja.",
+        "Uma região de meu litoral é historicamente conhecida como delta do Níger."
+      ]
+    },
+    {
+      "id": "africa-do-sul",
+      "categoria": "paises",
+      "resposta": "África do Sul",
+      "dicas": [
+        "Localizo-me na extremidade meridional de um continente.",
+        "Meu território apresenta diversidade de climas e paisagens.",
+        "Minha história recente foi marcada por um regime de segregação racial.",
+        "Esse regime institucional é conhecido como apartheid.",
+        "A primeira eleição nacional com sufrágio universal adulto ocorreu em 1994.",
+        "Nelson Mandela tornou-se presidente após essa eleição.",
+        "Tenho três capitais com funções governamentais distintas.",
+        "Pretória, Cidade do Cabo e Bloemfontein cumprem funções de capital.",
+        "Sou conhecido como país da nação arco-íris.",
+        "Joanesburgo e Durban são importantes centros urbanos do meu território."
+      ]
+    },
+    {
+      "id": "etiopia",
+      "categoria": "paises",
+      "resposta": "Etiópia",
+      "dicas": [
+        "Meu território inclui planaltos elevados no Chifre da África.",
+        "Sou um país sem saída para o mar.",
+        "Meu calendário oficial não coincide com o calendário gregoriano.",
+        "Tenho tradições cristãs antigas, além de comunidades muçulmanas.",
+        "A batalha de Adwa, em 1896, foi uma vitória contra uma invasão italiana.",
+        "O imperador Haile Selassie governou parte do século XX.",
+        "Minha história inclui o antigo reino de Axum.",
+        "Minha capital sedia a União Africana.",
+        "Minha capital é Adis Abeba.",
+        "Escavações em meu território revelaram o fóssil de um antigo hominíneo conhecido como Lucy."
+      ]
+    },
+    {
+      "id": "india",
+      "categoria": "paises",
+      "resposta": "Índia",
+      "dicas": [
+        "Meu território reúne regiões alpinas, planícies e áreas tropicais.",
+        "Sou uma república federativa na Ásia.",
+        "Minha história inclui impérios como os Máurias e os Mogóis.",
+        "Meu território foi administrado por uma potência colonial britânica.",
+        "Minha independência ocorreu em 1947.",
+        "O rio Ganges tem grande importância cultural e religiosa.",
+        "Possuo numerosos idiomas, incluindo hindi e inglês no âmbito da União.",
+        "O Taj Mahal fica na cidade de Agra.",
+        "Minha capital é Nova Délhi.",
+        "A produção de cinema popular em hindi é frequentemente associada ao nome Bollywood."
+      ]
+    },
+    {
+      "id": "china",
+      "categoria": "paises",
+      "resposta": "China",
+      "dicas": [
+        "Minha civilização possui antigas tradições escritas e burocráticas.",
+        "Meu território abrange desertos, planaltos e grandes vales fluviais.",
+        "Fui governada por sucessivas dinastias durante milênios.",
+        "Minha história inclui a dinastia Han e a dinastia Tang.",
+        "Sou o país de origem das antigas invenções da pólvora e do papel.",
+        "A República Popular foi proclamada em 1949.",
+        "Meu território inclui o rio Yangtzé.",
+        "A Grande Muralha é um de meus monumentos mais conhecidos.",
+        "Minha capital é Pequim.",
+        "Meu território abriga os guerreiros de terracota de Xi'an."
+      ]
+    },
+    {
+      "id": "japao",
+      "categoria": "paises",
+      "resposta": "Japão",
+      "dicas": [
+        "Sou um arquipélago com intensa atividade sísmica.",
+        "Minha história inclui períodos governados por xogunatos.",
+        "O monte Fuji é um de meus símbolos geográficos.",
+        "Minhas quatro ilhas principais são Honshu, Hokkaido, Kyushu e Shikoku.",
+        "No século XIX passei por reformas conhecidas como Restauração Meiji.",
+        "Minha escrita combina caracteres chineses e silabários.",
+        "Minha cultura popular internacional inclui mangás e animes.",
+        "Fui atingido por duas bombas atômicas em 1945.",
+        "Minha capital é Tóquio.",
+        "Minha culinária inclui sushi e ramen, hoje conhecidos internacionalmente."
+      ]
+    },
+    {
+      "id": "coreia-do-sul",
+      "categoria": "paises",
+      "resposta": "Coreia do Sul",
+      "dicas": [
+        "Meu território ocupa parte de uma península no leste da Ásia.",
+        "Minha sociedade passou por rápida industrialização no século XX.",
+        "Participei de um conflito armado entre 1950 e 1953.",
+        "Uma zona desmilitarizada me separa de meu vizinho setentrional.",
+        "Minha língua é o coreano.",
+        "Minha indústria exporta semicondutores, automóveis e eletrônicos.",
+        "Meu cinema ganhou projeção internacional com Parasita.",
+        "Grupos de K-pop fazem parte de minha indústria cultural.",
+        "Minha capital é Seul.",
+        "A empresa Samsung foi fundada em meu território."
+      ]
+    },
+    {
+      "id": "indonesia",
+      "categoria": "paises",
+      "resposta": "Indonésia",
+      "dicas": [
+        "Sou um país do Sudeste Asiático composto por milhares de ilhas.",
+        "Meu território tem numerosos vulcões ativos.",
+        "Minha diversidade linguística e religiosa é elevada.",
+        "Obtive a independência após o domínio colonial neerlandês.",
+        "Grande parte de minha população pratica o islamismo.",
+        "Minhas ilhas incluem Sumatra, Java, Bornéu parcialmente e Sulawesi.",
+        "A ilha de Bali é importante destino turístico.",
+        "Meu território inclui parte de Nova Guiné.",
+        "Jacarta é minha maior metrópole e um dos principais centros econômicos.",
+        "Borobudur, um grande monumento budista, fica na ilha de Java."
+      ]
+    },
+    {
+      "id": "australia",
+      "categoria": "paises",
+      "resposta": "Austrália",
+      "dicas": [
+        "Sou um Estado situado no hemisfério sul.",
+        "Meu território reúne desertos, savanas e florestas temperadas.",
+        "Meus povos aborígenes possuem culturas de enorme antiguidade.",
+        "Sou uma federação com seis estados.",
+        "A Grande Barreira de Corais fica na costa nordeste.",
+        "Minha fauna inclui cangurus e ornitorrincos.",
+        "Minha maior cidade é Sydney, mas ela não é a capital.",
+        "Melbourne foi sede de Jogos Olímpicos em 1956.",
+        "Minha capital é Camberra.",
+        "A Ópera de Sydney é um dos edifícios mais conhecidos de meu território."
+      ]
+    },
+    {
+      "id": "bolivia",
+      "categoria": "paises",
+      "resposta": "Bolívia",
+      "dicas": [
+        "Estou situado na parte central da América do Sul.",
+        "Não possuo litoral marítimo soberano desde o século XIX.",
+        "Meu território combina planícies amazônicas e montanhas andinas.",
+        "Tenho grandes depósitos de sal e lítio em regiões elevadas.",
+        "Um lago que compartilho com país vizinho é o Titicaca.",
+        "Meu nome homenageia um dos protagonistas das guerras de independência sul-americanas.",
+        "O Salar de Uyuni é um dos pontos turísticos mais conhecidos.",
+        "Tenho duas cidades com funções de capital: uma constitucional e outra sede de governo.",
+        "Sucre é a capital constitucional e La Paz é a sede do governo.",
+        "Minha bandeira reúne faixas horizontais vermelha, amarela e verde."
+      ]
+    },
+    {
+      "id": "colombia",
+      "categoria": "paises",
+      "resposta": "Colômbia",
+      "dicas": [
+        "Estou na porção setentrional da América do Sul.",
+        "Tenho litoral em dois grandes mares ou oceanos.",
+        "Os Andes se dividem em três cordilheiras no meu território.",
+        "Minha economia agrícola é associada à produção de café.",
+        "A cidade de Cartagena preserva fortificações coloniais.",
+        "O rio Magdalena é importante eixo histórico do território.",
+        "Minha história recente inclui décadas de conflito armado interno.",
+        "Medellín e Cali são importantes cidades.",
+        "Minha capital é Bogotá.",
+        "Um escritor meu recebeu o Nobel de Literatura após escrever Cem Anos de Solidão."
+      ]
+    },
+    {
+      "id": "equador",
+      "categoria": "paises",
+      "resposta": "Equador",
+      "dicas": [
+        "Estou na América do Sul e sou atravessado pela linha que divide o planeta em dois hemisférios.",
+        "Meu território reúne costa, Andes e floresta amazônica.",
+        "Tenho ilhas oceânicas que atraíram estudos científicos sobre evolução.",
+        "O arquipélago de Galápagos integra meu território.",
+        "Meu sistema monetário utiliza o dólar americano desde 2000.",
+        "Minha maior cidade é Guayaquil.",
+        "O vulcão Cotopaxi é uma referência geográfica.",
+        "O centro histórico de Quito recebeu reconhecimento da UNESCO.",
+        "Minha capital é Quito.",
+        "Meu nome oficial corresponde à linha imaginária de latitude zero."
+      ]
+    },
+    {
+      "id": "venezuela",
+      "categoria": "paises",
+      "resposta": "Venezuela",
+      "dicas": [
+        "Estou no norte da América do Sul.",
+        "Minha costa é banhada pelo mar do Caribe.",
+        "Possuo grandes reservas de petróleo.",
+        "Uma importante bacia hidrográfica recebe as águas do rio Orinoco.",
+        "As montanhas da região de Mérida fazem parte dos Andes.",
+        "O monte Roraima fica numa região de fronteira que compartilho.",
+        "A maior queda d'água contínua do mundo fica no meu território.",
+        "Essa cachoeira é conhecida como Salto Ángel.",
+        "Minha capital é Caracas.",
+        "Minha independência está historicamente associada à liderança de Simón Bolívar."
+      ]
+    },
+    {
+      "id": "paraguai",
+      "categoria": "paises",
+      "resposta": "Paraguai",
+      "dicas": [
+        "Sou um país da região centro-sul da América do Sul.",
+        "Não possuo litoral marítimo.",
+        "Tenho como vizinhos três países.",
+        "Meu território é cortado por um importante rio de mesmo nome que atravessa a capital.",
+        "A Guerra da Tríplice Aliança teve efeitos devastadores sobre minha população.",
+        "Guarani e espanhol são línguas oficiais.",
+        "A hidrelétrica de Itaipu é compartilhada com um país vizinho.",
+        "Uma parte de meu território pertence à região do Chaco.",
+        "Minha capital é Assunção.",
+        "Minha bandeira tem emblemas diferentes na frente e no verso."
+      ]
+    },
+    {
+      "id": "cuba",
+      "categoria": "paises",
+      "resposta": "Cuba",
+      "dicas": [
+        "Sou um Estado insular da região do Caribe.",
+        "Minha história colonial foi marcada pelo domínio espanhol.",
+        "A cultura local tem importantes tradições de música e dança afro-caribenhas.",
+        "O cultivo da cana-de-açúcar marcou profundamente minha economia.",
+        "Minha independência formal ocorreu no início do século XX.",
+        "Uma revolução vitoriosa chegou ao poder em 1959.",
+        "Fidel Castro liderou o governo durante décadas.",
+        "Uma crise de mísseis ocorreu em 1962 envolvendo duas superpotências.",
+        "Minha capital é Havana.",
+        "Uma baía no meu território abriga uma base naval administrada pelos Estados Unidos."
+      ]
+    },
+    {
+      "id": "panama",
+      "categoria": "paises",
+      "resposta": "Panamá",
+      "dicas": [
+        "Estou na faixa territorial que conecta as Américas do Norte e do Sul.",
+        "Tenho costa no oceano Atlântico, por meio do Caribe, e no Pacífico.",
+        "Minha independência de um país sul-americano ocorreu em 1903.",
+        "Meu território abriga uma das principais rotas da navegação mundial.",
+        "Uma via artificial permite que navios atravessem entre oceanos.",
+        "A construção dessa via envolveu a França e depois os Estados Unidos.",
+        "Recuperei o controle pleno dessa via em 1999.",
+        "O canal que atravessa meu território é vital ao comércio global.",
+        "Minha capital tem o mesmo nome oficial que o país.",
+        "O istmo onde me situo separa o mar do Caribe do golfo oceânico localizado ao sul."
+      ]
+    },
+    {
+      "id": "jamaica",
+      "categoria": "paises",
+      "resposta": "Jamaica",
+      "dicas": [
+        "Sou uma ilha caribenha.",
+        "Minha história inclui colonização britânica e grandes plantações escravistas.",
+        "A língua oficial é o inglês, mas há também uma variedade crioula amplamente falada.",
+        "Ganhei destaque internacional no atletismo de velocidade.",
+        "Uma tradição religiosa e cultural chamada rastafarianismo se desenvolveu em meu território.",
+        "O estilo musical ska surgiu em minha sociedade.",
+        "Meu nome é frequentemente associado ao reggae.",
+        "Bob Marley nasceu em meu território.",
+        "Minha capital é Kingston.",
+        "O velocista Usain Bolt conquistou títulos olímpicos representando meu país."
+      ]
+    },
+    {
+      "id": "republica-dominicana",
+      "categoria": "paises",
+      "resposta": "República Dominicana",
+      "dicas": [
+        "Ocupo parte de uma grande ilha caribenha.",
+        "Compartilho fronteira terrestre com um único Estado.",
+        "O espanhol é minha língua oficial.",
+        "A ilha foi um dos primeiros centros da colonização europeia nas Américas.",
+        "Minha capital possui monumentos coloniais do século XVI.",
+        "A música merengue é importante em minha cultura.",
+        "Também é conhecido internacionalmente um estilo musical chamado bachata.",
+        "Compartilho a ilha de Hispaniola com o Haiti.",
+        "Minha capital é Santo Domingo.",
+        "Uma das maiores ligas esportivas do mundo tem muitos atletas de beisebol nascidos aqui."
+      ]
+    },
+    {
+      "id": "reino-unido",
+      "categoria": "paises",
+      "resposta": "Reino Unido",
+      "dicas": [
+        "Sou um Estado insular no noroeste europeu.",
+        "Sou uma monarquia constitucional parlamentar.",
+        "Reúno quatro nações constituintes com identidades culturais próprias.",
+        "Meu parlamento se reúne no Palácio de Westminster.",
+        "A Revolução Industrial começou em regiões de meu território.",
+        "O inglês se difundiu pelo mundo em parte por meio de meu antigo império.",
+        "A Escócia e o País de Gales integram meu Estado.",
+        "A Irlanda do Norte também faz parte de minha composição política.",
+        "Minha capital é Londres.",
+        "A figura da rainha Elizabeth II ocupou o trono de 1952 a 2022."
+      ]
+    },
+    {
+      "id": "irlanda",
+      "categoria": "paises",
+      "resposta": "Irlanda",
+      "dicas": [
+        "Sou uma ilha europeia dividida politicamente.",
+        "A maior parte da ilha constitui um Estado independente.",
+        "Meu território é conhecido por paisagens verdes e clima oceânico.",
+        "O gaélico é uma língua oficial ao lado do inglês.",
+        "Minha independência ocorreu após conflitos com o domínio britânico.",
+        "A parte nordeste da ilha pertence a um Estado vizinho.",
+        "O escritor James Joyce nasceu na minha capital.",
+        "Uma festa de março homenageia São Patrício.",
+        "Minha capital é Dublin.",
+        "Meu símbolo tradicional inclui uma harpa, presente no brasão do Estado."
+      ]
+    },
+    {
+      "id": "italia",
+      "categoria": "paises",
+      "resposta": "Itália",
+      "dicas": [
+        "Estou localizado no sul da Europa.",
+        "Meu território abriga parte da cordilheira dos Alpes.",
+        "Uma parte importante tem formato comparado ao de uma bota.",
+        "Fui unificada politicamente durante o século XIX.",
+        "A península abrigou o núcleo de um antigo império mediterrâneo.",
+        "Cidades como Florença e Veneza foram centros do Renascimento.",
+        "O vulcão Vesúvio fica próximo de Nápoles.",
+        "A Cidade do Vaticano é um enclave em minha capital.",
+        "Minha capital é Roma.",
+        "A torre inclinada de Pisa é um de meus monumentos turísticos mais conhecidos."
+      ]
+    },
+    {
+      "id": "grecia",
+      "categoria": "paises",
+      "resposta": "Grécia",
+      "dicas": [
+        "Estou no sudeste europeu e tenho inúmeras ilhas.",
+        "Minha história antiga inclui cidades-Estado rivais.",
+        "A filosofia clássica e a dramaturgia ocidental possuem importantes raízes em minha região.",
+        "Atenas e Esparta foram centros políticos de destaque.",
+        "Um conjunto de competições atléticas antigas era realizado em Olímpia.",
+        "Meu território se estende por partes do mar Egeu e do Jônico.",
+        "O templo conhecido como Partenon fica na Acrópole.",
+        "Minha capital é Atenas.",
+        "Meu alfabeto deu origem a letras usadas em diversas ciências.",
+        "As Guerras Médicas envolveram alianças de cidades de meu território contra o Império Persa."
+      ]
+    },
+    {
+      "id": "paises-baixos",
+      "categoria": "paises",
+      "resposta": "Países Baixos",
+      "dicas": [
+        "Sou um Estado europeu com longa tradição de comércio marítimo.",
+        "Boa parte de meu território é muito baixa em relação ao nível do mar.",
+        "Uso diques e sistemas de drenagem na gestão da água.",
+        "Desenvolvi grande atividade mercantil no século XVII.",
+        "Pintores como Rembrandt e Vermeer trabalharam em minha sociedade.",
+        "O porto de Roterdã é uma referência logística europeia.",
+        "Sou também frequentemente chamado de Holanda, embora este seja o nome de regiões específicas.",
+        "Minha sede de governo fica em Haia.",
+        "Minha capital constitucional é Amsterdã.",
+        "Campos de tulipas, moinhos e canais são imagens populares associadas ao meu território."
+      ]
+    },
+    {
+      "id": "belgica",
+      "categoria": "paises",
+      "resposta": "Bélgica",
+      "dicas": [
+        "Sou um país da Europa Ocidental.",
+        "Participo das primeiras etapas da integração econômica europeia.",
+        "Tenho uma monarquia constitucional.",
+        "Meu território abriga comunidades de língua neerlandesa, francesa e alemã.",
+        "Flandres e Valônia são duas regiões politicamente importantes.",
+        "Uma famosa batalha de 1815 ocorreu perto de Waterloo.",
+        "Meu país é associado à produção de chocolates e cervejas.",
+        "A sede principal de instituições da União Europeia fica na minha capital.",
+        "Minha capital é Bruxelas.",
+        "Um personagem de quadrinhos chamado Tintim foi criado por um autor nascido aqui."
+      ]
+    },
+    {
+      "id": "suica",
+      "categoria": "paises",
+      "resposta": "Suíça",
+      "dicas": [
+        "Sou um país europeu sem acesso ao mar.",
+        "Meu território contém parte dos Alpes.",
+        "Tenho uma tradição de neutralidade em conflitos internacionais.",
+        "Minha estrutura política é federal.",
+        "Quatro línguas nacionais são reconhecidas no país.",
+        "Referendos têm papel importante em meu sistema político.",
+        "A cidade de Genebra abriga várias organizações internacionais.",
+        "A região de Zurique é um centro financeiro importante.",
+        "Berna exerce a função de cidade federal.",
+        "Meu símbolo nacional utiliza uma cruz branca sobre fundo vermelho."
+      ]
+    },
+    {
+      "id": "austria",
+      "categoria": "paises",
+      "resposta": "Áustria",
+      "dicas": [
+        "Estou situado na região central da Europa.",
+        "Grande parte do meu território é coberta pelos Alpes.",
+        "Fui núcleo de uma dinastia imperial que governou territórios europeus por séculos.",
+        "Meu Estado imperial teve papel importante até a Primeira Guerra Mundial.",
+        "O alemão é a língua oficial de âmbito federal.",
+        "A cidade de Salzburgo é associada a Mozart.",
+        "Um compositor conhecido por sinfonias e valsas, Johann Strauss II, trabalhou na minha capital.",
+        "Minha capital é Viena.",
+        "O rio Danúbio atravessa meu território.",
+        "O palácio de Schönbrunn é um dos monumentos mais célebres de minha capital."
+      ]
+    },
+    {
+      "id": "polonia",
+      "categoria": "paises",
+      "resposta": "Polônia",
+      "dicas": [
+        "Estou situado na Europa Central.",
+        "Meu território apresenta grandes planícies e litoral no mar Báltico.",
+        "Fui dividido entre potências vizinhas no final do século XVIII.",
+        "Recuperei a independência em 1918.",
+        "Fui invadido pela Alemanha nazista em 1939.",
+        "A cidade histórica de Cracóvia já foi sede da monarquia.",
+        "O movimento sindical Solidariedade desempenhou papel no fim do regime socialista.",
+        "Minha capital é Varsóvia.",
+        "Frederic Chopin nasceu em meu território.",
+        "O campo de extermínio nazista de Auschwitz-Birkenau foi instalado por ocupantes em meu território."
+      ]
+    },
+    {
+      "id": "noruega",
+      "categoria": "paises",
+      "resposta": "Noruega",
+      "dicas": [
+        "Sou um país da Europa Setentrional.",
+        "Minha costa apresenta fiordes profundos.",
+        "Tenho grande parte do território na península Escandinava.",
+        "O clima varia entre zonas costeiras e regiões subárticas.",
+        "Meu sistema político é uma monarquia constitucional.",
+        "Possuo importante produção de petróleo e gás no mar do Norte.",
+        "O escritor Henrik Ibsen nasceu em meu território.",
+        "Minha capital é Oslo.",
+        "O Prêmio Nobel da Paz é entregue na minha capital.",
+        "O arquipélago de Svalbard está sob minha soberania."
+      ]
+    },
+    {
+      "id": "suecia",
+      "categoria": "paises",
+      "resposta": "Suécia",
+      "dicas": [
+        "Sou um país da região nórdica.",
+        "Tenho costa no mar Báltico.",
+        "Minha história inclui um período de potência militar nos séculos XVII e XVIII.",
+        "Sou uma monarquia constitucional.",
+        "A indústria automobilística inclui marcas como Volvo.",
+        "Minha sociedade criou o grupo musical ABBA.",
+        "O cientista Alfred Nobel nasceu em meu território.",
+        "Minha capital é Estocolmo.",
+        "Os prêmios Nobel de Física, Química e Medicina são entregues em minha capital.",
+        "O IKEA foi fundado em meu território."
+      ]
+    },
+    {
+      "id": "finlandia",
+      "categoria": "paises",
+      "resposta": "Finlândia",
+      "dicas": [
+        "Sou um país da Europa Setentrional.",
+        "Meu território reúne numerosos lagos e extensas florestas.",
+        "O idioma finlandês não pertence à família das línguas germânicas.",
+        "Meu clima tem invernos longos, sobretudo no norte.",
+        "Fui parte de um reino vizinho e depois de um império oriental.",
+        "Declarei independência em 1917.",
+        "Combati a União Soviética na Guerra de Inverno.",
+        "A Lapônia se estende pela porção setentrional do país.",
+        "Minha capital é Helsinque.",
+        "A sauna é uma prática cultural muito associada à vida cotidiana em meu território."
+      ]
+    },
+    {
+      "id": "russia",
+      "categoria": "paises",
+      "resposta": "Rússia",
+      "dicas": [
+        "Meu território ocupa regiões da Europa e da Ásia.",
+        "Sou o país de maior extensão territorial do mundo.",
+        "Vários fusos horários atravessam meu território.",
+        "Meu passado inclui a dinastia Romanov.",
+        "Uma revolução em 1917 transformou radicalmente o Estado.",
+        "Fui a principal república da União Soviética.",
+        "A cadeia de montanhas dos Urais marca uma referência entre continentes.",
+        "O lago Baikal fica na minha região siberiana.",
+        "Minha capital é Moscou.",
+        "A Praça Vermelha e o Kremlin são pontos conhecidos da minha capital."
+      ]
+    },
+    {
+      "id": "marrocos",
+      "categoria": "paises",
+      "resposta": "Marrocos",
+      "dicas": [
+        "Sou um país no extremo noroeste da África.",
+        "Minha costa tem contato com o Atlântico e o Mediterrâneo.",
+        "O estreito de Gibraltar me separa da Europa.",
+        "A cordilheira do Atlas atravessa parte de meu território.",
+        "A cultura amazigue integra minhas tradições históricas.",
+        "Cidades como Fez e Marrakesh preservam importantes medinas.",
+        "Meu sistema político é uma monarquia.",
+        "A região do Saara Ocidental é objeto de disputa territorial.",
+        "Minha capital é Rabat.",
+        "A cidade de Casablanca é um de meus principais centros econômicos."
+      ]
+    },
+    {
+      "id": "argelia",
+      "categoria": "paises",
+      "resposta": "Argélia",
+      "dicas": [
+        "Sou um país do norte da África.",
+        "Meu território é o maior em área do continente africano.",
+        "Grande parte de minhas terras integra o deserto do Saara.",
+        "Sou banhado pelo mar Mediterrâneo.",
+        "Minha história recente envolve a colonização francesa.",
+        "Uma guerra de independência ocorreu de 1954 a 1962.",
+        "O movimento Frente de Libertação Nacional foi central nesse conflito.",
+        "O árabe e o tamazight são línguas oficiais.",
+        "Minha capital é Argel.",
+        "A cidade de Orã tem importância histórica e aparece num romance de Albert Camus."
+      ]
+    },
+    {
+      "id": "quenia",
+      "categoria": "paises",
+      "resposta": "Quênia",
+      "dicas": [
+        "Sou um Estado situado na África Oriental.",
+        "Meu território reúne grandes savanas, planaltos e litoral no Índico.",
+        "Uma linha imaginária de latitude zero atravessa minhas terras.",
+        "Tenho uma grande população de povos falantes de suaíli.",
+        "Povos massais vivem em regiões de meu território e de país vizinho.",
+        "Parques naturais abrigam elefantes, leões e migrações de gnus.",
+        "A região do vale do Rift é importante para a paleoantropologia.",
+        "A independência do domínio britânico ocorreu em 1963.",
+        "Minha capital é Nairóbi.",
+        "O corredor de longas distâncias Eliud Kipchoge nasceu aqui."
+      ]
+    },
+    {
+      "id": "gana",
+      "categoria": "paises",
+      "resposta": "Gana",
+      "dicas": [
+        "Sou um país da África Ocidental.",
+        "Tenho litoral no golfo da Guiné.",
+        "Minha colonização europeia ficou associada à antiga Costa do Ouro.",
+        "Conquistei independência do Reino Unido em 1957.",
+        "Kwame Nkrumah foi um de meus principais líderes da independência.",
+        "Minha economia exporta ouro e cacau.",
+        "Meu território abriga o lago Volta, ligado a uma grande barragem.",
+        "O inglês é minha língua oficial.",
+        "Minha capital é Acra.",
+        "O forte de Cape Coast é parte da memória histórica do tráfico atlântico de escravizados."
+      ]
+    },
+    {
+      "id": "senegal",
+      "categoria": "paises",
+      "resposta": "Senegal",
+      "dicas": [
+        "Sou um país da África Ocidental.",
+        "Meu território tem litoral no oceano Atlântico.",
+        "Uma pequena nação se estende ao longo de um rio no interior da minha região sul.",
+        "Esse vizinho é a Gâmbia.",
+        "Minha formação moderna foi marcada pela colonização francesa.",
+        "Léopold Sédar Senghor foi presidente e também poeta.",
+        "O francês é uma das línguas mais usadas nas instituições do Estado.",
+        "A ilha de Gorée é um lugar importante da memória do tráfico de escravizados.",
+        "Minha capital é Dacar.",
+        "Uma famosa prova de rali recebeu durante muitos anos o nome da minha capital."
+      ]
+    },
+    {
+      "id": "angola",
+      "categoria": "paises",
+      "resposta": "Angola",
+      "dicas": [
+        "Sou um Estado da África Austral.",
+        "Meu território tem litoral no oceano Atlântico.",
+        "Meu passado colonial foi marcado por domínio português.",
+        "Sou banhado em parte pela bacia hidrográfica do rio Congo.",
+        "Minha independência ocorreu em 1975.",
+        "Depois da independência, uma longa guerra civil marcou o país.",
+        "O português é minha língua oficial.",
+        "O deserto do Namibe ocupa parte de minha faixa costeira sul.",
+        "Minha capital é Luanda.",
+        "Um estilo musical de dança conhecido como kuduro se desenvolveu em minha sociedade."
+      ]
+    },
+    {
+      "id": "madagascar",
+      "categoria": "paises",
+      "resposta": "Madagascar",
+      "dicas": [
+        "Sou uma grande ilha no oceano Índico.",
+        "Encontro-me próximo à costa oriental da África.",
+        "Minha fauna possui elevado grau de endemismo.",
+        "A diversidade de lêmures é uma característica marcante.",
+        "Os baobás são árvores emblemáticas de algumas de minhas paisagens.",
+        "Minha formação populacional reúne ancestralidades do Sudeste Asiático e da África.",
+        "O malgaxe e o francês são línguas oficiais.",
+        "Tornei-me independente da França em 1960.",
+        "Minha capital é Antananarivo.",
+        "Sou a quarta maior ilha do mundo em área."
+      ]
+    },
+    {
+      "id": "ruanda",
+      "categoria": "paises",
+      "resposta": "Ruanda",
+      "dicas": [
+        "Sou um país sem litoral na região dos Grandes Lagos africanos.",
+        "Meu território é montanhoso e densamente povoado.",
+        "Minha economia inclui agricultura e serviços.",
+        "O kinyarwanda é língua amplamente falada no país.",
+        "Minha história recente foi profundamente marcada pelo colonialismo belga.",
+        "Em 1994 ocorreu um genocídio contra os tutsis.",
+        "A memória e a reconstrução política após esse massacre são assuntos centrais.",
+        "Minha capital é Kigali.",
+        "Sou frequentemente chamado de terra das mil colinas.",
+        "Meu território abriga gorilas-das-montanhas em uma região de vulcões."
+      ]
+    },
+    {
+      "id": "tailandia",
+      "categoria": "paises",
+      "resposta": "Tailândia",
+      "dicas": [
+        "Sou um Estado do Sudeste Asiático.",
+        "Meu território combina planícies fluviais e áreas montanhosas.",
+        "A religião budista theravada é dominante em minha cultura.",
+        "Mantive uma monarquia como instituição política por muitos séculos.",
+        "Não fui formalmente colonizado pelas potências europeias.",
+        "Meu nome antigo usado internacionalmente era Sião.",
+        "O rio Chao Phraya atravessa minha principal metrópole.",
+        "Tenho praias procuradas por turistas no mar de Andamão.",
+        "Minha capital é Bangcoc.",
+        "A culinária local inclui pratos como pad thai e tom yum."
+      ]
+    },
+    {
+      "id": "vietna",
+      "categoria": "paises",
+      "resposta": "Vietnã",
+      "dicas": [
+        "Sou um país do Sudeste Asiático.",
+        "Meu território alongado acompanha a costa do mar do Sul da China.",
+        "O rio Mekong forma um delta agrícola no sul.",
+        "Minha história inclui longos períodos de influência chinesa.",
+        "Fui colonizado pela França no século XIX.",
+        "Minha história recente inclui uma guerra de descolonização e depois uma guerra prolongada.",
+        "Uma cidade do sul foi conhecida como Saigon.",
+        "A cidade passou a se chamar Ho Chi Minh após a reunificação.",
+        "Minha capital é Hanói.",
+        "Uma baía conhecida por formações cársticas e ilhas recebe o nome de Ha Long."
+      ]
+    },
+    {
+      "id": "malasia",
+      "categoria": "paises",
+      "resposta": "Malásia",
+      "dicas": [
+        "Sou um país do Sudeste Asiático.",
+        "Meu território fica separado em duas grandes porções pelo mar.",
+        "Uma porção fica numa península e outra na ilha de Bornéu.",
+        "O estreito de Malaca é importante para a navegação mundial.",
+        "Minha sociedade inclui tradições malaias, chinesas e indianas.",
+        "O islamismo é a religião oficial.",
+        "Uma antiga região colonial recebeu influência portuguesa, neerlandesa e britânica.",
+        "As torres gêmeas Petronas tornaram-se símbolo urbano.",
+        "Minha capital é Kuala Lumpur.",
+        "Putrajaya abriga importantes órgãos administrativos do governo federal."
+      ]
+    },
+    {
+      "id": "filipinas",
+      "categoria": "paises",
+      "resposta": "Filipinas",
+      "dicas": [
+        "Sou um arquipélago do Sudeste Asiático.",
+        "Meu território possui milhares de ilhas.",
+        "A atividade sísmica e vulcânica é importante na minha região.",
+        "Meu passado colonial inclui dominação espanhola.",
+        "Mais tarde estive sob domínio dos Estados Unidos.",
+        "Catolicismo é uma religião muito presente na população.",
+        "As ilhas de Luzon e Mindanao estão entre as maiores.",
+        "Minhas línguas oficiais incluem filipino e inglês.",
+        "Minha capital é Manila.",
+        "As chamadas colinas de Chocolate ficam na ilha de Bohol."
+      ]
+    },
+    {
+      "id": "nepal",
+      "categoria": "paises",
+      "resposta": "Nepal",
+      "dicas": [
+        "Sou um Estado asiático sem litoral marítimo.",
+        "Estou na região dos Himalaias.",
+        "Meu território faz fronteira com duas potências populosas.",
+        "A antiga religião budista tem importantes vínculos históricos com minha região.",
+        "Minha bandeira não tem formato retangular.",
+        "Uma importante cadeia de montanhas domina a região setentrional.",
+        "O pico conhecido internacionalmente como Everest fica na minha fronteira.",
+        "Minha capital é Catmandu.",
+        "Em 2008 deixei de ser monarquia e me tornei república.",
+        "O parque nacional de Chitwan conserva rinocerontes e outros animais ameaçados."
+      ]
+    },
+    {
+      "id": "paquistao",
+      "categoria": "paises",
+      "resposta": "Paquistão",
+      "dicas": [
+        "Estou localizado no sul da Ásia.",
+        "Meu território reúne montanhas altas, planícies e litoral.",
+        "Minha formação como Estado independente ocorreu em 1947.",
+        "A partição do antigo domínio britânico separou dois grandes Estados.",
+        "A maior parte da população é muçulmana.",
+        "O rio Indo é fundamental para a agricultura e para a história local.",
+        "A cidade de Lahore é um centro cultural importante.",
+        "O monte K2 está numa região de montanhas da qual faço parte.",
+        "Minha capital é Islamabad.",
+        "Minha história recente inclui conflitos e disputas pela Caxemira."
+      ]
+    },
+    {
+      "id": "bangladesh",
+      "categoria": "paises",
+      "resposta": "Bangladesh",
+      "dicas": [
+        "Sou um Estado do sul da Ásia.",
+        "Meu território é marcado por vastas planícies deltaicas.",
+        "Grande parte de minha população fala bengali.",
+        "Meu litoral está voltado ao golfo de Bengala.",
+        "Meu território foi parte oriental de um Estado criado em 1947.",
+        "Uma guerra de independência em 1971 levou à criação do Estado atual.",
+        "Rios como Ganges e Brahmaputra influenciam meu ambiente.",
+        "Enfrento enchentes sazonais e riscos de ciclones.",
+        "Minha capital é Daca.",
+        "Os Sundarbans abrigam uma das maiores florestas de mangue do mundo."
+      ]
+    },
+    {
+      "id": "ira",
+      "categoria": "paises",
+      "resposta": "Irã",
+      "dicas": [
+        "Meu território integra o oeste da Ásia.",
+        "Minha história inclui impérios antigos de língua persa.",
+        "O planalto central reúne regiões áridas e montanhosas.",
+        "O islamismo xiita é dominante na organização religiosa do Estado.",
+        "A dinastia Pahlavi governou no século XX.",
+        "Uma revolução em 1979 derrubou a monarquia.",
+        "O idioma persa é chamado também de farsi.",
+        "A antiga cidade de Persépolis fica no meu território.",
+        "Minha capital é Teerã.",
+        "Meu litoral setentrional alcança o mar Cáspio, e o meridional alcança o golfo Pérsico."
+      ]
+    },
+    {
+      "id": "turquia",
+      "categoria": "paises",
+      "resposta": "Turquia",
+      "dicas": [
+        "Meu território se estende pela Europa e pela Ásia.",
+        "Um estreito conecta o mar Negro ao mar de Mármara.",
+        "Minha história inclui a capital de um império conhecido como otomano.",
+        "A cidade de Istambul ocupa margens de dois continentes.",
+        "O estreito de Bósforo atravessa essa grande cidade.",
+        "A república moderna foi proclamada em 1923.",
+        "Mustafa Kemal Atatürk liderou reformas republicanas.",
+        "Minha capital é Ancara.",
+        "A região da Capadócia é conhecida por formações rochosas peculiares.",
+        "A basílica de Santa Sofia fica na antiga Constantinopla."
+      ]
+    },
+    {
+      "id": "nova-zelandia",
+      "categoria": "paises",
+      "resposta": "Nova Zelândia",
+      "dicas": [
+        "Sou um Estado insular do Pacífico Sul.",
+        "Duas ilhas principais concentram grande parte de minha população.",
+        "O povo maori possui papel central na cultura e na história do país.",
+        "Meu sistema político é uma monarquia constitucional parlamentar.",
+        "A criação de ovelhas foi historicamente importante para a economia.",
+        "O pássaro kiwi é um símbolo nacional.",
+        "Meu relevo inclui os Alpes do Sul.",
+        "Uma trilogia cinematográfica sobre a Terra-média foi filmada em muitas de minhas paisagens.",
+        "Minha capital é Wellington.",
+        "A maior área urbana do meu território é Auckland."
       ]
     }
   ]
